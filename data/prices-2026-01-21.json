@@ -1,0 +1,88 @@
+{
+  "date": "2026-01-21",
+  "timestamp": "2026-01-21T06:10:59.494Z",
+  "apartments": [
+    {
+      "id": 1,
+      "name": "Emerson Place",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "source": "EquityApartments.com",
+      "prices": {
+        "studio": {
+          "current": 2655
+        },
+        "oneBed": {
+          "current": 3035
+        },
+        "twoBed": {
+          "current": 3770
+        },
+        "threeBed": {
+          "current": 4800
+        }
+      },
+      "timestamp": "2026-01-21T06:09:53.096Z",
+      "scraped": true
+    },
+    {
+      "id": 2,
+      "name": "Alcott",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "source": "EquityApartments.com",
+      "prices": {
+        "studio": {
+          "current": 3380
+        },
+        "oneBed": {
+          "current": 3730
+        },
+        "twoBed": {
+          "current": 5090
+        }
+      },
+      "timestamp": "2026-01-21T06:10:14.641Z",
+      "scraped": true
+    },
+    {
+      "id": 3,
+      "name": "West End Apartments",
+      "url": "https://www.equityapartments.com/boston/west-end-apartments",
+      "source": "EquityApartments.com",
+      "prices": {
+        "studio": {
+          "current": 3380
+        },
+        "oneBed": {
+          "current": 3730
+        },
+        "twoBed": {
+          "current": 5090
+        },
+        "threeBed": {
+          "current": 4800
+        }
+      },
+      "timestamp": "2026-01-21T06:10:35.567Z",
+      "scraped": true
+    },
+    {
+      "id": 4,
+      "name": "The Towers at Longfellow Apartments",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "source": "EquityApartments.com",
+      "prices": {
+        "studio": {
+          "current": 2475
+        },
+        "oneBed": {
+          "current": 3340
+        },
+        "twoBed": {
+          "current": 3830
+        }
+      },
+      "timestamp": "2026-01-21T06:10:59.486Z",
+      "scraped": true
+    }
+  ]
+}
