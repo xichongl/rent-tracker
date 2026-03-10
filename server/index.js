@@ -1,13 +1,18 @@
 import express from 'express';
 import cors from 'cors';
-import puppeteer from 'puppeteer';
-import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import db from './database.js';
+import scraper from './scraper.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, '..', 'data');
+const dataDir = process.env.DATA_DIR
+  ? (path.isAbsolute(process.env.DATA_DIR)
+      ? process.env.DATA_DIR
+      : path.resolve(__dirname, '..', process.env.DATA_DIR))
+  : path.join(__dirname, '..', 'data');
+const frontendDistDir = path.join(__dirname, '..', 'dist');
 
 // Ensure data directory exists
 if (!fs.existsSync(dataDir)) {
@@ -16,39 +21,55 @@ if (!fs.existsSync(dataDir)) {
 
 const app = express();
 const PORT = process.env.PORT || 5174;
+const ENABLE_DAILY_SCRAPER = process.env.ENABLE_DAILY_SCRAPER !== 'false';
+const DAILY_SCRAPE_TIME = process.env.DAILY_SCRAPE_TIME || '09:00';
+const DAILY_SCRAPE_RUN_ON_STARTUP = process.env.DAILY_SCRAPE_RUN_ON_STARTUP === 'true';
+const parsedSchedulerTime = parseDailyScrapeTime(DAILY_SCRAPE_TIME);
+
+let scrapeInProgress = false;
+let dailyScrapeTimer = null;
+let nextScheduledRunAt = null;
+let schedulerLastRun = null;
 
 app.use(cors());
 app.use(express.json());
 
 // Apartment URLs to scrape
-const apartments = [
+const buildings = [
   {
     id: 1,
     name: "Emerson Place",
     url: "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
-    source: "EquityApartments.com",
-    availableUnits: ['studio', 'oneBed', 'twoBed', 'threeBed']
+    address: "1 Emerson Pl",
+    source: "EquityApartments.com"
   },
   {
     id: 2,
     name: "Alcott",
     url: "https://www.equityapartments.com/boston/west-end/alcott-apartments",
-    source: "EquityApartments.com",
-    availableUnits: ['studio', 'oneBed', 'twoBed']  // No 3 bed
+    address: "35 Lomasney Way",
+    source: "EquityApartments.com"
   },
   {
     id: 3,
     name: "West End Apartments",
     url: "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
-    source: "EquityApartments.com",
-    availableUnits: ['studio', 'oneBed', 'twoBed']  // No 3 bed
+    address: "4 Emerson Pl",
+    source: "EquityApartments.com"
   },
   {
     id: 4,
     name: "The Towers at Longfellow Apartments",
     url: "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
-    source: "EquityApartments.com",
-    availableUnits: ['studio', 'oneBed', 'twoBed', 'threeBed']
+    address: "10 Longfellow Pl",
+    source: "EquityApartments.com"
+  },
+  {
+    id: 5,
+    name: "Avalon North Station",
+    url: "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+    address: "40 Portland St",
+    source: "AvalonCommunities.com"
   }
 ];
 
@@ -220,81 +241,367 @@ function loadLatestPrices() {
   return null;
 }
 
-// API endpoint to get all apartment prices
-app.get('/api/prices', async (req, res) => {
+function parseDailyScrapeTime(timeValue) {
+  const match = /^(\d{1,2}):(\d{2})$/.exec(timeValue || '');
+  if (!match) {
+    return { hour: 9, minute: 0, normalized: '09:00', valid: false };
+  }
+
+  const hour = parseInt(match[1], 10);
+  const minute = parseInt(match[2], 10);
+  const isValid = hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59;
+
+  if (!isValid) {
+    return { hour: 9, minute: 0, normalized: '09:00', valid: false };
+  }
+
+  return {
+    hour,
+    minute,
+    normalized: `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`,
+    valid: true
+  };
+}
+
+function getNextRunTime(hour, minute) {
+  const now = new Date();
+  const nextRun = new Date(now);
+  nextRun.setHours(hour, minute, 0, 0);
+
+  if (nextRun <= now) {
+    nextRun.setDate(nextRun.getDate() + 1);
+  }
+
+  return nextRun;
+}
+
+async function runDetailedApartmentScrape(trigger = 'manual') {
+  if (scrapeInProgress) {
+    const error = new Error('Scrape already in progress');
+    error.code = 'SCRAPE_IN_PROGRESS';
+    throw error;
+  }
+
+  scrapeInProgress = true;
+  const runStartedAt = new Date().toISOString();
+
   try {
+    console.log(`🔄 Starting detailed apartment scrape (${trigger})...`);
     const results = [];
 
-    for (const apt of apartments) {
-      const prices = await scrapeApartmentPrices(apt.url, apt.availableUnits);
-      results.push({
-        id: apt.id,
-        name: apt.name,
-        url: apt.url,
-        source: apt.source,
-        prices: prices,
-        timestamp: new Date().toISOString(),
-        scraped: Object.keys(prices).length > 0
+    for (const building of buildings) {
+      console.log(`Scraping ${building.name}...`);
+
+      let units = [];
+      if (building.source === 'AvalonCommunities.com') {
+        units = await scraper.scrapeAvalon(building.url);
+      } else {
+        units = await scraper.scrapeEquityApartments(building.url);
+      }
+
+      const scrapedUnits = [];
+      const unitIds = [];
+
+      units.forEach((unit) => {
+        const stableId = `${building.id}-${unit.bedrooms}bd-${unit.bathrooms}ba-${unit.squareFeet || 'unknown'}-f${unit.floor || 'x'}`;
+        const unitId = stableId;
+        unitIds.push(unitId);
+
+        const apartmentData = {
+          id: unitId,
+          buildingId: building.id,
+          buildingName: building.name,
+          address: building.address,
+          unitType: unit.unitType,
+          bedrooms: unit.bedrooms,
+          bathrooms: unit.bathrooms,
+          squareFeet: unit.squareFeet,
+          floor: unit.floor,
+          availableDate: unit.availableDate,
+          floorPlan: unit.floorPlan,
+          amenities: unit.amenities,
+          features: unit.features,
+          price: unit.price,
+          source: building.source,
+          url: building.url
+        };
+
+        db.upsertApartment(apartmentData);
+        scrapedUnits.push(apartmentData);
       });
+
+      db.archiveDelistedApartments(building.id, unitIds);
+
+      results.push({
+        buildingId: building.id,
+        buildingName: building.name,
+        unitsFound: scrapedUnits.length,
+        units: scrapedUnits
+      });
+
+      console.log(`✅ ${building.name}: ${scrapedUnits.length} units found`);
     }
 
-    // Save scraped data to JSON file
-    savePricesToFile(results);
+    const response = {
+      success: true,
+      timestamp: new Date().toISOString(),
+      results
+    };
 
-    res.json(results);
+    schedulerLastRun = {
+      trigger,
+      startedAt: runStartedAt,
+      finishedAt: response.timestamp,
+      success: true,
+      totalUnits: results.reduce((sum, r) => sum + r.unitsFound, 0),
+      error: null
+    };
+
+    return response;
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch prices', details: error.message });
+    schedulerLastRun = {
+      trigger,
+      startedAt: runStartedAt,
+      finishedAt: new Date().toISOString(),
+      success: false,
+      totalUnits: 0,
+      error: error.message
+    };
+    throw error;
+  } finally {
+    scrapeInProgress = false;
+  }
+}
+
+function scheduleDailyScrape() {
+  if (!ENABLE_DAILY_SCRAPER) {
+    nextScheduledRunAt = null;
+    console.log('📅 Daily scraper is disabled (ENABLE_DAILY_SCRAPER=false)');
+    return;
+  }
+
+  const parsedTime = parsedSchedulerTime;
+  if (!parsedTime.valid) {
+    console.warn(`⚠️ Invalid DAILY_SCRAPE_TIME="${DAILY_SCRAPE_TIME}". Falling back to 09:00.`);
+  }
+
+  const scheduleNext = () => {
+    if (dailyScrapeTimer) {
+      clearTimeout(dailyScrapeTimer);
+    }
+
+    const nextRun = getNextRunTime(parsedTime.hour, parsedTime.minute);
+    nextScheduledRunAt = nextRun.toISOString();
+    const delayMs = nextRun.getTime() - Date.now();
+
+    console.log(`📅 Next daily scrape scheduled for ${nextRun.toISOString()} (${parsedTime.normalized} local time)`);
+
+    dailyScrapeTimer = setTimeout(async () => {
+      try {
+        const result = await runDetailedApartmentScrape('scheduled');
+        const totalUnits = result.results.reduce((sum, r) => sum + r.unitsFound, 0);
+        console.log(`✅ Scheduled scrape completed: ${totalUnits} units processed`);
+      } catch (error) {
+        if (error.code === 'SCRAPE_IN_PROGRESS') {
+          console.log('⏳ Scheduled scrape skipped because another scrape is in progress');
+        } else {
+          console.error('❌ Scheduled scrape failed:', error.message);
+        }
+      } finally {
+        scheduleNext();
+      }
+    }, delayMs);
+  };
+
+  scheduleNext();
+}
+
+function getSchedulerStatus() {
+  return {
+    enabled: ENABLE_DAILY_SCRAPER,
+    configuredTime: parsedSchedulerTime.normalized,
+    configuredTimeWasValid: parsedSchedulerTime.valid,
+    runOnStartup: DAILY_SCRAPE_RUN_ON_STARTUP,
+    scrapeInProgress,
+    nextScheduledRunAt,
+    lastRun: schedulerLastRun,
+    now: new Date().toISOString()
+  };
+}
+
+// API endpoint to scrape all apartments with detailed unit information
+app.get('/api/apartments/scrape', async (req, res) => {
+  try {
+    const response = await runDetailedApartmentScrape('api');
+    res.json(response);
+  } catch (error) {
+    if (error.code === 'SCRAPE_IN_PROGRESS') {
+      return res.status(429).json({ error: error.message });
+    }
+    res.status(500).json({ error: 'Failed to scrape apartments', details: error.message });
   }
 });
 
-// API endpoint to scrape a single apartment
-app.get('/api/prices/:id', async (req, res) => {
+// API endpoint to get all active apartments
+app.get('/api/apartments', (req, res) => {
   try {
-    const apt = apartments.find(a => a.id === parseInt(req.params.id));
-    if (!apt) {
+    const all = db.getAllApartments();
+    res.json({
+      total: all.length,
+      apartments: all
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch apartments', details: error.message });
+  }
+});
+
+// API endpoint to get apartments for a specific building
+app.get('/api/buildings/:buildingId/apartments', (req, res) => {
+  try {
+    const buildingId = parseInt(req.params.buildingId);
+    const apartments = db.getApartmentsByBuilding(buildingId);
+    const building = buildings.find(b => b.id === buildingId);
+
+    res.json({
+      buildingId,
+      buildingName: building?.name,
+      address: building?.address,
+      totalUnits: apartments.length,
+      apartments
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch building apartments', details: error.message });
+  }
+});
+
+// API endpoint to get apartment details
+app.get('/api/apartments/:id', (req, res) => {
+  try {
+    const all = db.getAllApartments();
+    const apartment = all.find(a => a.id === req.params.id);
+
+    if (!apartment) {
       return res.status(404).json({ error: 'Apartment not found' });
     }
 
-    const prices = await scrapeApartmentPrices(apt.url, apt.availableUnits);
+    res.json(apartment);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch apartment', details: error.message });
+  }
+});
+
+// API endpoint to get price history for an apartment
+app.get('/api/apartments/:id/price-history', (req, res) => {
+  try {
+    const history = db.getPriceHistory(req.params.id);
     res.json({
-      id: apt.id,
-      name: apt.name,
-      url: apt.url,
-      source: apt.source,
-      prices: prices,
-      timestamp: new Date().toISOString(),
-      scraped: Object.keys(prices).length > 0
+      apartmentId: req.params.id,
+      priceHistory: history
     });
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch price', details: error.message });
+    res.status(500).json({ error: 'Failed to fetch price history', details: error.message });
   }
 });
 
-// API endpoint to get saved price data
-app.get('/api/saved-prices', (req, res) => {
+// API endpoint to get lowest price per unit type in a building
+app.get('/api/buildings/:buildingId/lowest-prices', (req, res) => {
   try {
-    const savedData = loadLatestPrices();
-    if (savedData) {
-      res.json(savedData);
-    } else {
-      res.status(404).json({ error: 'No saved price data found' });
+    const buildingId = parseInt(req.params.buildingId);
+    const lowestPrices = db.getLowestPricesByType(buildingId);
+    const building = buildings.find(b => b.id === buildingId);
+
+    res.json({
+      buildingId,
+      buildingName: building?.name,
+      lowestPrices
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch lowest prices', details: error.message });
+  }
+});
+
+// API endpoint to get price statistics for a unit type
+app.get('/api/buildings/:buildingId/stats/:unitType', (req, res) => {
+  try {
+    const buildingId = parseInt(req.params.buildingId);
+    const unitType = req.params.unitType;
+    const stats = db.getPriceStats(buildingId, unitType);
+
+    if (!stats) {
+      return res.status(404).json({ error: 'No data found for this unit type' });
     }
+
+    res.json(stats);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to retrieve saved prices', details: error.message });
+    res.status(500).json({ error: 'Failed to fetch statistics', details: error.message });
   }
 });
 
-// API endpoint to list all saved price files
-app.get('/api/saved-prices/list', (req, res) => {
+// API endpoint to get price history trends for a unit type
+app.get('/api/buildings/:buildingId/price-trends/:unitType', (req, res) => {
   try {
-    const files = fs.readdirSync(dataDir).filter(f => f.startsWith('prices-') && f.endsWith('.json'));
-    const fileList = files.map(f => ({
-      filename: f,
-      date: f.replace('prices-', '').replace('.json', '')
-    }));
-    res.json(fileList);
+    const buildingId = parseInt(req.params.buildingId);
+    const unitType = req.params.unitType;
+    const trends = db.getPriceHistoryByType(buildingId, unitType);
+
+    res.json({
+      buildingId,
+      unitType,
+      trends
+    });
   } catch (error) {
-    res.status(500).json({ error: 'Failed to list saved prices', details: error.message });
+    res.status(500).json({ error: 'Failed to fetch price trends', details: error.message });
+  }
+});
+
+// API endpoint to get archived apartments
+app.get('/api/archived-apartments', (req, res) => {
+  try {
+    const buildingId = req.query.buildingId ? parseInt(req.query.buildingId) : null;
+    const archived = db.getArchivedApartments(buildingId);
+
+    res.json({
+      total: archived.length,
+      archived
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch archived apartments', details: error.message });
+  }
+});
+
+// API endpoint to get building summaries
+app.get('/api/buildings', (req, res) => {
+  try {
+    const buildingSummaries = buildings.map(building => {
+      const apartments = db.getApartmentsByBuilding(building.id);
+      const unitTypes = {};
+
+      apartments.forEach(apt => {
+        if (!unitTypes[apt.unitType]) {
+          unitTypes[apt.unitType] = { count: 0, minPrice: Infinity };
+        }
+        unitTypes[apt.unitType].count++;
+
+        const currentPrice = apt.priceHistory[apt.priceHistory.length - 1]?.price;
+        if (currentPrice && currentPrice < unitTypes[apt.unitType].minPrice) {
+          unitTypes[apt.unitType].minPrice = currentPrice;
+        }
+      });
+
+      return {
+        id: building.id,
+        name: building.name,
+        address: building.address,
+        totalActiveUnits: apartments.length,
+        totalArchivedUnits: db.getArchivedApartments(building.id).length,
+        unitTypeSummary: unitTypes,
+        url: building.url
+      };
+    });
+
+    res.json(buildingSummaries);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch buildings', details: error.message });
   }
 });
 
@@ -303,7 +610,37 @@ app.get('/health', (req, res) => {
   res.json({ status: 'Server is running', timestamp: new Date().toISOString() });
 });
 
-app.listen(PORT, () => {
-  console.log(`🏢 Rent Tracker Server running on http://localhost:${PORT}`);
-  console.log(`📍 API endpoint: http://localhost:${PORT}/api/prices`);
+// Daily scheduler status endpoint
+app.get('/api/scheduler-status', (req, res) => {
+  res.json(getSchedulerStatus());
+});
+
+if (process.env.NODE_ENV === 'production' && fs.existsSync(frontendDistDir)) {
+  app.use(express.static(frontendDistDir));
+
+  app.get(/^\/(?!api|health).*/, (req, res) => {
+    res.sendFile(path.join(frontendDistDir, 'index.html'));
+  });
+}
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🏢 Rent Tracker Server running on http://0.0.0.0:${PORT}`);
+  console.log(`📍 API endpoint: http://0.0.0.0:${PORT}/api/prices`);
+
+  scheduleDailyScrape();
+
+  if (DAILY_SCRAPE_RUN_ON_STARTUP) {
+    runDetailedApartmentScrape('startup')
+      .then((result) => {
+        const totalUnits = result.results.reduce((sum, r) => sum + r.unitsFound, 0);
+        console.log(`✅ Startup scrape completed: ${totalUnits} units processed`);
+      })
+      .catch((error) => {
+        if (error.code === 'SCRAPE_IN_PROGRESS') {
+          console.log('⏳ Startup scrape skipped because another scrape is in progress');
+          return;
+        }
+        console.error('❌ Startup scrape failed:', error.message);
+      });
+  }
 });

@@ -1,169 +1,131 @@
-# GitHub & Vercel Deployment Guide
+# Rent Tracker Deployment Guide (`rent-tracker.su.domains`)
 
-## Step 1: Create a GitHub Repository
+This is the simplest reliable path:
+- Deploy app to Render (one always-on Node service for frontend + API + scraper scheduler)
+- Point `rent-tracker.su.domains` to Render with a CNAME in your domain control panel
 
-1. Go to [GitHub.com](https://github.com)
-2. Click the "+" icon in the top right and select "New repository"
-3. Name it `rent-tracker`
-4. Add a description: "Real-time apartment price tracker for Boston West End"
-5. Choose "Public" or "Private"
-6. **Do NOT** initialize with README (we already have one)
-7. Click "Create repository"
+---
 
-## Step 2: Push to GitHub
+## 1) One-time repo setup (already done in this repo)
 
-After creating the repository, follow the instructions GitHub provides. In your terminal:
+This repo now includes:
+- `render.yaml` for Render service blueprint
+- `DATA_DIR` support in server code so data can live on persistent disk
 
-```bash
-cd /Users/xichongliu/Downloads/rent-tracker
+Important files:
+- `render.yaml`
+- `server/index.js`
+- `server/database.js`
 
-# Add remote repository
-git remote add origin https://github.com/YOUR_USERNAME/rent-tracker.git
+---
 
-# Rename branch to main (optional but recommended)
-git branch -M main
+## 2) Deploy on Render (click-by-click)
 
-# Push to GitHub
-git push -u origin main
-```
+1. Push your latest code to GitHub.
+2. Open Render dashboard → **New** → **Blueprint**.
+3. Connect the repository and deploy.
 
-Replace `YOUR_USERNAME` with your actual GitHub username.
+Render will read `render.yaml` and set:
+- Build command: `npm install && npm --prefix server install && npm run build`
+- Start command: `cd server && NODE_ENV=production npm run start`
+- Health check: `/health`
 
-## Step 3: Deploy Frontend to Vercel
+### Render environment vars to confirm
 
-### Option A: Using Vercel CLI (Recommended)
+In Render service settings, confirm these exist:
+- `NODE_ENV=production`
+- `ENABLE_DAILY_SCRAPER=true`
+- `DAILY_SCRAPE_TIME=09:00`
+- `DAILY_SCRAPE_RUN_ON_STARTUP=true`
+- `DATA_DIR=/var/data/rent-tracker`
 
-1. **Install Vercel CLI** (if not already installed):
-```bash
-npm install -g vercel
-```
+`PORT` is injected by Render automatically.
 
-2. **Deploy from project directory**:
-```bash
-cd /Users/xichongliu/Downloads/rent-tracker
-vercel
-```
+### Persistent disk (important)
 
-3. **Follow the prompts**:
-   - Link to GitHub account
-   - Select your GitHub repository
-   - Accept default settings
-   - Wait for deployment to complete
+Because you track history in JSON files, add a Render persistent disk:
+1. Service → **Disks** → **Add Disk**
+2. Mount path: `/var/data`
+3. Save + redeploy
 
-### Option B: Using Vercel Web Dashboard
+With `DATA_DIR=/var/data/rent-tracker`, historical data survives restarts/redeploys.
 
-1. Go to [vercel.com](https://vercel.com)
-2. Click "Import Project"
-3. Select "Import Git Repository"
-4. Search for and select your `rent-tracker` repository
-5. Click "Import"
-6. In the Configure Project screen:
-   - **Framework**: Vite (should auto-detect)
-   - **Root Directory**: ./
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-7. Click "Deploy"
+---
 
-## Step 4: Deploy Backend
+## 3) Verify app before custom domain
 
-### Important: Puppeteer Limitations
+From your Render URL (`https://<service>.onrender.com`), verify:
+- `/`
+- `/health`
+- `/api/scheduler-status`
 
-Puppeteer (used for web scraping) has significant resource requirements and may not work well on Vercel's free tier. You have several options:
+Expected:
+- UI loads
+- health returns JSON
+- scheduler status is returned (enabled true unless disabled)
 
-### Option 1: Deploy Backend to Railway (Recommended for Free Tier)
+---
 
-1. Go to [railway.app](https://railway.app)
-2. Click "New Project"
-3. Select "Deploy from GitHub repo"
-4. Authorize Railway with GitHub
-5. Select your `rent-tracker` repository
-6. Railway will auto-detect the Node.js backend
-7. Configure environment:
-   - Root Directory: `server`
-   - Start Command: `node index.js`
-8. Deploy!
+## 4) Add custom domain on Render first
 
-Your backend will be available at a Railway-provided URL.
+1. Render service → **Settings** → **Custom Domains**
+2. Add: `rent-tracker.su.domains`
+3. Render shows the DNS target (usually something like `<service>.onrender.com`)
 
-### Option 2: Deploy to Heroku
+Keep this page open; you need the exact target value for DNS.
 
-1. Create a [Heroku](https://www.heroku.com) account
-2. Create a new app
-3. Connect to GitHub repository
-4. Set buildpack to Node.js
-5. In Settings, add:
-   - **Buildpacks**: Add `https://github.com/jontewks/puppeteer-heroku-buildpack`
-6. Deploy!
+---
 
-### Option 3: Use Vercel Serverless (Advanced)
+## 5) Configure DNS in su.domains control panel
 
-This requires additional configuration to work with Puppeteer. See Vercel's documentation on adding Puppeteer support.
+In your `su.domains` DNS zone editor, create/update this record:
 
-## Step 5: Update Frontend API URL
+- **Type**: `CNAME`
+- **Name/Host**: `rent-tracker`
+- **Target/Value/Points to**: `<your-render-service>.onrender.com`
+- **TTL**: `300` (or default)
 
-After deploying your backend, update the API URL in your frontend:
+Notes:
+- Do **not** include `https://` in target value.
+- If a conflicting `A`/`CNAME` record already exists for `rent-tracker`, remove it first.
+- Some panels use `@` for apex. You are **not** editing apex; host should be `rent-tracker`.
 
-In `src/App.jsx`, change:
-```javascript
-const API_BASE_URL = 'http://localhost:5174';
-```
+---
 
-To:
-```javascript
-const API_BASE_URL = 'https://your-backend-url.railway.app'; // or your Heroku/Vercel URL
-```
+## 6) Finalize certificate + propagation
 
-Then push the changes:
-```bash
-git add src/App.jsx
-git commit -m "Update API URL for production"
-git push
-```
+Back in Render custom domains:
+- Wait for DNS verification
+- Wait for TLS cert to become active
 
-Vercel will automatically redeploy when you push to GitHub.
+Then test:
+- `https://rent-tracker.su.domains`
+- `https://rent-tracker.su.domains/health`
+- `https://rent-tracker.su.domains/api/scheduler-status`
 
-## Step 6: Configure Backend Environment
+DNS can take a few minutes to a few hours.
 
-If deploying to Railway or Heroku:
+---
 
-1. Set environment variables in your deployment platform's dashboard
-2. Add any required variables (none currently required, but good practice)
+## 7) Ongoing operations
 
-## Testing Deployed App
+- Trigger scrape manually from UI if needed
+- Check scheduler status at `/api/scheduler-status`
+- Watch Render logs for scrape errors or target-site selector changes
 
-1. Visit your Vercel frontend URL: `https://your-project.vercel.app`
-2. The app should load and scrape prices from the backend
-3. Check browser console (F12) for any API errors
-4. Verify prices are displaying correctly
+---
 
 ## Troubleshooting
 
-### Frontend shows "Could not connect to scraping server"
-- Check that your backend is running
-- Verify the API URL in `src/App.jsx` is correct
-- Check browser console for CORS errors
+- **Domain not verified in Render**
+  - Recheck CNAME host/value in su.domains panel
+  - Ensure no duplicate/conflicting records for `rent-tracker`
 
-### Backend not scraping prices
-- Verify Puppeteer has permission to run on your platform
-- Check server logs for errors
-- Ensure all Node packages are installed: `cd server && npm install`
+- **HTTP works on Render URL but not custom domain**
+  - DNS not propagated yet, or CNAME points to wrong target
 
-### Deploy to Vercel failing
-- Check build logs in Vercel dashboard
-- Ensure all dependencies in `package.json` are listed
-- Try building locally first: `npm run build`
+- **Data resets after redeploy**
+  - Persistent disk not mounted, or `DATA_DIR` not set to `/var/data/rent-tracker`
 
-## Continuous Deployment
-
-Once configured, every push to your GitHub `main` branch will:
-1. Automatically trigger a Vercel build for the frontend
-2. If using GitHub integration on Railway/Heroku, also redeploy the backend
-
-## Future: Database Integration
-
-For persistent data storage, consider adding a database:
-- **PostgreSQL** (Railway, Heroku)
-- **MongoDB** (MongoDB Atlas)
-- **Firebase** (Google)
-
-This would replace the file-based `data/` storage for production use.
+- **Frontend loads, API fails**
+  - Confirm app started with server command and `/health` works

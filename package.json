@@ -8,8 +8,10 @@
     "dev:server": "cd server && npm run dev",
     "dev:all": "concurrently \"npm run dev:server\" \"npm run dev\"",
     "build": "vite build",
+    "build:all": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:prod": "cd server && NODE_ENV=production npm run start"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
