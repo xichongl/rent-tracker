@@ -4,12 +4,10 @@ services:
     runtime: node
     plan: starter
     autoDeploy: true
-    buildCommand: npm install && npm --prefix server install && npm run build
+    buildCommand: npm install --include=dev && npm --prefix server install && npm run build
     startCommand: cd server && NODE_ENV=production npm run start
     healthCheckPath: /health
     envVars:
-      - key: NODE_ENV
-        value: production
       - key: ENABLE_DAILY_SCRAPER
         value: "true"
       - key: DAILY_SCRAPE_TIME

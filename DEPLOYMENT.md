@@ -26,20 +26,21 @@ Important files:
 3. Connect the repository and deploy.
 
 Render will read `render.yaml` and set:
-- Build command: `npm install && npm --prefix server install && npm run build`
+- Build command: `npm install --include=dev && npm --prefix server install && npm run build`
 - Start command: `cd server && NODE_ENV=production npm run start`
 - Health check: `/health`
 
 ### Render environment vars to confirm
 
 In Render service settings, confirm these exist:
-- `NODE_ENV=production`
 - `ENABLE_DAILY_SCRAPER=true`
 - `DAILY_SCRAPE_TIME=09:00`
 - `DAILY_SCRAPE_RUN_ON_STARTUP=true`
 - `DATA_DIR=/var/data/rent-tracker`
 
 `PORT` is injected by Render automatically.
+
+Important: do not set `NODE_ENV=production` as a Render service environment variable for this setup, because Render applies env vars during build too, which can omit devDependencies and break Vite builds (`vite: not found`).
 
 ### Persistent disk (important)
 
@@ -116,6 +117,12 @@ DNS can take a few minutes to a few hours.
 ---
 
 ## Troubleshooting
+
+- **Build fails with `vite: not found` (status 127)**
+  - In Render service settings:
+    - Build command must be `npm install --include=dev && npm --prefix server install && npm run build`
+    - Remove `NODE_ENV` from service environment variables
+  - Redeploy after saving
 
 - **Domain not verified in Render**
   - Recheck CNAME host/value in su.domains panel
