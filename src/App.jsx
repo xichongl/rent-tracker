@@ -786,19 +786,19 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-3 sm:p-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-3">
-              <Home className="w-8 h-8 text-indigo-600" />
-              <h1 className="text-3xl font-bold text-gray-800">Boston West End Rent Tracker</h1>
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-3">
+            <div className="flex items-center gap-3 min-w-0">
+              <Home className="w-6 h-6 sm:w-8 sm:h-8 text-indigo-600 flex-shrink-0" />
+              <h1 className="text-xl sm:text-3xl font-bold text-gray-800 leading-tight">Boston West End Rent Tracker</h1>
             </div>
-            <div className="flex gap-2">
+            <div className="w-full sm:w-auto flex flex-col sm:flex-row gap-2">
               <button
                 onClick={() => setShowArchived(!showArchived)}
-                className="flex items-center gap-2 px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
               >
                 <ArchiveRestore className="w-4 h-4" />
                 <span className="text-sm font-medium">Archived ({archivedApartments.length})</span>
@@ -806,14 +806,14 @@ const App = () => {
               <button
                 onClick={scrapeApartments}
                 disabled={isLoading || dataSource !== 'api'}
-                className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:bg-gray-400 transition-colors"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:bg-gray-400 transition-colors"
               >
                 <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
                 <span className="text-sm font-medium">Scrape Now</span>
               </button>
             </div>
           </div>
-          <p className="text-gray-600 mb-3">ZIP 02114 - Track individual apartments with detailed information and historical pricing</p>
+          <p className="text-sm sm:text-base text-gray-600 mb-3">ZIP 02114 - Track individual apartments with detailed information and historical pricing</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="flex items-start gap-2 bg-green-50 p-3 rounded-lg border border-green-200">
@@ -838,11 +838,11 @@ const App = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg p-4 mb-6">
-          <div className="inline-flex rounded-lg border border-gray-200 overflow-hidden">
+        <div className="bg-white rounded-xl shadow-lg p-3 sm:p-4 mb-4 sm:mb-6">
+          <div className="flex w-full sm:inline-flex rounded-lg border border-gray-200 overflow-hidden">
             <button
               onClick={() => setActiveView('units')}
-              className={`px-4 py-2 text-sm font-medium transition-colors ${
+              className={`flex-1 sm:flex-none px-4 py-2 text-sm font-medium transition-colors ${
                 activeView === 'units' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
             >
@@ -850,7 +850,7 @@ const App = () => {
             </button>
             <button
               onClick={() => setActiveView('trends')}
-              className={`px-4 py-2 text-sm font-medium transition-colors ${
+              className={`flex-1 sm:flex-none px-4 py-2 text-sm font-medium transition-colors ${
                 activeView === 'trends' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
             >
@@ -862,7 +862,7 @@ const App = () => {
         {activeView === 'units' && (
           <>
             {/* Filters */}
-            <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
               <div className="flex items-center gap-2 mb-4">
                 <Filter className="w-5 h-5 text-indigo-600" />
                 <h2 className="text-xl font-semibold text-gray-800">Filters</h2>
@@ -929,7 +929,7 @@ const App = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Buildings List */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
+          <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Buildings</h2>
             <div className="space-y-2">
               {buildings.map(building => {
@@ -964,7 +964,7 @@ const App = () => {
 
           {/* Apartments List */}
           <div className="lg:col-span-2">
-            <div className="bg-white rounded-xl shadow-lg p-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
                 Individual Units ({filteredApartments.length})
               </h2>
@@ -1037,10 +1037,10 @@ const App = () => {
 
             {/* Selected Apartment Details */}
             {selectedApartment && (
-              <div className="bg-white rounded-xl shadow-lg p-6 mt-6">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mt-4 sm:mt-6">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
                   {getUnitTypeLabel(selectedApartment.unitType)} - {selectedApartment.buildingName}
                 </h2>
                 <p className="text-gray-600">{selectedApartment.address}</p>
@@ -1157,7 +1157,7 @@ const App = () => {
 
             {/* Archived Apartments */}
             {showArchived && (
-              <div className="bg-white rounded-xl shadow-lg p-6 mt-6 border-2 border-gray-300">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mt-4 sm:mt-6 border-2 border-gray-300">
                 <h2 className="text-xl font-semibold text-gray-800 mb-4">Archived Apartments ({archivedApartments.length})</h2>
 
                 {archivedApartments.length === 0 ? (
@@ -1192,7 +1192,7 @@ const App = () => {
 
         {activeView === 'trends' && (
           <>
-            <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
               <div className="flex items-center gap-2 mb-4">
                 <TrendingUp className="w-5 h-5 text-indigo-600" />
                 <h2 className="text-xl font-semibold text-gray-800">Trends Filters</h2>
@@ -1345,7 +1345,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Average Listing Price Over Time</h3>
               <p className="text-xs text-gray-500 mb-3">
                 Points with small sample size (n &lt; 3) are less stable for pricing decisions.
@@ -1387,7 +1387,7 @@ const App = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-              <div className="bg-white rounded-xl shadow-lg p-6">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Available Units by Month</h3>
                 {availabilityByMonth.length === 0 ? (
                   <p className="text-gray-500">No available-date records for current filters.</p>
@@ -1408,7 +1408,7 @@ const App = () => {
                 )}
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-6">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">June 2026 Availability by Day</h3>
                 {juneAvailabilityByDay.length === 0 ? (
                   <p className="text-gray-500">No June 2026 availability found for current filters.</p>
@@ -1430,7 +1430,7 @@ const App = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-              <div className="bg-white rounded-xl shadow-lg p-6">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Days Listed by Available-Date Cluster</h3>
                 {domClusterData.every(item => item.count === 0) ? (
                   <p className="text-gray-500">No archived listing-duration data for current filters.</p>
@@ -1456,7 +1456,7 @@ const App = () => {
                 )}
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-6">
+              <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Listing Survival by Available-Date Cluster</h3>
                 <p className="text-xs text-gray-500 mb-3">Shows probability a listing remains active after N days on market.</p>
                 {survivalData.length <= 1 ? (
@@ -1481,7 +1481,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-semibold text-gray-800">Trend Drilldown (Unit-Level)</h3>
                 <button
