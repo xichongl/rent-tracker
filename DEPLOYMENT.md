@@ -36,7 +36,6 @@ In Render service settings, confirm these exist:
 - `ENABLE_DAILY_SCRAPER=true`
 - `DAILY_SCRAPE_TIME=09:00`
 - `DAILY_SCRAPE_RUN_ON_STARTUP=true`
-- `DATA_DIR=/var/data/rent-tracker`
 
 `PORT` is injected by Render automatically.
 
@@ -50,6 +49,11 @@ Because you track history in JSON files, add a Render persistent disk:
 3. Save + redeploy
 
 With `DATA_DIR=/var/data/rent-tracker`, historical data survives restarts/redeploys.
+
+Free account note:
+- Free Render services do not support persistent disk.
+- On free tier, leave `DATA_DIR` unset.
+- The app will use local `data/` inside the service container (works, but data can reset on redeploy/restart).
 
 ---
 
@@ -133,6 +137,7 @@ DNS can take a few minutes to a few hours.
 
 - **Data resets after redeploy**
   - Persistent disk not mounted, or `DATA_DIR` not set to `/var/data/rent-tracker`
+  - On free tier this is expected behavior because local container storage is ephemeral
 
 - **Frontend loads, API fails**
   - Confirm app started with server command and `/health` works

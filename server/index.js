@@ -7,17 +7,34 @@ import db from './database.js';
 import scraper from './scraper.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = process.env.DATA_DIR
-  ? (path.isAbsolute(process.env.DATA_DIR)
-      ? process.env.DATA_DIR
-      : path.resolve(__dirname, '..', process.env.DATA_DIR))
-  : path.join(__dirname, '..', 'data');
-const frontendDistDir = path.join(__dirname, '..', 'dist');
+const defaultDataDir = path.join(__dirname, '..', 'data');
 
-// Ensure data directory exists
-if (!fs.existsSync(dataDir)) {
-  fs.mkdirSync(dataDir, { recursive: true });
+function resolveDataDir() {
+  const configuredDataDir = process.env.DATA_DIR
+    ? (path.isAbsolute(process.env.DATA_DIR)
+        ? process.env.DATA_DIR
+        : path.resolve(__dirname, '..', process.env.DATA_DIR))
+    : defaultDataDir;
+
+  try {
+    if (!fs.existsSync(configuredDataDir)) {
+      fs.mkdirSync(configuredDataDir, { recursive: true });
+    }
+    return configuredDataDir;
+  } catch (error) {
+    if (configuredDataDir !== defaultDataDir) {
+      console.warn(`⚠️ DATA_DIR not writable (${configuredDataDir}). Falling back to ${defaultDataDir}`);
+    }
+
+    if (!fs.existsSync(defaultDataDir)) {
+      fs.mkdirSync(defaultDataDir, { recursive: true });
+    }
+    return defaultDataDir;
+  }
 }
+
+const dataDir = resolveDataDir();
+const frontendDistDir = path.join(__dirname, '..', 'dist');
 
 const app = express();
 const PORT = process.env.PORT || 5174;

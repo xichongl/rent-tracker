@@ -14,5 +14,3 @@ services:
         value: "09:00"
       - key: DAILY_SCRAPE_RUN_ON_STARTUP
         value: "true"
-      - key: DATA_DIR
-        value: /var/data/rent-tracker
