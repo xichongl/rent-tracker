@@ -93,6 +93,19 @@ const App = () => {
   });
   const [activeTrendPreset, setActiveTrendPreset] = useState('custom');
   const [trendSort, setTrendSort] = useState({ key: 'domDays', direction: 'desc' });
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 640px)');
+    const applyMatch = (event) => {
+      setIsMobileView(event.matches);
+    };
+
+    setIsMobileView(mediaQuery.matches);
+    mediaQuery.addEventListener('change', applyMatch);
+
+    return () => mediaQuery.removeEventListener('change', applyMatch);
+  }, []);
 
   useEffect(() => {
     loadData();
@@ -1137,7 +1150,7 @@ const App = () => {
                 <ResponsiveContainer width="100%" height={300}>
                   <LineChart data={getPriceChartData(selectedApartment)}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="date" tick={{ fontSize: 12 }} />
+                    <XAxis dataKey="date" tick={{ fontSize: 12 }} interval={isMobileView ? 1 : 0} />
                     <YAxis tick={{ fontSize: 12 }} />
                     <Tooltip formatter={(value) => `$${value.toLocaleString()}`} />
                     <Line
@@ -1356,7 +1369,7 @@ const App = () => {
                 <ResponsiveContainer width="100%" height={320}>
                   <LineChart data={trendPriceData}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="label" tick={{ fontSize: 12 }} />
+                    <XAxis dataKey="label" tick={{ fontSize: isMobileView ? 10 : 12 }} interval={isMobileView ? 1 : 0} />
                     <YAxis tick={{ fontSize: 12 }} />
                     <Tooltip
                       formatter={(value, key) => {
@@ -1395,7 +1408,7 @@ const App = () => {
                   <ResponsiveContainer width="100%" height={300}>
                     <BarChart data={availabilityByMonth}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="label" tick={{ fontSize: 12 }} />
+                      <XAxis dataKey="label" tick={{ fontSize: isMobileView ? 10 : 12 }} interval={isMobileView ? 1 : 0} />
                       <YAxis tick={{ fontSize: 12 }} tickFormatter={(value) => `$${value.toLocaleString()}`} />
                       <Tooltip formatter={(value, key) => {
                         if (key === 'avgPrice' && typeof value === 'number') return [`$${value.toLocaleString()}`, 'Avg Price'];
@@ -1416,7 +1429,14 @@ const App = () => {
                   <ResponsiveContainer width="100%" height={300}>
                     <BarChart data={juneAvailabilityByDay}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="label" tick={{ fontSize: 11 }} interval={0} angle={-35} textAnchor="end" height={70} />
+                      <XAxis
+                        dataKey="label"
+                        tick={{ fontSize: isMobileView ? 9 : 11 }}
+                        interval={isMobileView ? 1 : 0}
+                        angle={isMobileView ? -25 : -35}
+                        textAnchor="end"
+                        height={isMobileView ? 60 : 70}
+                      />
                       <YAxis tick={{ fontSize: 12 }} />
                       <Tooltip formatter={(value, key) => {
                         if (key === 'avgPrice' && typeof value === 'number') return [`$${value.toLocaleString()}`, 'Avg Price'];
@@ -1438,7 +1458,14 @@ const App = () => {
                   <ResponsiveContainer width="100%" height={320}>
                     <BarChart data={domClusterData}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="cluster" tick={{ fontSize: 11 }} interval={0} angle={-20} textAnchor="end" height={70} />
+                      <XAxis
+                        dataKey="cluster"
+                        tick={{ fontSize: isMobileView ? 9 : 11 }}
+                        interval={0}
+                        angle={isMobileView ? -30 : -20}
+                        textAnchor="end"
+                        height={isMobileView ? 85 : 70}
+                      />
                       <YAxis tick={{ fontSize: 12 }} />
                       <Tooltip formatter={(value, key, item) => {
                         if (key === 'fastDelistRate') return [`${value}%`, 'Fast Delist'];
@@ -1465,7 +1492,7 @@ const App = () => {
                   <ResponsiveContainer width="100%" height={320}>
                     <LineChart data={survivalData}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="day" tick={{ fontSize: 12 }} />
+                      <XAxis dataKey="day" tick={{ fontSize: isMobileView ? 10 : 12 }} interval={isMobileView ? 2 : 0} />
                       <YAxis domain={[0, 100]} tick={{ fontSize: 12 }} tickFormatter={(value) => `${value}%`} />
                       <Tooltip formatter={(value) => [`${value}%`, 'Still Listed']} labelFormatter={(value) => `Day ${value}`} />
                       <Legend />
