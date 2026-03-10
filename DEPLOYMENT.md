@@ -27,7 +27,7 @@ Important files:
 
 Render will read `render.yaml` and set:
 - Build command: `npm install --include=dev && npm --prefix server install && npm --prefix server exec puppeteer browsers install chrome && npm run build`
-- Start command: `cd server && NODE_ENV=production npm run start`
+- Start command: `cd server && NODE_ENV=production npm run start:render`
 - Health check: `/health`
 
 ### Render environment vars to confirm
@@ -43,6 +43,7 @@ In Render service settings, confirm these exist:
 Important: do not set `NODE_ENV=production` as a Render service environment variable for this setup, because Render applies env vars during build too, which can omit devDependencies and break Vite builds (`vite: not found`).
 
 If you created a Render Web Service manually (not Blueprint), set the same Build Command above in the Render UI. This is required so Chrome is installed for Puppeteer.
+For manual Web Service setup, set Start Command to `cd server && NODE_ENV=production npm run start:render` so Chrome is also installed at runtime as a fallback.
 
 ### Persistent disk (important)
 
