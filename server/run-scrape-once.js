@@ -60,6 +60,12 @@ async function runOnce() {
       console.error(`❌ ${building.name} failed: ${scrapeError}`);
     }
 
+    const previousUnitsCount = db.getApartmentsByBuilding(building.id).length;
+    if (!scrapeError && units.length === 0 && previousUnitsCount > 0) {
+      scrapeError = `Zero units returned while ${previousUnitsCount} units were previously tracked (likely transient scrape failure)`;
+      console.error(`❌ ${building.name} anomaly: ${scrapeError}`);
+    }
+
     if (!scrapeError) {
       const unitIds = [];
 
@@ -90,6 +96,8 @@ async function runOnce() {
       db.archiveDelistedApartments(building.id, unitIds);
       totalUnits += units.length;
       console.log(`✅ ${building.name}: ${units.length} units`);
+    } else {
+      console.warn(`⚠️ Skipping archive update for ${building.name} due to scrape error/anomaly`);
     }
   }
 

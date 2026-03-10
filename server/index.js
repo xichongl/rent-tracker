@@ -329,6 +329,17 @@ async function runDetailedApartmentScrape(trigger = 'manual') {
         console.error(`❌ ${building.name} scrape failed: ${scrapeError}`);
       }
 
+      const previousUnitsCount = db.getApartmentsByBuilding(building.id).length;
+      if (!scrapeError && units.length === 0 && previousUnitsCount > 0) {
+        scrapeError = `Zero units returned while ${previousUnitsCount} units were previously tracked (likely transient scrape failure)`;
+        errors.push({
+          buildingId: building.id,
+          buildingName: building.name,
+          error: scrapeError
+        });
+        console.error(`❌ ${building.name} scrape anomaly: ${scrapeError}`);
+      }
+
       const scrapedUnits = [];
       const unitIds = [];
 
