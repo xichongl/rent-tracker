@@ -13,6 +13,6 @@ services:
       - key: DAILY_SCRAPE_TIME
         value: "09:00"
       - key: DAILY_SCRAPE_RUN_ON_STARTUP
-        value: "true"
+        value: "false"
       - key: PUPPETEER_CACHE_DIR
         value: /opt/render/project/.cache/puppeteer

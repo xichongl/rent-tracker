@@ -35,6 +35,24 @@ class ApartmentScraper {
     };
   }
 
+  async gotoWithRetry(page, url, options = {}, attempts = 2) {
+    let lastError = null;
+
+    for (let attempt = 1; attempt <= attempts; attempt += 1) {
+      try {
+        await page.goto(url, options);
+        return;
+      } catch (error) {
+        lastError = error;
+        if (attempt < attempts) {
+          await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
+        }
+      }
+    }
+
+    throw lastError;
+  }
+
   /**
    * Parse unit type from text
    */
@@ -128,7 +146,10 @@ class ApartmentScraper {
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       );
 
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+      await this.gotoWithRetry(page, url, {
+        waitUntil: 'domcontentloaded',
+        timeout: 60000
+      });
 
       // Wait for unit listings or price panels
       await page.waitForSelector('.panel.panel-default, [class*="unit"], [data-test*="unit"]', 
@@ -400,7 +421,10 @@ class ApartmentScraper {
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       );
 
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+      await this.gotoWithRetry(page, url, {
+        waitUntil: 'domcontentloaded',
+        timeout: 60000
+      });
 
       // Wait for page to fully load
       await new Promise(resolve => setTimeout(resolve, 2000));

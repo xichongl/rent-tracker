@@ -360,7 +360,11 @@ async function runDetailedApartmentScrape(trigger = 'manual') {
         scrapedUnits.push(apartmentData);
       });
 
-      db.archiveDelistedApartments(building.id, unitIds);
+      if (!scrapeError) {
+        db.archiveDelistedApartments(building.id, unitIds);
+      } else {
+        console.warn(`⚠️ Skipping archive update for ${building.name} due to scrape error`);
+      }
 
       results.push({
         buildingId: building.id,

@@ -35,8 +35,8 @@ Render will read `render.yaml` and set:
 In Render service settings, confirm these exist:
 - `ENABLE_DAILY_SCRAPER=true`
 - `DAILY_SCRAPE_TIME=09:00`
-- `DAILY_SCRAPE_RUN_ON_STARTUP=true`
-- `PUPPETEER_CACHE_DIR=/opt/render/project/.cache/puppeteer`
+- `DAILY_SCRAPE_RUN_ON_STARTUP=false`
+- `PUPPETEER_CACHE_DIR=/opt/render/.cache/puppeteer`
 
 `PORT` is injected by Render automatically.
 
@@ -58,6 +58,7 @@ Free account note:
 - Free Render services do not support persistent disk.
 - On free tier, leave `DATA_DIR` unset.
 - The app will use local `data/` inside the service container (works, but data can reset on redeploy/restart).
+- Keep `DAILY_SCRAPE_RUN_ON_STARTUP=false` to avoid long cold starts and duplicate startup scrapes.
 
 ---
 
