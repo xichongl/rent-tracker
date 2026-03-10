@@ -42,7 +42,9 @@ jobs:
           if [[ -n "$(git status --porcelain data/)" ]]; then
             git add data/*.json
             git commit -m "Update scraped apartment data"
-            git push
+            git fetch origin main
+            git pull --rebase origin main
+            git push origin HEAD:main
           else
             echo "No data changes to commit"
           fi
