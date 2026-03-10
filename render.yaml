@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: starter
     autoDeploy: true
-    buildCommand: npm install --include=dev && npm --prefix server install && npm run build
+    buildCommand: npm install --include=dev && npm --prefix server install && npm --prefix server exec puppeteer browsers install chrome && npm run build
     startCommand: cd server && NODE_ENV=production npm run start
     healthCheckPath: /health
     envVars:
@@ -14,3 +14,5 @@ services:
         value: "09:00"
       - key: DAILY_SCRAPE_RUN_ON_STARTUP
         value: "true"
+      - key: PUPPETEER_CACHE_DIR
+        value: /opt/render/project/.cache/puppeteer

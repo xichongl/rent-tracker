@@ -26,7 +26,7 @@ Important files:
 3. Connect the repository and deploy.
 
 Render will read `render.yaml` and set:
-- Build command: `npm install --include=dev && npm --prefix server install && npm run build`
+- Build command: `npm install --include=dev && npm --prefix server install && npm --prefix server exec puppeteer browsers install chrome && npm run build`
 - Start command: `cd server && NODE_ENV=production npm run start`
 - Health check: `/health`
 
@@ -36,10 +36,13 @@ In Render service settings, confirm these exist:
 - `ENABLE_DAILY_SCRAPER=true`
 - `DAILY_SCRAPE_TIME=09:00`
 - `DAILY_SCRAPE_RUN_ON_STARTUP=true`
+- `PUPPETEER_CACHE_DIR=/opt/render/project/.cache/puppeteer`
 
 `PORT` is injected by Render automatically.
 
 Important: do not set `NODE_ENV=production` as a Render service environment variable for this setup, because Render applies env vars during build too, which can omit devDependencies and break Vite builds (`vite: not found`).
+
+If you created a Render Web Service manually (not Blueprint), set the same Build Command above in the Render UI. This is required so Chrome is installed for Puppeteer.
 
 ### Persistent disk (important)
 
@@ -127,6 +130,13 @@ DNS can take a few minutes to a few hours.
     - Build command must be `npm install --include=dev && npm --prefix server install && npm run build`
     - Remove `NODE_ENV` from service environment variables
   - Redeploy after saving
+
+- **Scrape returns `Could not find Chrome`**
+  - In Render service settings:
+    - Build command must include browser install:
+      `npm install --include=dev && npm --prefix server install && npm --prefix server exec puppeteer browsers install chrome && npm run build`
+    - Set env var: `PUPPETEER_CACHE_DIR=/opt/render/project/.cache/puppeteer`
+  - Redeploy latest commit and re-run `/api/apartments/scrape`
 
 - **Domain not verified in Render**
   - Recheck CNAME host/value in su.domains panel
