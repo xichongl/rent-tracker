@@ -1,0 +1,7 @@
+name = "rent-tracker"
+main = "worker/index.js"
+compatibility_date = "2026-03-10"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
