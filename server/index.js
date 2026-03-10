@@ -305,15 +305,28 @@ async function runDetailedApartmentScrape(trigger = 'manual') {
   try {
     console.log(`🔄 Starting detailed apartment scrape (${trigger})...`);
     const results = [];
+    const errors = [];
 
     for (const building of buildings) {
       console.log(`Scraping ${building.name}...`);
 
       let units = [];
-      if (building.source === 'AvalonCommunities.com') {
-        units = await scraper.scrapeAvalon(building.url);
-      } else {
-        units = await scraper.scrapeEquityApartments(building.url);
+      let scrapeError = null;
+
+      try {
+        if (building.source === 'AvalonCommunities.com') {
+          units = await scraper.scrapeAvalon(building.url);
+        } else {
+          units = await scraper.scrapeEquityApartments(building.url);
+        }
+      } catch (error) {
+        scrapeError = error.message;
+        errors.push({
+          buildingId: building.id,
+          buildingName: building.name,
+          error: scrapeError
+        });
+        console.error(`❌ ${building.name} scrape failed: ${scrapeError}`);
       }
 
       const scrapedUnits = [];
@@ -353,15 +366,21 @@ async function runDetailedApartmentScrape(trigger = 'manual') {
         buildingId: building.id,
         buildingName: building.name,
         unitsFound: scrapedUnits.length,
-        units: scrapedUnits
+        units: scrapedUnits,
+        error: scrapeError
       });
 
       console.log(`✅ ${building.name}: ${scrapedUnits.length} units found`);
     }
 
+    const totalUnits = results.reduce((sum, r) => sum + r.unitsFound, 0);
+    const responseSuccess = errors.length === 0;
+
     const response = {
-      success: true,
+      success: responseSuccess,
       timestamp: new Date().toISOString(),
+      totalUnits,
+      errors,
       results
     };
 
@@ -369,9 +388,10 @@ async function runDetailedApartmentScrape(trigger = 'manual') {
       trigger,
       startedAt: runStartedAt,
       finishedAt: response.timestamp,
-      success: true,
-      totalUnits: results.reduce((sum, r) => sum + r.unitsFound, 0),
-      error: null
+      success: responseSuccess,
+      totalUnits,
+      error: errors.length > 0 ? `${errors.length} building scrape(s) failed` : null,
+      errors
     };
 
     return response;

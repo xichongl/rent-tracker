@@ -20,6 +20,21 @@ class ApartmentScraper {
     };
   }
 
+  getBrowserLaunchOptions() {
+    return {
+      headless: true,
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--single-process',
+        '--no-zygote'
+      ]
+    };
+  }
+
   /**
    * Parse unit type from text
    */
@@ -106,10 +121,7 @@ class ApartmentScraper {
   async scrapeEquityApartments(url) {
     let browser;
     try {
-      browser = await puppeteer.launch({
-        headless: 'new',
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-      });
+      browser = await puppeteer.launch(this.getBrowserLaunchOptions());
 
       const page = await browser.newPage();
       await page.setUserAgent(
@@ -334,8 +346,10 @@ class ApartmentScraper {
 
     } catch (error) {
       console.error(`Error scraping ${url}:`, error.message);
-      if (browser) await browser.close();
-      return [];
+      if (browser) {
+        await browser.close().catch(() => null);
+      }
+      throw new Error(`Equity scrape failed: ${error.message}`);
     }
   }
 
@@ -379,10 +393,7 @@ class ApartmentScraper {
   async scrapeAvalon(url) {
     let browser;
     try {
-      browser = await puppeteer.launch({
-        headless: 'new',
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-      });
+      browser = await puppeteer.launch(this.getBrowserLaunchOptions());
 
       const page = await browser.newPage();
       await page.setUserAgent(
@@ -466,8 +477,10 @@ class ApartmentScraper {
 
     } catch (error) {
       console.error(`Error scraping Avalon ${url}:`, error.message);
-      if (browser) await browser.close();
-      return [];
+      if (browser) {
+        await browser.close().catch(() => null);
+      }
+      throw new Error(`Avalon scrape failed: ${error.message}`);
     }
   }
 }
