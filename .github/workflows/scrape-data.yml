@@ -1,0 +1,48 @@
+name: Scrape Apartment Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 9 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Install server dependencies
+        run: npm --prefix server ci
+
+      - name: Install Chrome for Puppeteer
+        run: PUPPETEER_CACHE_DIR=/home/runner/.cache/puppeteer npm --prefix server exec puppeteer browsers install chrome
+
+      - name: Run scrape job
+        env:
+          PUPPETEER_CACHE_DIR: /home/runner/.cache/puppeteer
+          ENABLE_DAILY_SCRAPER: 'false'
+        run: node server/run-scrape-once.js
+
+      - name: Commit data updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git add data/*.json
+            git commit -m "Update scraped apartment data"
+            git push
+          else
+            echo "No data changes to commit"
+          fi

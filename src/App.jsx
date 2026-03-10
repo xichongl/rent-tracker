@@ -75,6 +75,7 @@ const App = () => {
   const [priceHistory, setPriceHistory] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState('');
+  const [dataSource, setDataSource] = useState('api');
   const [activeView, setActiveView] = useState('units');
   const [filters, setFilters] = useState({
     unitType: 'all',
@@ -102,22 +103,76 @@ const App = () => {
   const loadData = async () => {
     setIsLoading(true);
     setStatus('Loading apartment data...');
+
+    const buildStatsMap = (activeUnits, archivedUnits) => {
+      const map = {};
+
+      activeUnits.forEach((unit) => {
+        if (!map[unit.buildingId]) {
+          map[unit.buildingId] = {
+            id: unit.buildingId,
+            totalActiveUnits: 0,
+            totalArchivedUnits: 0
+          };
+        }
+        map[unit.buildingId].totalActiveUnits += 1;
+      });
+
+      archivedUnits.forEach((unit) => {
+        if (!map[unit.buildingId]) {
+          map[unit.buildingId] = {
+            id: unit.buildingId,
+            totalActiveUnits: 0,
+            totalArchivedUnits: 0
+          };
+        }
+        map[unit.buildingId].totalArchivedUnits += 1;
+      });
+
+      return map;
+    };
+
+    const loadStaticData = async () => {
+      const [dbRes, archiveRes] = await Promise.all([
+        fetch('/data/apartments-db.json'),
+        fetch('/data/archived-apartments.json')
+      ]);
+
+      if (!dbRes.ok || !archiveRes.ok) {
+        throw new Error('Static data files are missing or unavailable');
+      }
+
+      const dbData = await dbRes.json();
+      const archiveData = await archiveRes.json();
+
+      const staticActive = Object.values(dbData.apartments || {}).flat();
+      const staticArchived = archiveData.apartments || [];
+
+      setApartments(staticActive);
+      setArchivedApartments(staticArchived);
+      setBuildingStats(buildStatsMap(staticActive, staticArchived));
+      setDataSource('static');
+      setStatus('Static mode: loaded snapshot data (Cloudflare/GitHub Actions)');
+    };
+
     try {
       // Load all apartments
       const aptRes = await fetch(`${API_BASE_URL}/api/apartments`);
-      if (aptRes.ok) {
-        const aptData = await aptRes.json();
-        setApartments(aptData.apartments || []);
+      if (!aptRes.ok) {
+        throw new Error('API apartments endpoint unavailable');
       }
+
+      const aptData = await aptRes.json();
+      const activeUnits = aptData.apartments || [];
+      setApartments(activeUnits);
 
       // Load archived apartments
       const archRes = await fetch(`${API_BASE_URL}/api/archived-apartments`);
-      if (archRes.ok) {
-        const archData = await archRes.json();
-        setArchivedApartments(archData.archived || []);
-      }
+      const archData = archRes.ok ? await archRes.json() : { archived: [] };
+      const archivedUnits = archData.archived || [];
+      setArchivedApartments(archivedUnits);
 
-      // Load building stats
+      // Load building stats if available, otherwise derive from units
       const statsRes = await fetch(`${API_BASE_URL}/api/buildings`);
       if (statsRes.ok) {
         const statsData = await statsRes.json();
@@ -126,12 +181,20 @@ const App = () => {
           statsMap[b.id] = b;
         });
         setBuildingStats(statsMap);
+      } else {
+        setBuildingStats(buildStatsMap(activeUnits, archivedUnits));
       }
 
-      setStatus('Data loaded successfully');
+      setDataSource('api');
+      setStatus('Live API data loaded successfully');
     } catch (error) {
-      console.error('Error loading data:', error);
-      setStatus('Error loading data');
+      try {
+        await loadStaticData();
+      } catch (staticError) {
+        console.error('Error loading data:', error);
+        console.error('Error loading static fallback:', staticError);
+        setStatus('Error loading data (API and static fallback failed)');
+      }
     }
     setIsLoading(false);
   };
@@ -148,6 +211,11 @@ const App = () => {
   };
 
   const scrapeApartments = async () => {
+    if (dataSource !== 'api') {
+      setStatus('Scrape unavailable in static mode. Run scraper via GitHub Actions.');
+      return;
+    }
+
     setIsLoading(true);
     setStatus('Scraping apartments...');
     try {
@@ -737,7 +805,7 @@ const App = () => {
               </button>
               <button
                 onClick={scrapeApartments}
-                disabled={isLoading}
+                disabled={isLoading || dataSource !== 'api'}
                 className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:bg-gray-400 transition-colors"
               >
                 <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
@@ -764,6 +832,7 @@ const App = () => {
               <Clock className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0" />
               <div className="text-sm text-gray-700">
                 <strong>Status:</strong> {status}
+                <span className="block text-xs text-gray-500 mt-1">Source: {dataSource === 'api' ? 'Live API' : 'Static Snapshot'}</span>
               </div>
             </div>
           </div>
