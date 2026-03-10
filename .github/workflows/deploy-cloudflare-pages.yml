@@ -33,8 +33,33 @@ jobs:
       - name: Build frontend
         run: npm run build
 
+      - name: Resolve Cloudflare config
+        env:
+          CF_ACCOUNT_ID_SECRET: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_ACCOUNT_ID_TYP0_SECRET: ${{ secrets.CLOUDFLARE_ACOUNT_ID }}
+          CF_ACCOUNT_ID_VAR: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CF_ACCOUNT_ID_TYP0_VAR: ${{ vars.CLOUDFLARE_ACOUNT_ID }}
+          CF_PROJECT_SECRET: ${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
+          CF_PROJECT_VAR: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+        run: |
+          ACCOUNT_ID="${CF_ACCOUNT_ID_SECRET:-${CF_ACCOUNT_ID_TYP0_SECRET:-${CF_ACCOUNT_ID_VAR:-${CF_ACCOUNT_ID_TYP0_VAR:-}}}}"
+          PROJECT_NAME="${CF_PROJECT_SECRET:-${CF_PROJECT_VAR:-}}"
+
+          if [[ -z "$ACCOUNT_ID" ]]; then
+            echo "Missing Cloudflare Account ID. Set CLOUDFLARE_ACCOUNT_ID (or CLOUDFLARE_ACOUNT_ID) in secrets/variables."
+            exit 1
+          fi
+
+          if [[ -z "$PROJECT_NAME" ]]; then
+            echo "Missing Cloudflare Pages project name. Set CLOUDFLARE_PAGES_PROJECT_NAME in secrets/variables."
+            exit 1
+          fi
+
+          echo "CLOUDFLARE_ACCOUNT_ID=$ACCOUNT_ID" >> "$GITHUB_ENV"
+          echo "CLOUDFLARE_PAGES_PROJECT_NAME=$PROJECT_NAME" >> "$GITHUB_ENV"
+
       - name: Deploy to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler pages deploy dist --project-name ${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy dist --project-name "$CLOUDFLARE_PAGES_PROJECT_NAME"
