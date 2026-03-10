@@ -1,10 +1,2377 @@
 {
-  "lastUpdated": "2026-03-10T10:02:00.174Z",
+  "lastUpdated": "2026-03-10T10:11:04.807Z",
   "apartments": {
-    "1": [],
+    "1": [
+      {
+        "id": "1-0bd-1ba-610-f14",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
+        "floor": 14,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "studio - Floor 14",
+          "sqft": 610
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2660,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2660,
+            "timestamp": "2026-03-10T10:10:29.649Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-665-f2",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 665,
+        "floor": 2,
+        "availableDate": "4/10/2026",
+        "floorPlan": {
+          "name": "studio - Floor 2",
+          "sqft": 665
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2670,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2670,
+            "timestamp": "2026-03-10T10:10:29.650Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-610-f12",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
+        "floor": 12,
+        "availableDate": "4/17/2026",
+        "floorPlan": {
+          "name": "studio - Floor 12",
+          "sqft": 610
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2675,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2675,
+            "timestamp": "2026-03-10T10:10:29.650Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-610-f17",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
+        "floor": 17,
+        "availableDate": "4/28/2026",
+        "floorPlan": {
+          "name": "studio - Floor 17",
+          "sqft": 610
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2740,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2740,
+            "timestamp": "2026-03-10T10:10:29.651Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-610-f16",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
+        "floor": 16,
+        "availableDate": "5/14/2026",
+        "floorPlan": {
+          "name": "studio - Floor 16",
+          "sqft": 610
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2775,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2775,
+            "timestamp": "2026-03-10T10:10:29.652Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-800-f7",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 800,
+        "floor": 7,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 7",
+          "sqft": 800
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3085,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3085,
+            "timestamp": "2026-03-10T10:10:29.652Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-800-f4",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 800,
+        "floor": 4,
+        "availableDate": "3/20/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 4",
+          "sqft": 800
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3085,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3085,
+            "timestamp": "2026-03-10T10:10:29.652Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-865-f12",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 865,
+        "floor": 12,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 12",
+          "sqft": 865
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3125,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3125,
+            "timestamp": "2026-03-10T10:10:29.653Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-765-f7",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 765,
+        "floor": 7,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 7",
+          "sqft": 765
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3135,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3135,
+            "timestamp": "2026-03-10T10:10:29.653Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-865-f8",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 865,
+        "floor": 8,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 8",
+          "sqft": 865
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3180,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3180,
+            "timestamp": "2026-03-10T10:10:29.654Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-910-f5",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 910,
+        "floor": 5,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 5",
+          "sqft": 910
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3235,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3235,
+            "timestamp": "2026-03-10T10:10:29.654Z"
+          }
+        ]
+      },
+      {
+        "id": "1-1bd-1ba-910-f7",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 910,
+        "floor": 7,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 7",
+          "sqft": 910
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3235,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3235,
+            "timestamp": "2026-03-10T10:10:29.655Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1220-f5",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1220,
+        "floor": 5,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 5",
+          "sqft": 1220
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3675,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3675,
+            "timestamp": "2026-03-10T10:10:29.655Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1180-f3",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1180,
+        "floor": 3,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 3",
+          "sqft": 1180
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3750,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3750,
+            "timestamp": "2026-03-10T10:10:29.656Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1180-f6",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1180,
+        "floor": 6,
+        "availableDate": "4/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 6",
+          "sqft": 1180
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3750,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3750,
+            "timestamp": "2026-03-10T10:10:29.656Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1180-f9",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1180,
+        "floor": 9,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 9",
+          "sqft": 1180
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3770,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3770,
+            "timestamp": "2026-03-10T10:10:29.656Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1180-f24",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1180,
+        "floor": 24,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 24",
+          "sqft": 1180
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4000,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4000,
+            "timestamp": "2026-03-10T10:10:29.657Z"
+          }
+        ]
+      },
+      {
+        "id": "1-3bd-2ba-1380-f7",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "threeBed",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFeet": 1380,
+        "floor": 7,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "3 bed - Floor 7",
+          "sqft": 1380
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4800,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4800,
+            "timestamp": "2026-03-10T10:10:29.657Z"
+          }
+        ]
+      },
+      {
+        "id": "1-3bd-2ba-1380-f18",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "threeBed",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFeet": 1380,
+        "floor": 18,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "3 bed - Floor 18",
+          "sqft": 1380
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4830,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4830,
+            "timestamp": "2026-03-10T10:10:29.658Z"
+          }
+        ]
+      }
+    ],
     "2": [],
     "3": [],
-    "4": [],
+    "4": [
+      {
+        "id": "4-0bd-1ba-650-f8",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 8,
+        "availableDate": "5/27/2026",
+        "floorPlan": {
+          "name": "studio - Floor 8",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2832,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2832,
+            "timestamp": "2026-03-10T10:11:01.432Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f9",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 9,
+        "availableDate": "4/23/2026",
+        "floorPlan": {
+          "name": "studio - Floor 9",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2812,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2812,
+            "timestamp": "2026-03-10T10:11:01.431Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f30",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 30,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "studio - Floor 30",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2845,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2845,
+            "timestamp": "2026-03-10T10:11:01.433Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f4",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 4,
+        "availableDate": "6/4/2026",
+        "floorPlan": {
+          "name": "studio - Floor 4",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2822,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2822,
+            "timestamp": "2026-03-10T10:11:01.432Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f24",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 24,
+        "availableDate": "5/27/2026",
+        "floorPlan": {
+          "name": "studio - Floor 24",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3057,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3057,
+            "timestamp": "2026-03-10T10:11:01.435Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f27",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 27,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "studio - Floor 27",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2987,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 2987,
+            "timestamp": "2026-03-10T10:11:01.434Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f20",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 20,
+        "availableDate": "4/30/2026",
+        "floorPlan": {
+          "name": "studio - Floor 20",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3017,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3017,
+            "timestamp": "2026-03-10T10:11:01.434Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f23",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 23,
+        "availableDate": "5/15/2026",
+        "floorPlan": {
+          "name": "studio - Floor 23",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3037,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3037,
+            "timestamp": "2026-03-10T10:11:01.435Z"
+          }
+        ]
+      },
+      {
+        "id": "4-0bd-1ba-650-f32",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 650,
+        "floor": 32,
+        "availableDate": "5/26/2026",
+        "floorPlan": {
+          "name": "studio - Floor 32",
+          "sqft": 650
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3097,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3097,
+            "timestamp": "2026-03-10T10:11:01.436Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f10",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 10,
+        "availableDate": "5/8/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 10",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3320,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3320,
+            "timestamp": "2026-03-10T10:11:01.436Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f11",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 11,
+        "availableDate": "5/28/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 11",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3335,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3335,
+            "timestamp": "2026-03-10T10:11:01.437Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f30",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 30,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 30",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3575,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3575,
+            "timestamp": "2026-03-10T10:11:01.443Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f27",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 27,
+        "availableDate": "3/27/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 27",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3385,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3385,
+            "timestamp": "2026-03-10T10:11:01.438Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f4",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 4,
+        "availableDate": "6/12/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 4",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3425,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3425,
+            "timestamp": "2026-03-10T10:11:01.438Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f8",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 8,
+        "availableDate": "5/21/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 8",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3450,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3450,
+            "timestamp": "2026-03-10T10:11:01.439Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f18",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 18,
+        "availableDate": "5/7/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 18",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3645,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3645,
+            "timestamp": "2026-03-10T10:11:01.445Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f10",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 10,
+        "availableDate": "4/29/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 10",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3525,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3525,
+            "timestamp": "2026-03-10T10:11:01.440Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f7",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 7,
+        "availableDate": "5/26/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 7",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3530,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3530,
+            "timestamp": "2026-03-10T10:11:01.441Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f26",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 26,
+        "availableDate": "4/17/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 26",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3535,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3535,
+            "timestamp": "2026-03-10T10:11:01.441Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f23",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 23,
+        "availableDate": "5/2/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 23",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3540,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3540,
+            "timestamp": "2026-03-10T10:11:01.442Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f28",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 28,
+        "availableDate": "4/23/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 28",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3580,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3580,
+            "timestamp": "2026-03-10T10:11:01.443Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-924-f32",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 924,
+        "floor": 32,
+        "availableDate": "5/2/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 32",
+          "sqft": 924
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3630,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3630,
+            "timestamp": "2026-03-10T10:11:01.444Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f24",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 24,
+        "availableDate": "4/18/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 24",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3675,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3675,
+            "timestamp": "2026-03-10T10:11:01.445Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f26",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 26,
+        "availableDate": "4/25/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 26",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3695,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3695,
+            "timestamp": "2026-03-10T10:11:01.446Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f27",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 27,
+        "availableDate": "3/31/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 27",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3705,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3705,
+            "timestamp": "2026-03-10T10:11:01.447Z"
+          }
+        ]
+      },
+      {
+        "id": "4-1bd-1ba-1010-f29",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "oneBed",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFeet": 1010,
+        "floor": 29,
+        "availableDate": "5/28/2026",
+        "floorPlan": {
+          "name": "1 bed - Floor 29",
+          "sqft": 1010
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3795,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 3795,
+            "timestamp": "2026-03-10T10:11:01.447Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f8",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 8,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 8",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4115,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4115,
+            "timestamp": "2026-03-10T10:11:01.448Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f6",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 6,
+        "availableDate": "3/10/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 6",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4343,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4343,
+            "timestamp": "2026-03-10T10:11:01.449Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f5",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 5,
+        "availableDate": "5/20/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 5",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4363,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4363,
+            "timestamp": "2026-03-10T10:11:01.450Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f9",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 9,
+        "availableDate": "5/29/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 9",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4498,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4498,
+            "timestamp": "2026-03-10T10:11:01.452Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f18",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 18,
+        "availableDate": "5/30/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 18",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4658,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4658,
+            "timestamp": "2026-03-10T10:11:01.456Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f19",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 19,
+        "availableDate": "4/2/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 19",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4553,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4553,
+            "timestamp": "2026-03-10T10:11:01.452Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f21",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 21,
+        "availableDate": "4/25/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 21",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4568,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4568,
+            "timestamp": "2026-03-10T10:11:01.453Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f25",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 25,
+        "availableDate": "4/1/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 25",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4613,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4613,
+            "timestamp": "2026-03-10T10:11:01.454Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f28",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 28,
+        "availableDate": "5/2/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 28",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4653,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4653,
+            "timestamp": "2026-03-10T10:11:01.455Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f23",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 23,
+        "availableDate": "6/5/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 23",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4713,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-03-10",
+        "createdDate": "2026-03-10",
+        "priceHistory": [
+          {
+            "date": "2026-03-10",
+            "price": 4713,
+            "timestamp": "2026-03-10T10:11:01.457Z"
+          }
+        ]
+      }
+    ],
     "5": [
       {
         "id": "5-0bd-1ba-460-f22",
