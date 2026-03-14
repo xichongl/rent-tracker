@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-03-13T09:57:45.073Z",
+  "lastArchived": "2026-03-14T09:50:13.905Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -47656,6 +47656,1721 @@
       ],
       "delistedDate": "2026-03-13",
       "archivedDate": "2026-03-13"
+    },
+    {
+      "id": "1-0bd-1ba-610-f16",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 610,
+      "floor": 16,
+      "availableDate": "5/14/2026",
+      "floorPlan": {
+        "name": "studio - Floor 16",
+        "sqft": 610
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2880,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 2775,
+          "timestamp": "2026-03-10T10:10:29.652Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 2880,
+          "timestamp": "2026-03-11T10:01:45.867Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "1-1bd-1ba-910-f7",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 910,
+      "floor": 7,
+      "availableDate": "3/11/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 7",
+        "sqft": 910
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3235,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3235,
+          "timestamp": "2026-03-10T10:10:29.655Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3235,
+          "timestamp": "2026-03-11T10:01:45.876Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "1-2bd-2ba-1220-f5",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1220,
+      "floor": 5,
+      "availableDate": "3/11/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 5",
+        "sqft": 1220
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3675,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3675,
+          "timestamp": "2026-03-10T10:10:29.655Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3675,
+          "timestamp": "2026-03-11T10:01:45.877Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "1-2bd-2ba-1180-f6",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1180,
+      "floor": 6,
+      "availableDate": "4/10/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 6",
+        "sqft": 1180
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3750,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3750,
+          "timestamp": "2026-03-10T10:10:29.656Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3750,
+          "timestamp": "2026-03-11T10:01:45.879Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "1-2bd-2ba-1180-f24",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1180,
+      "floor": 24,
+      "availableDate": "3/11/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 24",
+        "sqft": 1180
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4000,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4000,
+          "timestamp": "2026-03-10T10:10:29.657Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4000,
+          "timestamp": "2026-03-11T10:01:45.881Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "1-1bd-1ba-800-f11",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 800,
+      "floor": 11,
+      "availableDate": "4/23/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 11",
+        "sqft": 800
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3125,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-11",
+      "createdDate": "2026-03-11",
+      "priceHistory": [
+        {
+          "date": "2026-03-11",
+          "price": 3125,
+          "timestamp": "2026-03-11T10:01:45.872Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-500-f26",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 500,
+      "floor": 26,
+      "availableDate": "7/3/2026",
+      "floorPlan": {
+        "name": "studio - Floor 26",
+        "sqft": 500
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3130,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3145,
+          "timestamp": "2026-03-10T10:27:17.469Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3130,
+          "timestamp": "2026-03-11T10:01:51.131Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3130,
+          "timestamp": "2026-03-12T10:01:44.593Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-500-f23",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 500,
+      "floor": 23,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "studio - Floor 23",
+        "sqft": 500
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3300,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3315,
+          "timestamp": "2026-03-10T10:27:17.470Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3300,
+          "timestamp": "2026-03-11T10:01:51.133Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3300,
+          "timestamp": "2026-03-12T10:01:44.594Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-613-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 613,
+      "floor": 3,
+      "availableDate": "5/12/2026",
+      "floorPlan": {
+        "name": "studio - Floor 3",
+        "sqft": 613
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3485,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3480,
+          "timestamp": "2026-03-10T10:27:17.471Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3460,
+          "timestamp": "2026-03-11T10:01:51.134Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3485,
+          "timestamp": "2026-03-12T10:01:44.595Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-617-f31",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 617,
+      "floor": 31,
+      "availableDate": "5/9/2026",
+      "floorPlan": {
+        "name": "studio - Floor 31",
+        "sqft": 617
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3725,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3720,
+          "timestamp": "2026-03-10T10:27:17.473Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3700,
+          "timestamp": "2026-03-11T10:01:51.136Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3725,
+          "timestamp": "2026-03-12T10:01:44.596Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-607-f41",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 607,
+      "floor": 41,
+      "availableDate": "4/29/2026",
+      "floorPlan": {
+        "name": "studio - Floor 41",
+        "sqft": 607
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4250,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4265,
+          "timestamp": "2026-03-10T10:27:17.475Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4250,
+          "timestamp": "2026-03-11T10:01:51.137Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4250,
+          "timestamp": "2026-03-12T10:01:44.597Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-782-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 782,
+      "floor": 3,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 3",
+        "sqft": 782
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3915,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3895,
+          "timestamp": "2026-03-10T10:27:17.476Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3850,
+          "timestamp": "2026-03-11T10:01:51.138Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3915,
+          "timestamp": "2026-03-12T10:01:44.598Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-721-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 721,
+      "floor": 3,
+      "availableDate": "5/13/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 3",
+        "sqft": 721
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3935,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3930,
+          "timestamp": "2026-03-10T10:27:17.477Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 3910,
+          "timestamp": "2026-03-11T10:01:51.139Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3935,
+          "timestamp": "2026-03-12T10:01:44.598Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-862-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 862,
+      "floor": 3,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 3",
+        "sqft": 862
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4115,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4095,
+          "timestamp": "2026-03-10T10:27:17.479Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4050,
+          "timestamp": "2026-03-11T10:01:51.140Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4115,
+          "timestamp": "2026-03-12T10:01:44.599Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-721-f38",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 721,
+      "floor": 38,
+      "availableDate": "5/6/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 38",
+        "sqft": 721
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4135,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4105,
+          "timestamp": "2026-03-10T10:27:17.480Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4095,
+          "timestamp": "2026-03-11T10:01:51.143Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4135,
+          "timestamp": "2026-03-12T10:01:44.601Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-769-f23",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 769,
+      "floor": 23,
+      "availableDate": "3/24/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 23",
+        "sqft": 769
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4210,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4160,
+          "timestamp": "2026-03-10T10:27:17.483Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4140,
+          "timestamp": "2026-03-11T10:01:51.145Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4210,
+          "timestamp": "2026-03-12T10:01:44.602Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-769-f35",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 769,
+      "floor": 35,
+      "availableDate": "5/21/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 35",
+        "sqft": 769
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4250,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4200,
+          "timestamp": "2026-03-10T10:27:17.484Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4225,
+          "timestamp": "2026-03-11T10:01:51.146Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4250,
+          "timestamp": "2026-03-12T10:01:44.603Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-769-f29",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 769,
+      "floor": 29,
+      "availableDate": "4/29/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 29",
+        "sqft": 769
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4365,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 4280,
+          "timestamp": "2026-03-10T10:27:17.484Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 4305,
+          "timestamp": "2026-03-11T10:01:51.148Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 4365,
+          "timestamp": "2026-03-12T10:01:44.604Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-1bd-1ba-840-f37",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 840,
+      "floor": 37,
+      "availableDate": "5/12/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 37",
+        "sqft": 840
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5080,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 5075,
+          "timestamp": "2026-03-10T10:27:17.486Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5055,
+          "timestamp": "2026-03-11T10:01:51.149Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5080,
+          "timestamp": "2026-03-12T10:01:44.604Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1124-f4",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1124,
+      "floor": 4,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 4",
+        "sqft": 1124
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5130,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 5345,
+          "timestamp": "2026-03-10T10:27:17.487Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5130,
+          "timestamp": "2026-03-11T10:01:51.150Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5130,
+          "timestamp": "2026-03-12T10:01:44.605Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1122-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1122,
+      "floor": 3,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 3",
+        "sqft": 1122
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5200,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 5415,
+          "timestamp": "2026-03-10T10:27:17.489Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5200,
+          "timestamp": "2026-03-11T10:01:51.152Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5200,
+          "timestamp": "2026-03-12T10:01:44.606Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1068-f26",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1068,
+      "floor": 26,
+      "availableDate": "4/29/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 26",
+        "sqft": 1068
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5540,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 5755,
+          "timestamp": "2026-03-10T10:27:17.492Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5540,
+          "timestamp": "2026-03-11T10:01:51.156Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5540,
+          "timestamp": "2026-03-12T10:01:44.609Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1122-f14",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1122,
+      "floor": 14,
+      "availableDate": "3/13/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 14",
+        "sqft": 1122
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5555,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 5770,
+          "timestamp": "2026-03-10T10:27:17.493Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5555,
+          "timestamp": "2026-03-11T10:01:51.157Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5555,
+          "timestamp": "2026-03-12T10:01:44.610Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1215-f37",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1215,
+      "floor": 37,
+      "availableDate": "5/19/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 37",
+        "sqft": 1215
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5920,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 6135,
+          "timestamp": "2026-03-10T10:27:17.494Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5920,
+          "timestamp": "2026-03-11T10:01:51.158Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5920,
+          "timestamp": "2026-03-12T10:01:44.611Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1122-f36",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1122,
+      "floor": 36,
+      "availableDate": "4/1/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 36",
+        "sqft": 1122
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6415,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 6630,
+          "timestamp": "2026-03-10T10:27:17.495Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 6415,
+          "timestamp": "2026-03-11T10:01:51.160Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 6415,
+          "timestamp": "2026-03-12T10:01:44.611Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1322-f26",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1322,
+      "floor": 26,
+      "availableDate": "3/12/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 26",
+        "sqft": 1322
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6490,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 6705,
+          "timestamp": "2026-03-10T10:27:17.496Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 6490,
+          "timestamp": "2026-03-11T10:01:51.161Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 6490,
+          "timestamp": "2026-03-12T10:01:44.613Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-493-f9",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 493,
+      "floor": 9,
+      "availableDate": "5/20/2026",
+      "floorPlan": {
+        "name": "studio - Floor 9",
+        "sqft": 493
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3070,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-12",
+      "priceHistory": [
+        {
+          "date": "2026-03-12",
+          "price": 3070,
+          "timestamp": "2026-03-12T10:01:44.592Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-493-f18",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 493,
+      "floor": 18,
+      "availableDate": "5/26/2026",
+      "floorPlan": {
+        "name": "studio - Floor 18",
+        "sqft": 493
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3090,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-12",
+      "priceHistory": [
+        {
+          "date": "2026-03-12",
+          "price": 3090,
+          "timestamp": "2026-03-12T10:01:44.593Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-0bd-1ba-617-f24",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 617,
+      "floor": 24,
+      "availableDate": "6/9/2026",
+      "floorPlan": {
+        "name": "studio - Floor 24",
+        "sqft": 617
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3640,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-12",
+      "priceHistory": [
+        {
+          "date": "2026-03-12",
+          "price": 3640,
+          "timestamp": "2026-03-12T10:01:44.596Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "2-2bd-2ba-1322-f22",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1322,
+      "floor": 22,
+      "availableDate": "4/7/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 22",
+        "sqft": 1322
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6420,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-12",
+      "createdDate": "2026-03-12",
+      "priceHistory": [
+        {
+          "date": "2026-03-12",
+          "price": 6420,
+          "timestamp": "2026-03-12T10:01:44.612Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "5-2bd-2ba-1237-f22",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1237,
+      "floor": 22,
+      "availableDate": "3/14/2026",
+      "floorPlan": {
+        "name": "B6-1223-1237",
+        "sqft": 1237
+      },
+      "amenities": [
+        "B6-1223-1237"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5630,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-03-13",
+      "createdDate": "2026-02-13",
+      "priceHistory": [
+        {
+          "date": "2026-02-13",
+          "price": 5290,
+          "timestamp": "2026-02-13T01:32:19.743Z"
+        },
+        {
+          "date": "2026-02-20",
+          "price": 5280,
+          "timestamp": "2026-02-20T01:55:50.581Z"
+        },
+        {
+          "date": "2026-02-22",
+          "price": 5295,
+          "timestamp": "2026-02-22T03:37:41.470Z"
+        },
+        {
+          "date": "2026-02-27",
+          "price": 5280,
+          "timestamp": "2026-02-27T19:10:58.520Z"
+        },
+        {
+          "date": "2026-03-07",
+          "price": 5475,
+          "timestamp": "2026-03-07T01:11:20.229Z"
+        },
+        {
+          "date": "2026-03-09",
+          "price": 5470,
+          "timestamp": "2026-03-09T05:35:32.147Z"
+        },
+        {
+          "date": "2026-03-10",
+          "price": 5520,
+          "timestamp": "2026-03-10T03:20:41.528Z"
+        },
+        {
+          "date": "2026-03-11",
+          "price": 5620,
+          "timestamp": "2026-03-11T10:02:14.817Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 5630,
+          "timestamp": "2026-03-12T10:01:59.408Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 5630,
+          "timestamp": "2026-03-13T09:57:45.062Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
+    },
+    {
+      "id": "5-0bd-1ba-527-f15",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 527,
+      "floor": 15,
+      "availableDate": "5/26/2026",
+      "floorPlan": {
+        "name": "S6-526",
+        "sqft": 527
+      },
+      "amenities": [
+        "S6-526"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3000,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-03-13",
+      "createdDate": "2026-03-12",
+      "priceHistory": [
+        {
+          "date": "2026-03-12",
+          "price": 3000,
+          "timestamp": "2026-03-12T10:01:59.384Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 3000,
+          "timestamp": "2026-03-13T09:57:45.032Z"
+        }
+      ],
+      "delistedDate": "2026-03-14",
+      "archivedDate": "2026-03-14"
     }
   ]
 }
