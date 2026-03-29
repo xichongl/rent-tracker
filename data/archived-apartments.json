@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-03-28T09:53:33.779Z",
+  "lastArchived": "2026-03-29T09:54:47.141Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -57161,6 +57161,286 @@
       ],
       "delistedDate": "2026-03-28",
       "archivedDate": "2026-03-28"
+    },
+    {
+      "id": "4-1bd-1ba-1010-f18",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 1010,
+      "floor": 18,
+      "availableDate": "5/7/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 18",
+        "sqft": 1010
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3740,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-28",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3645,
+          "timestamp": "2026-03-10T10:15:17.852Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3640,
+          "timestamp": "2026-03-12T10:01:54.433Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 3645,
+          "timestamp": "2026-03-13T09:57:39.866Z"
+        },
+        {
+          "date": "2026-03-15",
+          "price": 3660,
+          "timestamp": "2026-03-15T09:50:06.556Z"
+        },
+        {
+          "date": "2026-03-17",
+          "price": 3670,
+          "timestamp": "2026-03-17T10:10:12.698Z"
+        },
+        {
+          "date": "2026-03-18",
+          "price": 3710,
+          "timestamp": "2026-03-18T10:13:22.314Z"
+        },
+        {
+          "date": "2026-03-19",
+          "price": 3710,
+          "timestamp": "2026-03-19T10:02:12.313Z"
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3695,
+          "timestamp": "2026-03-21T09:47:03.391Z"
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3700,
+          "timestamp": "2026-03-23T10:15:27.721Z"
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3710,
+          "timestamp": "2026-03-25T10:10:44.890Z"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3735,
+          "timestamp": "2026-03-26T10:12:49.940Z"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3750,
+          "timestamp": "2026-03-27T10:08:00.022Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3740,
+          "timestamp": "2026-03-28T09:53:30.451Z"
+        }
+      ],
+      "delistedDate": "2026-03-29",
+      "archivedDate": "2026-03-29"
+    },
+    {
+      "id": "4-2bd-2ba-1280-f29",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1280,
+      "floor": 29,
+      "availableDate": "5/16/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 29",
+        "sqft": 1280
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4728,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-28",
+      "createdDate": "2026-03-18",
+      "priceHistory": [
+        {
+          "date": "2026-03-18",
+          "price": 4758,
+          "timestamp": "2026-03-18T10:13:22.336Z"
+        },
+        {
+          "date": "2026-03-19",
+          "price": 4743,
+          "timestamp": "2026-03-19T10:02:12.334Z"
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4678,
+          "timestamp": "2026-03-21T09:47:03.411Z"
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4683,
+          "timestamp": "2026-03-23T10:15:27.743Z"
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4733,
+          "timestamp": "2026-03-25T10:10:44.908Z"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 4723,
+          "timestamp": "2026-03-26T10:12:49.958Z"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4743,
+          "timestamp": "2026-03-27T10:08:00.041Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4728,
+          "timestamp": "2026-03-28T09:53:30.468Z"
+        }
+      ],
+      "delistedDate": "2026-03-29",
+      "archivedDate": "2026-03-29"
+    },
+    {
+      "id": "4-0bd-1ba-650-f21",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 21,
+      "availableDate": "5/22/2026",
+      "floorPlan": {
+        "name": "studio - Floor 21",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2675,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-03-28",
+      "createdDate": "2026-03-27",
+      "priceHistory": [
+        {
+          "date": "2026-03-27",
+          "price": 2695,
+          "timestamp": "2026-03-27T10:07:59.988Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 2675,
+          "timestamp": "2026-03-28T09:53:30.421Z"
+        }
+      ],
+      "delistedDate": "2026-03-29",
+      "archivedDate": "2026-03-29"
+    },
+    {
+      "id": "5-2bd-2ba-1064-f7",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1064,
+      "floor": 7,
+      "availableDate": "6/30/2026",
+      "floorPlan": {
+        "name": "B2-1064",
+        "sqft": 1064
+      },
+      "amenities": [
+        "B2-1064"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4675,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-03-28",
+      "createdDate": "2026-03-28",
+      "priceHistory": [
+        {
+          "date": "2026-03-28",
+          "price": 4675,
+          "timestamp": "2026-03-28T09:53:33.760Z"
+        }
+      ],
+      "delistedDate": "2026-03-29",
+      "archivedDate": "2026-03-29"
     }
   ]
 }
