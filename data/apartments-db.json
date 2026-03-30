@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T09:54:47.140Z",
+  "lastUpdated": "2026-03-30T10:41:44.103Z",
   "apartments": {
     "1": [
       {
@@ -7506,7 +7506,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 22,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -7525,11 +7525,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2955,
+        "price": 2915,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -7666,179 +7666,11 @@
             "date": "2026-03-29",
             "price": 2955,
             "timestamp": "2026-03-29T09:54:47.092Z"
-          }
-        ]
-      },
-      {
-        "id": "5-0bd-1ba-460-f19",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 460,
-        "floor": 19,
-        "availableDate": "4/14/2026",
-        "floorPlan": {
-          "name": "S1-469",
-          "sqft": 460
-        },
-        "amenities": [
-          "S1-469"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2960,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-03-29",
-        "createdDate": "2026-02-13",
-        "priceHistory": [
-          {
-            "date": "2026-02-13",
-            "price": 2800,
-            "timestamp": "2026-02-13T01:32:19.714Z"
           },
           {
-            "date": "2026-02-20",
-            "price": 2930,
-            "timestamp": "2026-02-20T01:55:50.562Z"
-          },
-          {
-            "date": "2026-02-22",
-            "price": 2920,
-            "timestamp": "2026-02-22T03:37:41.446Z"
-          },
-          {
-            "date": "2026-02-27",
-            "price": 2950,
-            "timestamp": "2026-02-27T19:10:58.499Z"
-          },
-          {
-            "date": "2026-03-01",
-            "price": 2945,
-            "timestamp": "2026-03-01T14:12:40.446Z"
-          },
-          {
-            "date": "2026-03-07",
-            "price": 2950,
-            "timestamp": "2026-03-07T01:11:20.176Z"
-          },
-          {
-            "date": "2026-03-09",
-            "price": 2940,
-            "timestamp": "2026-03-09T05:35:32.120Z"
-          },
-          {
-            "date": "2026-03-10",
-            "price": 2925,
-            "timestamp": "2026-03-10T03:20:41.505Z"
-          },
-          {
-            "date": "2026-03-11",
-            "price": 2925,
-            "timestamp": "2026-03-11T10:02:14.784Z"
-          },
-          {
-            "date": "2026-03-12",
-            "price": 2875,
-            "timestamp": "2026-03-12T10:01:59.379Z"
-          },
-          {
-            "date": "2026-03-13",
-            "price": 2875,
-            "timestamp": "2026-03-13T09:57:45.025Z"
-          },
-          {
-            "date": "2026-03-14",
-            "price": 2870,
-            "timestamp": "2026-03-14T09:50:13.864Z"
-          },
-          {
-            "date": "2026-03-15",
-            "price": 2875,
-            "timestamp": "2026-03-15T09:50:11.864Z"
-          },
-          {
-            "date": "2026-03-16",
-            "price": 2875,
-            "timestamp": "2026-03-16T10:16:35.812Z"
-          },
-          {
-            "date": "2026-03-17",
-            "price": 2875,
-            "timestamp": "2026-03-17T10:10:17.805Z"
-          },
-          {
-            "date": "2026-03-18",
-            "price": 2900,
-            "timestamp": "2026-03-18T10:13:27.245Z"
-          },
-          {
-            "date": "2026-03-19",
-            "price": 2985,
-            "timestamp": "2026-03-19T10:02:18.136Z"
-          },
-          {
-            "date": "2026-03-20",
-            "price": 2985,
-            "timestamp": "2026-03-20T09:59:33.956Z"
-          },
-          {
-            "date": "2026-03-21",
-            "price": 2970,
-            "timestamp": "2026-03-21T09:47:08.201Z"
-          },
-          {
-            "date": "2026-03-22",
-            "price": 2950,
-            "timestamp": "2026-03-22T09:49:11.807Z"
-          },
-          {
-            "date": "2026-03-23",
-            "price": 2965,
-            "timestamp": "2026-03-23T10:15:32.933Z"
-          },
-          {
-            "date": "2026-03-24",
-            "price": 2965,
-            "timestamp": "2026-03-24T10:10:51.803Z"
-          },
-          {
-            "date": "2026-03-25",
-            "price": 2965,
-            "timestamp": "2026-03-25T10:10:48.282Z"
-          },
-          {
-            "date": "2026-03-26",
-            "price": 2960,
-            "timestamp": "2026-03-26T10:12:54.349Z"
-          },
-          {
-            "date": "2026-03-27",
-            "price": 2925,
-            "timestamp": "2026-03-27T10:08:03.432Z"
-          },
-          {
-            "date": "2026-03-28",
-            "price": 2950,
-            "timestamp": "2026-03-28T09:53:33.733Z"
-          },
-          {
-            "date": "2026-03-29",
-            "price": 2960,
-            "timestamp": "2026-03-29T09:54:47.093Z"
+            "date": "2026-03-30",
+            "price": 2915,
+            "timestamp": "2026-03-30T10:41:44.065Z"
           }
         ]
       },
@@ -7852,7 +7684,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 28,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -7871,11 +7703,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3025,
+        "price": 2985,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8012,6 +7844,11 @@
             "date": "2026-03-29",
             "price": 3025,
             "timestamp": "2026-03-29T09:54:47.095Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 2985,
+            "timestamp": "2026-03-30T10:41:44.067Z"
           }
         ]
       },
@@ -8025,7 +7862,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 33,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -8044,11 +7881,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3026,
+        "price": 2987,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8185,6 +8022,11 @@
             "date": "2026-03-29",
             "price": 3026,
             "timestamp": "2026-03-29T09:54:47.096Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 2987,
+            "timestamp": "2026-03-30T10:41:44.068Z"
           }
         ]
       },
@@ -8198,7 +8040,7 @@
         "bathrooms": 1,
         "squareFeet": 527,
         "floor": 26,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "S6-526",
           "sqft": 527
@@ -8217,11 +8059,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3125,
+        "price": 3085,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8358,6 +8200,11 @@
             "date": "2026-03-29",
             "price": 3125,
             "timestamp": "2026-03-29T09:54:47.099Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3085,
+            "timestamp": "2026-03-30T10:41:44.070Z"
           }
         ]
       },
@@ -8390,11 +8237,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4060,
+        "price": 4055,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8526,6 +8373,11 @@
             "date": "2026-03-29",
             "price": 4060,
             "timestamp": "2026-03-29T09:54:47.107Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4055,
+            "timestamp": "2026-03-30T10:41:44.077Z"
           }
         ]
       },
@@ -8562,7 +8414,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8704,6 +8556,11 @@
             "date": "2026-03-29",
             "price": 4120,
             "timestamp": "2026-03-29T09:54:47.111Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4120,
+            "timestamp": "2026-03-30T10:41:44.080Z"
           }
         ]
       },
@@ -8717,7 +8574,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 30,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -8736,11 +8593,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4180,
+        "price": 4185,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -8882,6 +8739,11 @@
             "date": "2026-03-29",
             "price": 4180,
             "timestamp": "2026-03-29T09:54:47.112Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4185,
+            "timestamp": "2026-03-30T10:41:44.081Z"
           }
         ]
       },
@@ -8895,7 +8757,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 35,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "A3-684-690",
           "sqft": 690
@@ -8914,11 +8776,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4430,
+        "price": 4435,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9060,6 +8922,11 @@
             "date": "2026-03-29",
             "price": 4430,
             "timestamp": "2026-03-29T09:54:47.116Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4435,
+            "timestamp": "2026-03-30T10:41:44.085Z"
           }
         ]
       },
@@ -9073,7 +8940,7 @@
         "bathrooms": 2,
         "squareFeet": 1064,
         "floor": 17,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "B2-1064",
           "sqft": 1064
@@ -9092,11 +8959,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4865,
+        "price": 4805,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9233,6 +9100,11 @@
             "date": "2026-03-29",
             "price": 4865,
             "timestamp": "2026-03-29T09:54:47.122Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4805,
+            "timestamp": "2026-03-30T10:41:44.089Z"
           }
         ]
       },
@@ -9246,7 +9118,7 @@
         "bathrooms": 2,
         "squareFeet": 1064,
         "floor": 30,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "B2-1064",
           "sqft": 1064
@@ -9265,11 +9137,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5115,
+        "price": 5055,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9401,6 +9273,11 @@
             "date": "2026-03-29",
             "price": 5115,
             "timestamp": "2026-03-29T09:54:47.126Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5055,
+            "timestamp": "2026-03-30T10:41:44.092Z"
           }
         ]
       },
@@ -9414,7 +9291,7 @@
         "bathrooms": 2,
         "squareFeet": 1237,
         "floor": 29,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "B6-1223-1237",
           "sqft": 1237
@@ -9433,11 +9310,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5215,
+        "price": 5155,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9574,6 +9451,11 @@
             "date": "2026-03-29",
             "price": 5215,
             "timestamp": "2026-03-29T09:54:47.127Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5155,
+            "timestamp": "2026-03-30T10:41:44.093Z"
           }
         ]
       },
@@ -9587,7 +9469,7 @@
         "bathrooms": 2,
         "squareFeet": 1146,
         "floor": 33,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "B5-1139-1146-Glass",
           "sqft": 1146
@@ -9606,11 +9488,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5365,
+        "price": 5305,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9742,6 +9624,11 @@
             "date": "2026-03-29",
             "price": 5365,
             "timestamp": "2026-03-29T09:54:47.130Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5305,
+            "timestamp": "2026-03-30T10:41:44.095Z"
           }
         ]
       },
@@ -9774,11 +9661,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5395,
+        "price": 5385,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -9910,6 +9797,11 @@
             "date": "2026-03-29",
             "price": 5395,
             "timestamp": "2026-03-29T09:54:47.131Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5385,
+            "timestamp": "2026-03-30T10:41:44.097Z"
           }
         ]
       },
@@ -9942,11 +9834,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 10815,
+        "price": 10810,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -10078,6 +9970,11 @@
             "date": "2026-03-29",
             "price": 10815,
             "timestamp": "2026-03-29T09:54:47.138Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 10810,
+            "timestamp": "2026-03-30T10:41:44.102Z"
           }
         ]
       },
@@ -10114,7 +10011,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-27",
         "priceHistory": [
           {
@@ -10241,6 +10138,11 @@
             "date": "2026-03-29",
             "price": 4120,
             "timestamp": "2026-03-29T09:54:47.110Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4120,
+            "timestamp": "2026-03-30T10:41:44.079Z"
           }
         ]
       },
@@ -10273,11 +10175,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5025,
+        "price": 5015,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-02-27",
         "priceHistory": [
           {
@@ -10394,6 +10296,11 @@
             "date": "2026-03-29",
             "price": 5025,
             "timestamp": "2026-03-29T09:54:47.123Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5015,
+            "timestamp": "2026-03-30T10:41:44.090Z"
           }
         ]
       },
@@ -10426,11 +10333,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3360,
+        "price": 3365,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-01",
         "priceHistory": [
           {
@@ -10547,6 +10454,11 @@
             "date": "2026-03-29",
             "price": 3360,
             "timestamp": "2026-03-29T09:54:47.103Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3365,
+            "timestamp": "2026-03-30T10:41:44.074Z"
           }
         ]
       },
@@ -10579,11 +10491,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3255,
+        "price": 3265,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-07",
         "priceHistory": [
           {
@@ -10695,6 +10607,11 @@
             "date": "2026-03-29",
             "price": 3255,
             "timestamp": "2026-03-29T09:54:47.100Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3265,
+            "timestamp": "2026-03-30T10:41:44.072Z"
           }
         ]
       },
@@ -10727,11 +10644,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3870,
+        "price": 3865,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-09",
         "priceHistory": [
           {
@@ -10838,6 +10755,11 @@
             "date": "2026-03-29",
             "price": 3870,
             "timestamp": "2026-03-29T09:54:47.105Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3865,
+            "timestamp": "2026-03-30T10:41:44.076Z"
           }
         ]
       },
@@ -10851,7 +10773,7 @@
         "bathrooms": 1,
         "squareFeet": 707,
         "floor": 33,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "A4-707",
           "sqft": 707
@@ -10870,11 +10792,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4610,
+        "price": 4615,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-09",
         "priceHistory": [
           {
@@ -10981,6 +10903,11 @@
             "date": "2026-03-29",
             "price": 4610,
             "timestamp": "2026-03-29T09:54:47.118Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4615,
+            "timestamp": "2026-03-30T10:41:44.086Z"
           }
         ]
       },
@@ -10994,7 +10921,7 @@
         "bathrooms": 2,
         "squareFeet": 1237,
         "floor": 25,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "B6-1223-1237",
           "sqft": 1237
@@ -11013,11 +10940,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5320,
+        "price": 5260,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-14",
         "priceHistory": [
           {
@@ -11099,6 +11026,11 @@
             "date": "2026-03-29",
             "price": 5320,
             "timestamp": "2026-03-29T09:54:47.129Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5260,
+            "timestamp": "2026-03-30T10:41:44.094Z"
           }
         ]
       },
@@ -11112,7 +11044,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 21,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -11131,11 +11063,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5760,
+        "price": 5725,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-15",
         "priceHistory": [
           {
@@ -11212,6 +11144,11 @@
             "date": "2026-03-29",
             "price": 5760,
             "timestamp": "2026-03-29T09:54:47.133Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5725,
+            "timestamp": "2026-03-30T10:41:44.098Z"
           }
         ]
       },
@@ -11244,11 +11181,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4660,
+        "price": 4650,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-18",
         "priceHistory": [
           {
@@ -11310,6 +11247,11 @@
             "date": "2026-03-29",
             "price": 4660,
             "timestamp": "2026-03-29T09:54:47.120Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4650,
+            "timestamp": "2026-03-30T10:41:44.088Z"
           }
         ]
       },
@@ -11323,7 +11265,7 @@
         "bathrooms": 1,
         "squareFeet": 527,
         "floor": 29,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "S6-526",
           "sqft": 527
@@ -11342,11 +11284,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3055,
+        "price": 3015,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-19",
         "priceHistory": [
           {
@@ -11403,6 +11345,11 @@
             "date": "2026-03-29",
             "price": 3055,
             "timestamp": "2026-03-29T09:54:47.097Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3015,
+            "timestamp": "2026-03-30T10:41:44.069Z"
           }
         ]
       },
@@ -11435,11 +11382,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3285,
+        "price": 3290,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-19",
         "priceHistory": [
           {
@@ -11496,6 +11443,11 @@
             "date": "2026-03-29",
             "price": 3285,
             "timestamp": "2026-03-29T09:54:47.101Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3290,
+            "timestamp": "2026-03-30T10:41:44.073Z"
           }
         ]
       },
@@ -11509,7 +11461,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 21,
-        "availableDate": "3/30/2026",
+        "availableDate": "3/31/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -11532,7 +11484,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-20",
         "priceHistory": [
           {
@@ -11584,6 +11536,11 @@
             "date": "2026-03-29",
             "price": 4085,
             "timestamp": "2026-03-29T09:54:47.108Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4085,
+            "timestamp": "2026-03-30T10:41:44.078Z"
           }
         ]
       },
@@ -11620,7 +11577,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-20",
         "priceHistory": [
           {
@@ -11672,6 +11629,11 @@
             "date": "2026-03-29",
             "price": 4635,
             "timestamp": "2026-03-29T09:54:47.119Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4635,
+            "timestamp": "2026-03-30T10:41:44.087Z"
           }
         ]
       },
@@ -11704,11 +11666,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 6520,
+        "price": 6515,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-22",
         "priceHistory": [
           {
@@ -11750,6 +11712,11 @@
             "date": "2026-03-29",
             "price": 6520,
             "timestamp": "2026-03-29T09:54:47.137Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 6515,
+            "timestamp": "2026-03-30T10:41:44.101Z"
           }
         ]
       },
@@ -11786,7 +11753,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-25",
         "priceHistory": [
           {
@@ -11813,6 +11780,11 @@
             "date": "2026-03-29",
             "price": 4340,
             "timestamp": "2026-03-29T09:54:47.114Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4340,
+            "timestamp": "2026-03-30T10:41:44.082Z"
           }
         ]
       },
@@ -11849,7 +11821,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-25",
         "priceHistory": [
           {
@@ -11876,6 +11848,11 @@
             "date": "2026-03-29",
             "price": 4370,
             "timestamp": "2026-03-29T09:54:47.115Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 4370,
+            "timestamp": "2026-03-30T10:41:44.083Z"
           }
         ]
       },
@@ -11908,11 +11885,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2930,
+        "price": 2920,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-26",
         "priceHistory": [
           {
@@ -11934,6 +11911,11 @@
             "date": "2026-03-29",
             "price": 2930,
             "timestamp": "2026-03-29T09:54:47.090Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 2920,
+            "timestamp": "2026-03-30T10:41:44.066Z"
           }
         ]
       },
@@ -11970,7 +11952,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-26",
         "priceHistory": [
           {
@@ -11992,6 +11974,11 @@
             "date": "2026-03-29",
             "price": 3730,
             "timestamp": "2026-03-29T09:54:47.104Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 3730,
+            "timestamp": "2026-03-30T10:41:44.075Z"
           }
         ]
       },
@@ -12024,11 +12011,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 6490,
+        "price": 6485,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-26",
         "priceHistory": [
           {
@@ -12050,6 +12037,11 @@
             "date": "2026-03-29",
             "price": 6490,
             "timestamp": "2026-03-29T09:54:47.135Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 6485,
+            "timestamp": "2026-03-30T10:41:44.100Z"
           }
         ]
       },
@@ -12086,7 +12078,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-28",
         "priceHistory": [
           {
@@ -12098,6 +12090,11 @@
             "date": "2026-03-29",
             "price": 6235,
             "timestamp": "2026-03-29T09:54:47.134Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 6235,
+            "timestamp": "2026-03-30T10:41:44.099Z"
           }
         ]
       },
@@ -12134,56 +12131,18 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-29",
         "priceHistory": [
           {
             "date": "2026-03-29",
             "price": 2780,
             "timestamp": "2026-03-29T09:54:47.087Z"
-          }
-        ]
-      },
-      {
-        "id": "5-0bd-1ba-496-f26",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 496,
-        "floor": 26,
-        "availableDate": "7/6/2026",
-        "floorPlan": {
-          "name": "S2-496",
-          "sqft": 496
-        },
-        "amenities": [
-          "S2-496"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2865,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-03-29",
-        "createdDate": "2026-03-29",
-        "priceHistory": [
+          },
           {
-            "date": "2026-03-29",
-            "price": 2865,
-            "timestamp": "2026-03-29T09:54:47.089Z"
+            "date": "2026-03-30",
+            "price": 2780,
+            "timestamp": "2026-03-30T10:41:44.064Z"
           }
         ]
       },
@@ -12220,13 +12179,61 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-03-29",
+        "lastSeen": "2026-03-30",
         "createdDate": "2026-03-29",
         "priceHistory": [
           {
             "date": "2026-03-29",
             "price": 5040,
             "timestamp": "2026-03-29T09:54:47.125Z"
+          },
+          {
+            "date": "2026-03-30",
+            "price": 5040,
+            "timestamp": "2026-03-30T10:41:44.091Z"
+          }
+        ]
+      },
+      {
+        "id": "5-2bd-2ba-1064-f29",
+        "buildingId": 5,
+        "buildingName": "Avalon North Station",
+        "address": "40 Portland St",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1064,
+        "floor": 29,
+        "availableDate": "6/9/2026",
+        "floorPlan": {
+          "name": "B2-1054-ADA",
+          "sqft": 1064
+        },
+        "amenities": [
+          "B2-1054-ADA"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4995,
+        "source": "AvalonCommunities.com",
+        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+        "status": "active",
+        "lastSeen": "2026-03-30",
+        "createdDate": "2026-03-30",
+        "priceHistory": [
+          {
+            "date": "2026-03-30",
+            "price": 4995,
+            "timestamp": "2026-03-30T10:41:44.089Z"
           }
         ]
       }
