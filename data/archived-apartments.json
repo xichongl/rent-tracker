@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-04-03T10:04:26.853Z",
+  "lastArchived": "2026-04-04T09:56:19.618Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -59841,6 +59841,71 @@
       ],
       "delistedDate": "2026-04-03",
       "archivedDate": "2026-04-03"
+    },
+    {
+      "id": "2-1bd-1ba-769-f27",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 769,
+      "floor": 27,
+      "availableDate": "6/4/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 27",
+        "sqft": 769
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4330,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-03",
+      "createdDate": "2026-03-28",
+      "priceHistory": [
+        {
+          "date": "2026-03-28",
+          "price": 4395,
+          "timestamp": "2026-03-28T09:53:20.451Z"
+        },
+        {
+          "date": "2026-03-29",
+          "price": 4330,
+          "timestamp": "2026-03-29T09:54:23.943Z"
+        },
+        {
+          "date": "2026-03-31",
+          "price": 4330,
+          "timestamp": "2026-03-31T10:14:42.508Z"
+        },
+        {
+          "date": "2026-04-01",
+          "price": 4450,
+          "timestamp": "2026-04-01T10:17:17.664Z"
+        },
+        {
+          "date": "2026-04-03",
+          "price": 4330,
+          "timestamp": "2026-04-03T10:04:11.925Z"
+        }
+      ],
+      "delistedDate": "2026-04-04",
+      "archivedDate": "2026-04-04"
     }
   ]
 }
