@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-04-18T10:03:31.371Z",
+  "lastArchived": "2026-04-19T10:02:40.435Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -70661,6 +70661,291 @@
       ],
       "delistedDate": "2026-04-18",
       "archivedDate": "2026-04-18"
+    },
+    {
+      "id": "2-0bd-1ba-500-f27",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 500,
+      "floor": 27,
+      "availableDate": "6/9/2026",
+      "floorPlan": {
+        "name": "studio - Floor 27",
+        "sqft": 500
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3520,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-17",
+      "createdDate": "2026-04-15",
+      "priceHistory": [
+        {
+          "date": "2026-04-15",
+          "price": 3620,
+          "timestamp": "2026-04-15T10:39:25.793Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 3510,
+          "timestamp": "2026-04-16T10:41:43.415Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3520,
+          "timestamp": "2026-04-17T10:35:19.941Z"
+        }
+      ],
+      "delistedDate": "2026-04-19",
+      "archivedDate": "2026-04-19"
+    },
+    {
+      "id": "3-1bd-1ba-821-f7",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 821,
+      "floor": 7,
+      "availableDate": "4/24/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 7",
+        "sqft": 821
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3690,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-04-17",
+      "createdDate": "2026-04-17",
+      "priceHistory": [
+        {
+          "date": "2026-04-17",
+          "price": 3690,
+          "timestamp": "2026-04-17T10:35:24.910Z"
+        }
+      ],
+      "delistedDate": "2026-04-19",
+      "archivedDate": "2026-04-19"
+    },
+    {
+      "id": "3-2bd-2ba-1235-f2",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1235,
+      "floor": 2,
+      "availableDate": "6/26/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 2",
+        "sqft": 1235
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4795,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-04-17",
+      "createdDate": "2026-04-17",
+      "priceHistory": [
+        {
+          "date": "2026-04-17",
+          "price": 4795,
+          "timestamp": "2026-04-17T10:35:24.912Z"
+        }
+      ],
+      "delistedDate": "2026-04-19",
+      "archivedDate": "2026-04-19"
+    },
+    {
+      "id": "5-2bd-2ba-1064-f29",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1064,
+      "floor": 29,
+      "availableDate": "6/9/2026",
+      "floorPlan": {
+        "name": "B2-1054-ADA",
+        "sqft": 1064
+      },
+      "amenities": [
+        "B2-1054-ADA"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5420,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-04-18",
+      "createdDate": "2026-04-09",
+      "priceHistory": [
+        {
+          "date": "2026-04-09",
+          "price": 5280,
+          "timestamp": "2026-04-09T10:36:21.511Z"
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5280,
+          "timestamp": "2026-04-10T10:17:52.698Z"
+        },
+        {
+          "date": "2026-04-11",
+          "price": 5285,
+          "timestamp": "2026-04-11T09:58:09.178Z"
+        },
+        {
+          "date": "2026-04-12",
+          "price": 5285,
+          "timestamp": "2026-04-12T10:02:05.333Z"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 5285,
+          "timestamp": "2026-04-13T10:57:00.498Z"
+        },
+        {
+          "date": "2026-04-14",
+          "price": 5270,
+          "timestamp": "2026-04-14T10:41:38.465Z"
+        },
+        {
+          "date": "2026-04-15",
+          "price": 5290,
+          "timestamp": "2026-04-15T10:39:47.131Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 5445,
+          "timestamp": "2026-04-16T10:41:57.937Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 5430,
+          "timestamp": "2026-04-17T10:35:34.487Z"
+        },
+        {
+          "date": "2026-04-18",
+          "price": 5420,
+          "timestamp": "2026-04-18T10:03:31.359Z"
+        }
+      ],
+      "delistedDate": "2026-04-19",
+      "archivedDate": "2026-04-19"
+    },
+    {
+      "id": "5-2bd-2ba-1039-f30",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1039,
+      "floor": 30,
+      "availableDate": "6/21/2026",
+      "floorPlan": {
+        "name": "B1-1031-1039",
+        "sqft": 1039
+      },
+      "amenities": [
+        "B1-1031-1039"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5160,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-04-18",
+      "createdDate": "2026-04-17",
+      "priceHistory": [
+        {
+          "date": "2026-04-17",
+          "price": 5160,
+          "timestamp": "2026-04-17T10:35:34.486Z"
+        },
+        {
+          "date": "2026-04-18",
+          "price": 5160,
+          "timestamp": "2026-04-18T10:03:31.358Z"
+        }
+      ],
+      "delistedDate": "2026-04-19",
+      "archivedDate": "2026-04-19"
     }
   ]
 }
