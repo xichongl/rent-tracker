@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T10:45:07.231Z",
+  "lastUpdated": "2026-04-22T10:43:40.528Z",
   "apartments": {
     "1": [
       {
@@ -35,7 +35,7 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-10",
         "priceHistory": [
           {
@@ -62,6 +62,11 @@
             "date": "2026-04-20",
             "price": 3375,
             "timestamp": "2026-04-20T10:58:20.704Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3375,
+            "timestamp": "2026-04-22T10:42:54.851Z"
           }
         ]
       },
@@ -75,7 +80,7 @@
         "bathrooms": 1,
         "squareFeet": 610,
         "floor": 12,
-        "availableDate": "4/20/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
           "name": "studio - Floor 12",
           "sqft": 610
@@ -94,11 +99,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2780,
+        "price": 2700,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-12",
         "priceHistory": [
           {
@@ -120,59 +125,11 @@
             "date": "2026-04-20",
             "price": 2780,
             "timestamp": "2026-04-20T10:58:20.685Z"
-          }
-        ]
-      },
-      {
-        "id": "1-0bd-1ba-610-f14",
-        "buildingId": 1,
-        "buildingName": "Emerson Place",
-        "address": "1 Emerson Pl",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 610,
-        "floor": 14,
-        "availableDate": "4/20/2026",
-        "floorPlan": {
-          "name": "studio - Floor 14",
-          "sqft": 610
-        },
-        "amenities": [
-          "furnished"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2780,
-        "source": "EquityApartments.com",
-        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
-        "status": "active",
-        "lastSeen": "2026-04-20",
-        "createdDate": "2026-04-14",
-        "priceHistory": [
-          {
-            "date": "2026-04-14",
-            "price": 2750,
-            "timestamp": "2026-04-14T10:40:53.915Z"
           },
           {
-            "date": "2026-04-17",
-            "price": 2725,
-            "timestamp": "2026-04-17T10:35:15.019Z"
-          },
-          {
-            "date": "2026-04-20",
-            "price": 2780,
-            "timestamp": "2026-04-20T10:58:20.687Z"
+            "date": "2026-04-22",
+            "price": 2700,
+            "timestamp": "2026-04-22T10:42:54.832Z"
           }
         ]
       },
@@ -186,7 +143,7 @@
         "bathrooms": 1,
         "squareFeet": 665,
         "floor": 2,
-        "availableDate": "4/20/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
           "name": "studio - Floor 2",
           "sqft": 665
@@ -205,11 +162,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2790,
+        "price": 2710,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -226,6 +183,11 @@
             "date": "2026-04-20",
             "price": 2790,
             "timestamp": "2026-04-20T10:58:20.688Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 2710,
+            "timestamp": "2026-04-22T10:42:54.833Z"
           }
         ]
       },
@@ -258,11 +220,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2815,
+        "price": 2735,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -279,6 +241,11 @@
             "date": "2026-04-20",
             "price": 2815,
             "timestamp": "2026-04-20T10:58:20.689Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 2735,
+            "timestamp": "2026-04-22T10:42:54.834Z"
           }
         ]
       },
@@ -311,11 +278,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2980,
+        "price": 2900,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -332,6 +299,11 @@
             "date": "2026-04-20",
             "price": 2980,
             "timestamp": "2026-04-20T10:58:20.694Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 2900,
+            "timestamp": "2026-04-22T10:42:54.842Z"
           }
         ]
       },
@@ -345,7 +317,7 @@
         "bathrooms": 1,
         "squareFeet": 910,
         "floor": 5,
-        "availableDate": "4/20/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
           "name": "1 bed - Floor 5",
           "sqft": 910
@@ -368,7 +340,7 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -385,6 +357,11 @@
             "date": "2026-04-20",
             "price": 3280,
             "timestamp": "2026-04-20T10:58:20.698Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3280,
+            "timestamp": "2026-04-22T10:42:54.844Z"
           }
         ]
       },
@@ -398,7 +375,7 @@
         "bathrooms": 1,
         "squareFeet": 910,
         "floor": 7,
-        "availableDate": "4/20/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
           "name": "1 bed - Floor 7",
           "sqft": 910
@@ -421,7 +398,7 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -438,6 +415,11 @@
             "date": "2026-04-20",
             "price": 3355,
             "timestamp": "2026-04-20T10:58:20.702Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3355,
+            "timestamp": "2026-04-22T10:42:54.848Z"
           }
         ]
       },
@@ -451,7 +433,7 @@
         "bathrooms": 1,
         "squareFeet": 910,
         "floor": 23,
-        "availableDate": "4/20/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
           "name": "1 bed - Floor 23",
           "sqft": 910
@@ -474,7 +456,7 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -491,6 +473,11 @@
             "date": "2026-04-20",
             "price": 3460,
             "timestamp": "2026-04-20T10:58:20.706Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3460,
+            "timestamp": "2026-04-22T10:42:54.852Z"
           }
         ]
       },
@@ -523,11 +510,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2865,
+        "price": 2755,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-17",
         "priceHistory": [
           {
@@ -539,6 +526,11 @@
             "date": "2026-04-20",
             "price": 2865,
             "timestamp": "2026-04-20T10:58:20.692Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 2755,
+            "timestamp": "2026-04-22T10:42:54.838Z"
           }
         ]
       },
@@ -575,7 +567,7 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-17",
         "priceHistory": [
           {
@@ -587,6 +579,11 @@
             "date": "2026-04-20",
             "price": 3325,
             "timestamp": "2026-04-20T10:58:20.701Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3325,
+            "timestamp": "2026-04-22T10:42:54.847Z"
           }
         ]
       },
@@ -619,60 +616,22 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2875,
+        "price": 2780,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
             "date": "2026-04-20",
             "price": 2875,
             "timestamp": "2026-04-20T10:58:20.693Z"
-          }
-        ]
-      },
-      {
-        "id": "1-1bd-1ba-765-f9",
-        "buildingId": 1,
-        "buildingName": "Emerson Place",
-        "address": "1 Emerson Pl",
-        "unitType": "oneBed",
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "squareFeet": 765,
-        "floor": 9,
-        "availableDate": "5/22/2026",
-        "floorPlan": {
-          "name": "1 bed - Floor 9",
-          "sqft": 765
-        },
-        "amenities": [
-          "furnished"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 3200,
-        "source": "EquityApartments.com",
-        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
-        "status": "active",
-        "lastSeen": "2026-04-20",
-        "createdDate": "2026-04-20",
-        "priceHistory": [
+          },
           {
-            "date": "2026-04-20",
-            "price": 3200,
-            "timestamp": "2026-04-20T10:58:20.695Z"
+            "date": "2026-04-22",
+            "price": 2780,
+            "timestamp": "2026-04-22T10:42:54.839Z"
           }
         ]
       },
@@ -709,13 +668,18 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
             "date": "2026-04-20",
             "price": 3255,
             "timestamp": "2026-04-20T10:58:20.696Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3255,
+            "timestamp": "2026-04-22T10:42:54.843Z"
           }
         ]
       },
@@ -752,56 +716,18 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
             "date": "2026-04-20",
             "price": 3280,
             "timestamp": "2026-04-20T10:58:20.699Z"
-          }
-        ]
-      },
-      {
-        "id": "1-1bd-1ba-855-f14",
-        "buildingId": 1,
-        "buildingName": "Emerson Place",
-        "address": "1 Emerson Pl",
-        "unitType": "oneBed",
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "squareFeet": 855,
-        "floor": 14,
-        "availableDate": "4/20/2026",
-        "floorPlan": {
-          "name": "1 bed - Floor 14",
-          "sqft": 855
-        },
-        "amenities": [
-          "furnished"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 3295,
-        "source": "EquityApartments.com",
-        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
-        "status": "active",
-        "lastSeen": "2026-04-20",
-        "createdDate": "2026-04-20",
-        "priceHistory": [
+          },
           {
-            "date": "2026-04-20",
-            "price": 3295,
-            "timestamp": "2026-04-20T10:58:20.700Z"
+            "date": "2026-04-22",
+            "price": 3280,
+            "timestamp": "2026-04-22T10:42:54.846Z"
           }
         ]
       },
@@ -838,30 +764,35 @@
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
             "date": "2026-04-20",
             "price": 3365,
             "timestamp": "2026-04-20T10:58:20.703Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3365,
+            "timestamp": "2026-04-22T10:42:54.849Z"
           }
         ]
       },
       {
-        "id": "1-2bd-2ba-1180-f9",
+        "id": "1-0bd-1ba-610-f9",
         "buildingId": 1,
         "buildingName": "Emerson Place",
         "address": "1 Emerson Pl",
-        "unitType": "twoBed",
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "squareFeet": 1180,
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
         "floor": 9,
-        "availableDate": "5/9/2026",
+        "availableDate": "4/22/2026",
         "floorPlan": {
-          "name": "2 bed - Floor 9",
-          "sqft": 1180
+          "name": "studio - Floor 9",
+          "sqft": 610
         },
         "amenities": [
           "furnished"
@@ -877,17 +808,189 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4455,
+        "price": 2680,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
         "status": "active",
-        "lastSeen": "2026-04-20",
-        "createdDate": "2026-04-20",
+        "lastSeen": "2026-04-22",
+        "createdDate": "2026-04-22",
         "priceHistory": [
           {
-            "date": "2026-04-20",
-            "price": 4455,
-            "timestamp": "2026-04-20T10:58:20.707Z"
+            "date": "2026-04-22",
+            "price": 2680,
+            "timestamp": "2026-04-22T10:42:54.830Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-610-f5",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 610,
+        "floor": 5,
+        "availableDate": "6/26/2026",
+        "floorPlan": {
+          "name": "studio - Floor 5",
+          "sqft": 610
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2745,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-04-22",
+        "createdDate": "2026-04-22",
+        "priceHistory": [
+          {
+            "date": "2026-04-22",
+            "price": 2745,
+            "timestamp": "2026-04-22T10:42:54.837Z"
+          }
+        ]
+      },
+      {
+        "id": "1-0bd-1ba-665-f5",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "studio",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 665,
+        "floor": 5,
+        "availableDate": "5/20/2026",
+        "floorPlan": {
+          "name": "studio - Floor 5",
+          "sqft": 665
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 2860,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-04-22",
+        "createdDate": "2026-04-22",
+        "priceHistory": [
+          {
+            "date": "2026-04-22",
+            "price": 2860,
+            "timestamp": "2026-04-22T10:42:54.841Z"
+          }
+        ]
+      },
+      {
+        "id": "1-2bd-2ba-1200-f16",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1200,
+        "floor": 16,
+        "availableDate": "4/22/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 16",
+          "sqft": 1200
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 4445,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-04-22",
+        "createdDate": "2026-04-22",
+        "priceHistory": [
+          {
+            "date": "2026-04-22",
+            "price": 4445,
+            "timestamp": "2026-04-22T10:42:54.853Z"
+          }
+        ]
+      },
+      {
+        "id": "1-3bd-2ba-1380-f8",
+        "buildingId": 1,
+        "buildingName": "Emerson Place",
+        "address": "1 Emerson Pl",
+        "unitType": "threeBed",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFeet": 1380,
+        "floor": 8,
+        "availableDate": "6/13/2026",
+        "floorPlan": {
+          "name": "3 bed - Floor 8",
+          "sqft": 1380
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 6000,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+        "status": "active",
+        "lastSeen": "2026-04-22",
+        "createdDate": "2026-04-22",
+        "priceHistory": [
+          {
+            "date": "2026-04-22",
+            "price": 6000,
+            "timestamp": "2026-04-22T10:42:54.854Z"
           }
         ]
       }
@@ -5500,7 +5603,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 28,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -5523,7 +5626,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -5775,6 +5878,11 @@
             "date": "2026-04-21",
             "price": 3225,
             "timestamp": "2026-04-21T10:45:07.193Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3225,
+            "timestamp": "2026-04-22T10:43:40.486Z"
           }
         ]
       },
@@ -5788,7 +5896,7 @@
         "bathrooms": 1,
         "squareFeet": 527,
         "floor": 26,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "S6-526",
           "sqft": 527
@@ -5811,7 +5919,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -6063,6 +6171,11 @@
             "date": "2026-04-21",
             "price": 3325,
             "timestamp": "2026-04-21T10:45:07.194Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3325,
+            "timestamp": "2026-04-22T10:43:40.489Z"
           }
         ]
       },
@@ -6076,7 +6189,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 19,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -6099,7 +6212,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -6346,6 +6459,11 @@
             "date": "2026-04-21",
             "price": 3920,
             "timestamp": "2026-04-21T10:45:07.204Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3920,
+            "timestamp": "2026-04-22T10:43:40.496Z"
           }
         ]
       },
@@ -6378,11 +6496,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3890,
+        "price": 3985,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -6639,6 +6757,11 @@
             "date": "2026-04-21",
             "price": 3890,
             "timestamp": "2026-04-21T10:45:07.203Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3985,
+            "timestamp": "2026-04-22T10:43:40.501Z"
           }
         ]
       },
@@ -6652,7 +6775,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 30,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -6675,7 +6798,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -6932,6 +7055,11 @@
             "date": "2026-04-21",
             "price": 4040,
             "timestamp": "2026-04-21T10:45:07.210Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4040,
+            "timestamp": "2026-04-22T10:43:40.504Z"
           }
         ]
       },
@@ -6945,7 +7073,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 35,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A3-684-690",
           "sqft": 690
@@ -6968,7 +7096,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -7225,6 +7353,11 @@
             "date": "2026-04-21",
             "price": 4290,
             "timestamp": "2026-04-21T10:45:07.217Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4290,
+            "timestamp": "2026-04-22T10:43:40.512Z"
           }
         ]
       },
@@ -7257,11 +7390,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 10610,
+        "price": 10820,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-13",
         "priceHistory": [
           {
@@ -7508,6 +7641,11 @@
             "date": "2026-04-21",
             "price": 10610,
             "timestamp": "2026-04-21T10:45:07.230Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 10820,
+            "timestamp": "2026-04-22T10:43:40.526Z"
           }
         ]
       },
@@ -7540,11 +7678,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3890,
+        "price": 3985,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-27",
         "priceHistory": [
           {
@@ -7786,6 +7924,11 @@
             "date": "2026-04-21",
             "price": 3890,
             "timestamp": "2026-04-21T10:45:07.202Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3985,
+            "timestamp": "2026-04-22T10:43:40.499Z"
           }
         ]
       },
@@ -7799,7 +7942,7 @@
         "bathrooms": 2,
         "squareFeet": 1155,
         "floor": 26,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "B5-1155",
           "sqft": 1155
@@ -7822,7 +7965,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-02-27",
         "priceHistory": [
           {
@@ -8054,6 +8197,11 @@
             "date": "2026-04-21",
             "price": 5445,
             "timestamp": "2026-04-21T10:45:07.224Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5445,
+            "timestamp": "2026-04-22T10:43:40.520Z"
           }
         ]
       },
@@ -8086,11 +8234,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3515,
+        "price": 3580,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-01",
         "priceHistory": [
           {
@@ -8322,6 +8470,11 @@
             "date": "2026-04-21",
             "price": 3515,
             "timestamp": "2026-04-21T10:45:07.197Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3580,
+            "timestamp": "2026-04-22T10:43:40.492Z"
           }
         ]
       },
@@ -8335,7 +8488,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 21,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -8358,7 +8511,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-20",
         "priceHistory": [
           {
@@ -8525,6 +8678,11 @@
             "date": "2026-04-21",
             "price": 3940,
             "timestamp": "2026-04-21T10:45:07.205Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3940,
+            "timestamp": "2026-04-22T10:43:40.498Z"
           }
         ]
       },
@@ -8557,11 +8715,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4435,
+        "price": 4540,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-20",
         "priceHistory": [
           {
@@ -8728,6 +8886,11 @@
             "date": "2026-04-21",
             "price": 4435,
             "timestamp": "2026-04-21T10:45:07.218Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4540,
+            "timestamp": "2026-04-22T10:43:40.513Z"
           }
         ]
       },
@@ -8741,7 +8904,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 29,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -8764,7 +8927,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-22",
         "priceHistory": [
           {
@@ -8921,6 +9084,11 @@
             "date": "2026-04-21",
             "price": 6525,
             "timestamp": "2026-04-21T10:45:07.229Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 6525,
+            "timestamp": "2026-04-22T10:43:40.525Z"
           }
         ]
       },
@@ -8953,11 +9121,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4140,
+        "price": 4245,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-25",
         "priceHistory": [
           {
@@ -9099,6 +9267,11 @@
             "date": "2026-04-21",
             "price": 4140,
             "timestamp": "2026-04-21T10:45:07.216Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4245,
+            "timestamp": "2026-04-22T10:43:40.510Z"
           }
         ]
       },
@@ -9131,11 +9304,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3520,
+        "price": 3610,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-26",
         "priceHistory": [
           {
@@ -9272,6 +9445,11 @@
             "date": "2026-04-21",
             "price": 3520,
             "timestamp": "2026-04-21T10:45:07.198Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3610,
+            "timestamp": "2026-04-22T10:43:40.494Z"
           }
         ]
       },
@@ -9304,11 +9482,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3120,
+        "price": 3195,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-03-31",
         "priceHistory": [
           {
@@ -9420,6 +9598,11 @@
             "date": "2026-04-21",
             "price": 3120,
             "timestamp": "2026-04-21T10:45:07.188Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3195,
+            "timestamp": "2026-04-22T10:43:40.483Z"
           }
         ]
       },
@@ -9452,11 +9635,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4065,
+        "price": 4155,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-01",
         "priceHistory": [
           {
@@ -9563,6 +9746,11 @@
             "date": "2026-04-21",
             "price": 4065,
             "timestamp": "2026-04-21T10:45:07.212Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4155,
+            "timestamp": "2026-04-22T10:43:40.508Z"
           }
         ]
       },
@@ -9576,7 +9764,7 @@
         "bathrooms": 1,
         "squareFeet": 732,
         "floor": 19,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A5-718-Glass",
           "sqft": 732
@@ -9599,7 +9787,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-01",
         "priceHistory": [
           {
@@ -9706,6 +9894,11 @@
             "date": "2026-04-21",
             "price": 4110,
             "timestamp": "2026-04-21T10:45:07.213Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4110,
+            "timestamp": "2026-04-22T10:43:40.505Z"
           }
         ]
       },
@@ -9719,7 +9912,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 19,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -9742,7 +9935,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-02",
         "priceHistory": [
           {
@@ -9844,6 +10037,11 @@
             "date": "2026-04-21",
             "price": 3155,
             "timestamp": "2026-04-21T10:45:07.189Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3155,
+            "timestamp": "2026-04-22T10:43:40.482Z"
           }
         ]
       },
@@ -9857,7 +10055,7 @@
         "bathrooms": 1,
         "squareFeet": 460,
         "floor": 33,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "S1-469",
           "sqft": 460
@@ -9880,7 +10078,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-02",
         "priceHistory": [
           {
@@ -9982,6 +10180,11 @@
             "date": "2026-04-21",
             "price": 3222,
             "timestamp": "2026-04-21T10:45:07.192Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3222,
+            "timestamp": "2026-04-22T10:43:40.485Z"
           }
         ]
       },
@@ -10014,11 +10217,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3940,
+        "price": 4030,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-02",
         "priceHistory": [
           {
@@ -10120,104 +10323,11 @@
             "date": "2026-04-21",
             "price": 3940,
             "timestamp": "2026-04-21T10:45:07.209Z"
-          }
-        ]
-      },
-      {
-        "id": "5-1bd-1ba-690-f20",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "oneBed",
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "squareFeet": 690,
-        "floor": 20,
-        "availableDate": "6/5/2026",
-        "floorPlan": {
-          "name": "A3-684-690",
-          "sqft": 690
-        },
-        "amenities": [
-          "A3-684-690"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 3705,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-04-21",
-        "createdDate": "2026-04-10",
-        "priceHistory": [
-          {
-            "date": "2026-04-10",
-            "price": 3810,
-            "timestamp": "2026-04-10T10:17:52.679Z"
           },
           {
-            "date": "2026-04-11",
-            "price": 3810,
-            "timestamp": "2026-04-11T09:58:09.159Z"
-          },
-          {
-            "date": "2026-04-12",
-            "price": 3810,
-            "timestamp": "2026-04-12T10:02:05.317Z"
-          },
-          {
-            "date": "2026-04-13",
-            "price": 3805,
-            "timestamp": "2026-04-13T10:57:00.480Z"
-          },
-          {
-            "date": "2026-04-14",
-            "price": 3770,
-            "timestamp": "2026-04-14T10:41:38.448Z"
-          },
-          {
-            "date": "2026-04-15",
-            "price": 3765,
-            "timestamp": "2026-04-15T10:39:47.116Z"
-          },
-          {
-            "date": "2026-04-16",
-            "price": 3695,
-            "timestamp": "2026-04-16T10:41:57.919Z"
-          },
-          {
-            "date": "2026-04-17",
-            "price": 3690,
-            "timestamp": "2026-04-17T10:35:34.471Z"
-          },
-          {
-            "date": "2026-04-18",
-            "price": 3690,
-            "timestamp": "2026-04-18T10:03:31.340Z"
-          },
-          {
-            "date": "2026-04-19",
-            "price": 3700,
-            "timestamp": "2026-04-19T10:02:40.403Z"
-          },
-          {
-            "date": "2026-04-20",
-            "price": 3695,
-            "timestamp": "2026-04-20T10:58:58.108Z"
-          },
-          {
-            "date": "2026-04-21",
-            "price": 3705,
-            "timestamp": "2026-04-21T10:45:07.199Z"
+            "date": "2026-04-22",
+            "price": 4030,
+            "timestamp": "2026-04-22T10:43:40.503Z"
           }
         ]
       },
@@ -10250,11 +10360,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3355,
+        "price": 3440,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-12",
         "priceHistory": [
           {
@@ -10306,6 +10416,11 @@
             "date": "2026-04-21",
             "price": 3355,
             "timestamp": "2026-04-21T10:45:07.195Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3440,
+            "timestamp": "2026-04-22T10:43:40.490Z"
           }
         ]
       },
@@ -10338,11 +10453,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3175,
+        "price": 3240,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-14",
         "priceHistory": [
           {
@@ -10384,79 +10499,11 @@
             "date": "2026-04-21",
             "price": 3175,
             "timestamp": "2026-04-21T10:45:07.190Z"
-          }
-        ]
-      },
-      {
-        "id": "5-2bd-2ba-1073-f23",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "twoBed",
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "squareFeet": 1073,
-        "floor": 23,
-        "availableDate": "4/22/2026",
-        "floorPlan": {
-          "name": "B3-1065-1073",
-          "sqft": 1073
-        },
-        "amenities": [
-          "B3-1065-1073"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 5065,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-04-21",
-        "createdDate": "2026-04-15",
-        "priceHistory": [
-          {
-            "date": "2026-04-15",
-            "price": 5095,
-            "timestamp": "2026-04-15T10:39:47.130Z"
           },
           {
-            "date": "2026-04-16",
-            "price": 5085,
-            "timestamp": "2026-04-16T10:41:57.934Z"
-          },
-          {
-            "date": "2026-04-17",
-            "price": 5070,
-            "timestamp": "2026-04-17T10:35:34.485Z"
-          },
-          {
-            "date": "2026-04-18",
-            "price": 5070,
-            "timestamp": "2026-04-18T10:03:31.357Z"
-          },
-          {
-            "date": "2026-04-19",
-            "price": 5090,
-            "timestamp": "2026-04-19T10:02:40.421Z"
-          },
-          {
-            "date": "2026-04-20",
-            "price": 5065,
-            "timestamp": "2026-04-20T10:58:58.125Z"
-          },
-          {
-            "date": "2026-04-21",
-            "price": 5065,
-            "timestamp": "2026-04-21T10:45:07.219Z"
+            "date": "2026-04-22",
+            "price": 3240,
+            "timestamp": "2026-04-22T10:43:40.487Z"
           }
         ]
       },
@@ -10470,7 +10517,7 @@
         "bathrooms": 2,
         "squareFeet": 1139,
         "floor": 35,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "B5-1139-1146-Glass",
           "sqft": 1139
@@ -10493,7 +10540,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-15",
         "priceHistory": [
           {
@@ -10530,6 +10577,11 @@
             "date": "2026-04-21",
             "price": 5795,
             "timestamp": "2026-04-21T10:45:07.227Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5795,
+            "timestamp": "2026-04-22T10:43:40.522Z"
           }
         ]
       },
@@ -10562,11 +10614,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3395,
+        "price": 3455,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-16",
         "priceHistory": [
           {
@@ -10598,6 +10650,11 @@
             "date": "2026-04-21",
             "price": 3395,
             "timestamp": "2026-04-21T10:45:07.196Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3455,
+            "timestamp": "2026-04-22T10:43:40.491Z"
           }
         ]
       },
@@ -10630,11 +10687,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5415,
+        "price": 5410,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-16",
         "priceHistory": [
           {
@@ -10666,6 +10723,11 @@
             "date": "2026-04-21",
             "price": 5415,
             "timestamp": "2026-04-21T10:45:07.223Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5410,
+            "timestamp": "2026-04-22T10:43:40.519Z"
           }
         ]
       },
@@ -10698,11 +10760,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5465,
+        "price": 5460,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-16",
         "priceHistory": [
           {
@@ -10734,6 +10796,11 @@
             "date": "2026-04-21",
             "price": 5465,
             "timestamp": "2026-04-21T10:45:07.226Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5460,
+            "timestamp": "2026-04-22T10:43:40.521Z"
           }
         ]
       },
@@ -10766,11 +10833,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4110,
+        "price": 4205,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-17",
         "priceHistory": [
           {
@@ -10797,6 +10864,11 @@
             "date": "2026-04-21",
             "price": 4110,
             "timestamp": "2026-04-21T10:45:07.214Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4205,
+            "timestamp": "2026-04-22T10:43:40.509Z"
           }
         ]
       },
@@ -10829,11 +10901,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 6075,
+        "price": 6225,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-17",
         "priceHistory": [
           {
@@ -10860,6 +10932,11 @@
             "date": "2026-04-21",
             "price": 6075,
             "timestamp": "2026-04-21T10:45:07.228Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 6225,
+            "timestamp": "2026-04-22T10:43:40.524Z"
           }
         ]
       },
@@ -10873,7 +10950,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 17,
-        "availableDate": "4/22/2026",
+        "availableDate": "4/23/2026",
         "floorPlan": {
           "name": "A3-684-690",
           "sqft": 690
@@ -10896,7 +10973,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-18",
         "priceHistory": [
           {
@@ -10918,6 +10995,11 @@
             "date": "2026-04-21",
             "price": 3730,
             "timestamp": "2026-04-21T10:45:07.201Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 3730,
+            "timestamp": "2026-04-22T10:43:40.495Z"
           }
         ]
       },
@@ -10954,7 +11036,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-19",
         "priceHistory": [
           {
@@ -10971,6 +11053,11 @@
             "date": "2026-04-21",
             "price": 5160,
             "timestamp": "2026-04-21T10:45:07.221Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5160,
+            "timestamp": "2026-04-22T10:43:40.515Z"
           }
         ]
       },
@@ -11003,11 +11090,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4060,
+        "price": 4150,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
@@ -11019,6 +11106,11 @@
             "date": "2026-04-21",
             "price": 4060,
             "timestamp": "2026-04-21T10:45:07.211Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 4150,
+            "timestamp": "2026-04-22T10:43:40.506Z"
           }
         ]
       },
@@ -11051,11 +11143,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5155,
+        "price": 5150,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
@@ -11067,6 +11159,11 @@
             "date": "2026-04-21",
             "price": 5155,
             "timestamp": "2026-04-21T10:45:07.220Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5150,
+            "timestamp": "2026-04-22T10:43:40.514Z"
           }
         ]
       },
@@ -11099,11 +11196,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5415,
+        "price": 5410,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-04-21",
+        "lastSeen": "2026-04-22",
         "createdDate": "2026-04-20",
         "priceHistory": [
           {
@@ -11115,6 +11212,11 @@
             "date": "2026-04-21",
             "price": 5415,
             "timestamp": "2026-04-21T10:45:07.222Z"
+          },
+          {
+            "date": "2026-04-22",
+            "price": 5410,
+            "timestamp": "2026-04-22T10:43:40.517Z"
           }
         ]
       }
