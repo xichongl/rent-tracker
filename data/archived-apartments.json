@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-04-22T10:43:40.529Z",
+  "lastArchived": "2026-04-23T10:48:28.036Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -72101,6 +72101,626 @@
       ],
       "delistedDate": "2026-04-22",
       "archivedDate": "2026-04-22"
+    },
+    {
+      "id": "2-1bd-1ba-755-f5",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 755,
+      "floor": 5,
+      "availableDate": "6/16/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 5",
+        "sqft": 755
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4400,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-10",
+      "priceHistory": [
+        {
+          "date": "2026-04-10",
+          "price": 4300,
+          "timestamp": "2026-04-10T10:17:22.633Z"
+        },
+        {
+          "date": "2026-04-12",
+          "price": 4295,
+          "timestamp": "2026-04-12T10:01:42.129Z"
+        },
+        {
+          "date": "2026-04-15",
+          "price": 4410,
+          "timestamp": "2026-04-15T10:39:25.803Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 4410,
+          "timestamp": "2026-04-16T10:41:43.430Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 4430,
+          "timestamp": "2026-04-17T10:35:19.954Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 4400,
+          "timestamp": "2026-04-19T10:02:17.839Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 4400,
+          "timestamp": "2026-04-20T10:58:25.782Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4400,
+          "timestamp": "2026-04-21T10:44:52.883Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "2-1bd-1ba-862-f3",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 862,
+      "floor": 3,
+      "availableDate": "4/21/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 3",
+        "sqft": 862
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4210,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-15",
+      "priceHistory": [
+        {
+          "date": "2026-04-15",
+          "price": 4285,
+          "timestamp": "2026-04-15T10:39:25.800Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 4245,
+          "timestamp": "2026-04-16T10:41:43.425Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 4210,
+          "timestamp": "2026-04-17T10:35:19.951Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 4210,
+          "timestamp": "2026-04-19T10:02:17.834Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 4210,
+          "timestamp": "2026-04-20T10:58:25.779Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4210,
+          "timestamp": "2026-04-21T10:44:52.878Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "2-1bd-1ba-769-f35",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 769,
+      "floor": 35,
+      "availableDate": "5/21/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 35",
+        "sqft": 769
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4410,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-15",
+      "priceHistory": [
+        {
+          "date": "2026-04-15",
+          "price": 4595,
+          "timestamp": "2026-04-15T10:39:25.804Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 4565,
+          "timestamp": "2026-04-16T10:41:43.431Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 4530,
+          "timestamp": "2026-04-17T10:35:19.955Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 4485,
+          "timestamp": "2026-04-19T10:02:17.840Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 4425,
+          "timestamp": "2026-04-20T10:58:25.786Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4410,
+          "timestamp": "2026-04-21T10:44:52.884Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "2-0bd-1ba-493-f13",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 493,
+      "floor": 13,
+      "availableDate": "7/7/2026",
+      "floorPlan": {
+        "name": "studio - Floor 13",
+        "sqft": 493
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3085,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-19",
+      "priceHistory": [
+        {
+          "date": "2026-04-19",
+          "price": 3040,
+          "timestamp": "2026-04-19T10:02:17.824Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 3045,
+          "timestamp": "2026-04-20T10:58:25.770Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 3085,
+          "timestamp": "2026-04-21T10:44:52.870Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "2-1bd-1ba-728-f22",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 728,
+      "floor": 22,
+      "availableDate": "7/1/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 22",
+        "sqft": 728
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4375,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-19",
+      "priceHistory": [
+        {
+          "date": "2026-04-19",
+          "price": 4385,
+          "timestamp": "2026-04-19T10:02:17.837Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 4415,
+          "timestamp": "2026-04-20T10:58:25.783Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4375,
+          "timestamp": "2026-04-21T10:44:52.882Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "2-1bd-1ba-739-f37",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 739,
+      "floor": 37,
+      "availableDate": "6/4/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 37",
+        "sqft": 739
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4275,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-04-20",
+      "priceHistory": [
+        {
+          "date": "2026-04-20",
+          "price": 4285,
+          "timestamp": "2026-04-20T10:58:25.781Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4275,
+          "timestamp": "2026-04-21T10:44:52.880Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "4-0bd-1ba-650-f23",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 23,
+      "availableDate": "5/15/2026",
+      "floorPlan": {
+        "name": "studio - Floor 23",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2932,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-04-21",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3037,
+          "timestamp": "2026-03-10T10:11:01.435Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3067,
+          "timestamp": "2026-03-12T10:01:54.421Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 3062,
+          "timestamp": "2026-03-13T09:57:39.848Z"
+        },
+        {
+          "date": "2026-03-15",
+          "price": 3047,
+          "timestamp": "2026-03-15T09:50:06.544Z"
+        },
+        {
+          "date": "2026-03-17",
+          "price": 3042,
+          "timestamp": "2026-03-17T10:10:12.678Z"
+        },
+        {
+          "date": "2026-03-18",
+          "price": 3077,
+          "timestamp": "2026-03-18T10:13:22.293Z"
+        },
+        {
+          "date": "2026-03-19",
+          "price": 3012,
+          "timestamp": "2026-03-19T10:02:12.292Z"
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3017,
+          "timestamp": "2026-03-21T09:47:03.366Z"
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3022,
+          "timestamp": "2026-03-23T10:15:27.694Z"
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3047,
+          "timestamp": "2026-03-25T10:10:44.869Z"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3007,
+          "timestamp": "2026-03-26T10:12:49.918Z"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 2997,
+          "timestamp": "2026-03-27T10:08:00.005Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 2977,
+          "timestamp": "2026-03-28T09:53:30.436Z"
+        },
+        {
+          "date": "2026-03-29",
+          "price": 2982,
+          "timestamp": "2026-03-29T09:54:42.391Z"
+        },
+        {
+          "date": "2026-04-03",
+          "price": 2912,
+          "timestamp": "2026-04-03T10:04:22.157Z"
+        },
+        {
+          "date": "2026-04-06",
+          "price": 2907,
+          "timestamp": "2026-04-06T10:20:42.249Z"
+        },
+        {
+          "date": "2026-04-08",
+          "price": 2967,
+          "timestamp": "2026-04-08T10:18:36.241Z"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3002,
+          "timestamp": "2026-04-13T10:56:55.491Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 3012,
+          "timestamp": "2026-04-16T10:41:53.378Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3002,
+          "timestamp": "2026-04-17T10:35:29.884Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 2932,
+          "timestamp": "2026-04-21T10:45:03.037Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
+    },
+    {
+      "id": "5-1bd-1ba-638-f12",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 638,
+      "floor": 12,
+      "availableDate": "7/19/2026",
+      "floorPlan": {
+        "name": "A2-635-638",
+        "sqft": 638
+      },
+      "amenities": [
+        "A2-635-638"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3440,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-04-22",
+      "createdDate": "2026-04-12",
+      "priceHistory": [
+        {
+          "date": "2026-04-12",
+          "price": 3420,
+          "timestamp": "2026-04-12T10:02:05.312Z"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3420,
+          "timestamp": "2026-04-13T10:57:00.474Z"
+        },
+        {
+          "date": "2026-04-14",
+          "price": 3430,
+          "timestamp": "2026-04-14T10:41:38.442Z"
+        },
+        {
+          "date": "2026-04-15",
+          "price": 3430,
+          "timestamp": "2026-04-15T10:39:47.110Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 3355,
+          "timestamp": "2026-04-16T10:41:57.910Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3355,
+          "timestamp": "2026-04-17T10:35:34.465Z"
+        },
+        {
+          "date": "2026-04-18",
+          "price": 3355,
+          "timestamp": "2026-04-18T10:03:31.333Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 3355,
+          "timestamp": "2026-04-19T10:02:40.395Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 3350,
+          "timestamp": "2026-04-20T10:58:58.101Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 3355,
+          "timestamp": "2026-04-21T10:45:07.195Z"
+        },
+        {
+          "date": "2026-04-22",
+          "price": 3440,
+          "timestamp": "2026-04-22T10:43:40.490Z"
+        }
+      ],
+      "delistedDate": "2026-04-23",
+      "archivedDate": "2026-04-23"
     }
   ]
 }
