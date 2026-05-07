@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-05-06T11:21:00.357Z",
+  "lastArchived": "2026-05-07T11:19:52.391Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -78871,6 +78871,201 @@
       ],
       "delistedDate": "2026-05-06",
       "archivedDate": "2026-05-06"
+    },
+    {
+      "id": "1-1bd-1ba-865-f9",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 865,
+      "floor": 9,
+      "availableDate": "5/5/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 9",
+        "sqft": 865
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3325,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-05",
+      "createdDate": "2026-04-17",
+      "priceHistory": [
+        {
+          "date": "2026-04-17",
+          "price": 3325,
+          "timestamp": "2026-04-17T10:35:15.026Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 3325,
+          "timestamp": "2026-04-20T10:58:20.701Z"
+        },
+        {
+          "date": "2026-04-22",
+          "price": 3325,
+          "timestamp": "2026-04-22T10:42:54.847Z"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 3325,
+          "timestamp": "2026-04-25T10:06:10.830Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 3325,
+          "timestamp": "2026-04-26T10:06:43.729Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 3325,
+          "timestamp": "2026-04-28T11:17:49.119Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 3325,
+          "timestamp": "2026-04-29T11:05:27.711Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 3325,
+          "timestamp": "2026-04-30T11:05:56.339Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 3325,
+          "timestamp": "2026-05-01T10:43:26.429Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 3325,
+          "timestamp": "2026-05-02T10:10:54.634Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3325,
+          "timestamp": "2026-05-03T10:16:50.947Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 3325,
+          "timestamp": "2026-05-05T10:55:53.753Z"
+        }
+      ],
+      "delistedDate": "2026-05-07",
+      "archivedDate": "2026-05-07"
+    },
+    {
+      "id": "1-0bd-1ba-665-f2",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 665,
+      "floor": 2,
+      "availableDate": "5/5/2026",
+      "floorPlan": {
+        "name": "studio - Floor 2",
+        "sqft": 665
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2710,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-05",
+      "createdDate": "2026-05-05",
+      "priceHistory": [
+        {
+          "date": "2026-05-05",
+          "price": 2710,
+          "timestamp": "2026-05-05T10:55:53.734Z"
+        }
+      ],
+      "delistedDate": "2026-05-07",
+      "archivedDate": "2026-05-07"
+    },
+    {
+      "id": "5-2bd-2ba-1039-f22",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1039,
+      "floor": 22,
+      "availableDate": "8/23/2026",
+      "floorPlan": {
+        "name": "B1-1031-1039",
+        "sqft": 1039
+      },
+      "amenities": [
+        "B1-1031-1039"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4915,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-05-06",
+      "createdDate": "2026-05-05",
+      "priceHistory": [
+        {
+          "date": "2026-05-05",
+          "price": 4915,
+          "timestamp": "2026-05-05T10:56:30.773Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 4915,
+          "timestamp": "2026-05-06T11:21:00.341Z"
+        }
+      ],
+      "delistedDate": "2026-05-07",
+      "archivedDate": "2026-05-07"
     }
   ]
 }
