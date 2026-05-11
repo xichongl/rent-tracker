@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-05-10T10:38:38.103Z",
+  "lastArchived": "2026-05-11T12:23:13.559Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -80806,6 +80806,831 @@
       ],
       "delistedDate": "2026-05-10",
       "archivedDate": "2026-05-10"
+    },
+    {
+      "id": "2-0bd-1ba-617-f26",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 617,
+      "floor": 26,
+      "availableDate": "6/2/2026",
+      "floorPlan": {
+        "name": "studio - Floor 26",
+        "sqft": 617
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3950,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-10",
+      "createdDate": "2026-04-15",
+      "priceHistory": [
+        {
+          "date": "2026-04-15",
+          "price": 4055,
+          "timestamp": "2026-04-15T10:39:25.796Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 4025,
+          "timestamp": "2026-04-16T10:41:43.421Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3990,
+          "timestamp": "2026-04-17T10:35:19.948Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 3945,
+          "timestamp": "2026-04-19T10:02:17.831Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 3885,
+          "timestamp": "2026-04-20T10:58:25.775Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 3870,
+          "timestamp": "2026-04-21T10:44:52.875Z"
+        },
+        {
+          "date": "2026-04-23",
+          "price": 4065,
+          "timestamp": "2026-04-23T10:48:04.815Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 3815,
+          "timestamp": "2026-04-28T11:17:54.429Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 3840,
+          "timestamp": "2026-04-29T11:05:32.751Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 3830,
+          "timestamp": "2026-05-01T10:43:31.736Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 3815,
+          "timestamp": "2026-05-02T10:10:59.939Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3935,
+          "timestamp": "2026-05-03T10:16:56.142Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 4330,
+          "timestamp": "2026-05-04T11:18:03.587Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 4170,
+          "timestamp": "2026-05-05T10:55:58.944Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 4010,
+          "timestamp": "2026-05-06T11:20:45.513Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3990,
+          "timestamp": "2026-05-08T10:50:14.494Z"
+        },
+        {
+          "date": "2026-05-10",
+          "price": 3950,
+          "timestamp": "2026-05-10T10:38:06.619Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "2-1bd-1ba-721-f24",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 721,
+      "floor": 24,
+      "availableDate": "6/9/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 24",
+        "sqft": 721
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4235,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-10",
+      "createdDate": "2026-04-15",
+      "priceHistory": [
+        {
+          "date": "2026-04-15",
+          "price": 4320,
+          "timestamp": "2026-04-15T10:39:25.802Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 4305,
+          "timestamp": "2026-04-16T10:41:43.427Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 4295,
+          "timestamp": "2026-04-17T10:35:19.952Z"
+        },
+        {
+          "date": "2026-04-19",
+          "price": 4255,
+          "timestamp": "2026-04-19T10:02:17.836Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 4220,
+          "timestamp": "2026-04-20T10:58:25.780Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 4210,
+          "timestamp": "2026-04-21T10:44:52.879Z"
+        },
+        {
+          "date": "2026-04-23",
+          "price": 4330,
+          "timestamp": "2026-04-23T10:48:04.820Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 4125,
+          "timestamp": "2026-04-28T11:17:54.432Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 4125,
+          "timestamp": "2026-04-29T11:05:32.755Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 4120,
+          "timestamp": "2026-05-01T10:43:31.739Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 4105,
+          "timestamp": "2026-05-02T10:10:59.943Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 4220,
+          "timestamp": "2026-05-03T10:16:56.146Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 4505,
+          "timestamp": "2026-05-04T11:18:03.593Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 4370,
+          "timestamp": "2026-05-05T10:55:58.950Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 4295,
+          "timestamp": "2026-05-06T11:20:45.516Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 4270,
+          "timestamp": "2026-05-08T10:50:14.497Z"
+        },
+        {
+          "date": "2026-05-10",
+          "price": 4235,
+          "timestamp": "2026-05-10T10:38:06.622Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "2-1bd-1ba-812-f26",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 812,
+      "floor": 26,
+      "availableDate": "6/30/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 26",
+        "sqft": 812
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4785,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-10",
+      "createdDate": "2026-05-10",
+      "priceHistory": [
+        {
+          "date": "2026-05-10",
+          "price": 4785,
+          "timestamp": "2026-05-10T10:38:06.645Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "3-1bd-1ba-757-f6",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 757,
+      "floor": 6,
+      "availableDate": "5/8/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 6",
+        "sqft": 757
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3525,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-05-08",
+      "createdDate": "2026-04-24",
+      "priceHistory": [
+        {
+          "date": "2026-04-24",
+          "price": 3425,
+          "timestamp": "2026-04-24T10:45:19.200Z"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 3425,
+          "timestamp": "2026-04-25T10:06:29.032Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 3430,
+          "timestamp": "2026-04-26T10:07:01.912Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 3475,
+          "timestamp": "2026-04-28T11:17:59.562Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 3505,
+          "timestamp": "2026-04-29T11:05:37.584Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 3515,
+          "timestamp": "2026-04-30T11:06:14.635Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 3505,
+          "timestamp": "2026-05-01T10:43:37.068Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 3470,
+          "timestamp": "2026-05-02T10:11:05.061Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3485,
+          "timestamp": "2026-05-03T10:17:00.827Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 3505,
+          "timestamp": "2026-05-04T11:18:08.537Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 3585,
+          "timestamp": "2026-05-06T11:20:50.346Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3525,
+          "timestamp": "2026-05-08T10:50:19.665Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "4-1bd-1ba-924-f26",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 924,
+      "floor": 26,
+      "availableDate": "5/9/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 26",
+        "sqft": 924
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3680,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-09",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3535,
+          "timestamp": "2026-03-10T10:11:01.441Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3515,
+          "timestamp": "2026-03-12T10:01:54.428Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 3515,
+          "timestamp": "2026-03-13T09:57:39.860Z"
+        },
+        {
+          "date": "2026-03-15",
+          "price": 3545,
+          "timestamp": "2026-03-15T09:50:06.553Z"
+        },
+        {
+          "date": "2026-03-17",
+          "price": 3535,
+          "timestamp": "2026-03-17T10:10:12.693Z"
+        },
+        {
+          "date": "2026-03-18",
+          "price": 3580,
+          "timestamp": "2026-03-18T10:13:22.308Z"
+        },
+        {
+          "date": "2026-03-19",
+          "price": 3570,
+          "timestamp": "2026-03-19T10:02:12.306Z"
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3555,
+          "timestamp": "2026-03-21T09:47:03.385Z"
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3550,
+          "timestamp": "2026-03-23T10:15:27.715Z"
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3570,
+          "timestamp": "2026-03-25T10:10:44.884Z"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3595,
+          "timestamp": "2026-03-26T10:12:49.933Z"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3620,
+          "timestamp": "2026-03-27T10:08:00.017Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3610,
+          "timestamp": "2026-03-28T09:53:30.447Z"
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3620,
+          "timestamp": "2026-03-29T09:54:42.405Z"
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3645,
+          "timestamp": "2026-04-03T10:04:22.176Z"
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3700,
+          "timestamp": "2026-04-06T10:20:42.267Z"
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3745,
+          "timestamp": "2026-04-08T10:18:36.257Z"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3725,
+          "timestamp": "2026-04-13T10:56:55.505Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 3690,
+          "timestamp": "2026-04-16T10:41:53.391Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3690,
+          "timestamp": "2026-04-17T10:35:29.896Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 3695,
+          "timestamp": "2026-04-21T10:45:03.052Z"
+        },
+        {
+          "date": "2026-04-23",
+          "price": 3715,
+          "timestamp": "2026-04-23T10:48:23.367Z"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 3710,
+          "timestamp": "2026-04-25T10:06:34.123Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 3730,
+          "timestamp": "2026-04-26T10:07:07.092Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 3775,
+          "timestamp": "2026-04-28T11:18:04.618Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 3740,
+          "timestamp": "2026-04-29T11:05:42.618Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 3750,
+          "timestamp": "2026-04-30T11:06:19.989Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 3745,
+          "timestamp": "2026-05-01T10:43:42.368Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 3735,
+          "timestamp": "2026-05-02T10:11:10.139Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3735,
+          "timestamp": "2026-05-03T10:17:05.749Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 3755,
+          "timestamp": "2026-05-04T11:18:13.804Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 3780,
+          "timestamp": "2026-05-06T11:20:55.617Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3695,
+          "timestamp": "2026-05-08T10:50:25.811Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 3680,
+          "timestamp": "2026-05-09T10:17:30.780Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "4-1bd-1ba-924-f11",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 924,
+      "floor": 11,
+      "availableDate": "8/7/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 11",
+        "sqft": 924
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3500,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-09",
+      "createdDate": "2026-05-02",
+      "priceHistory": [
+        {
+          "date": "2026-05-02",
+          "price": 3250,
+          "timestamp": "2026-05-02T10:11:10.132Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3250,
+          "timestamp": "2026-05-03T10:17:05.744Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 3255,
+          "timestamp": "2026-05-04T11:18:13.796Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 3595,
+          "timestamp": "2026-05-06T11:20:55.611Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3510,
+          "timestamp": "2026-05-08T10:50:25.802Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 3500,
+          "timestamp": "2026-05-09T10:17:30.770Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "4-3bd-2.5ba-1744-f35",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "threeBed",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "squareFeet": 1744,
+      "floor": 35,
+      "availableDate": "5/28/2026",
+      "floorPlan": {
+        "name": "3 bed - Floor 35",
+        "sqft": 1744
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6307,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-09",
+      "createdDate": "2026-05-06",
+      "priceHistory": [
+        {
+          "date": "2026-05-06",
+          "price": 6290,
+          "timestamp": "2026-05-06T11:20:55.642Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 6312,
+          "timestamp": "2026-05-08T10:50:25.839Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 6307,
+          "timestamp": "2026-05-09T10:17:30.818Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "4-0bd-1ba-650-f6",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 6,
+      "availableDate": "7/30/2026",
+      "floorPlan": {
+        "name": "studio - Floor 6",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2812,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-09",
+      "createdDate": "2026-05-08",
+      "priceHistory": [
+        {
+          "date": "2026-05-08",
+          "price": 2817,
+          "timestamp": "2026-05-08T10:50:25.780Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 2812,
+          "timestamp": "2026-05-09T10:17:30.749Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "4-0bd-1ba-650-f9",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 9,
+      "availableDate": "8/14/2026",
+      "floorPlan": {
+        "name": "studio - Floor 9",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2837,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-09",
+      "createdDate": "2026-05-09",
+      "priceHistory": [
+        {
+          "date": "2026-05-09",
+          "price": 2837,
+          "timestamp": "2026-05-09T10:17:30.750Z"
+        }
+      ],
+      "delistedDate": "2026-05-11",
+      "archivedDate": "2026-05-11"
     }
   ]
 }
