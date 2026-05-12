@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-05-11T12:23:13.559Z",
+  "lastArchived": "2026-05-12T11:27:23.213Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -81631,6 +81631,296 @@
       ],
       "delistedDate": "2026-05-11",
       "archivedDate": "2026-05-11"
+    },
+    {
+      "id": "1-0bd-1ba-665-f11",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 665,
+      "floor": 11,
+      "availableDate": "5/11/2026",
+      "floorPlan": {
+        "name": "studio - Floor 11",
+        "sqft": 665
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2900,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-11",
+      "createdDate": "2026-04-14",
+      "priceHistory": [
+        {
+          "date": "2026-04-14",
+          "price": 3025,
+          "timestamp": "2026-04-14T10:40:53.919Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 2965,
+          "timestamp": "2026-04-17T10:35:15.024Z"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 2980,
+          "timestamp": "2026-04-20T10:58:20.694Z"
+        },
+        {
+          "date": "2026-04-22",
+          "price": 2900,
+          "timestamp": "2026-04-22T10:42:54.842Z"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 2900,
+          "timestamp": "2026-04-25T10:06:10.824Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 2900,
+          "timestamp": "2026-04-26T10:06:43.723Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 2900,
+          "timestamp": "2026-04-28T11:17:49.111Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 2900,
+          "timestamp": "2026-04-29T11:05:27.703Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 2900,
+          "timestamp": "2026-04-30T11:05:56.330Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 2900,
+          "timestamp": "2026-05-01T10:43:26.421Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 2900,
+          "timestamp": "2026-05-02T10:10:54.625Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 2900,
+          "timestamp": "2026-05-03T10:16:50.941Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 2900,
+          "timestamp": "2026-05-05T10:55:53.746Z"
+        },
+        {
+          "date": "2026-05-07",
+          "price": 2900,
+          "timestamp": "2026-05-07T11:19:07.174Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 2900,
+          "timestamp": "2026-05-09T10:16:58.296Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 2900,
+          "timestamp": "2026-05-11T12:22:54.480Z"
+        }
+      ],
+      "delistedDate": "2026-05-12",
+      "archivedDate": "2026-05-12"
+    },
+    {
+      "id": "1-0bd-1ba-665-f14",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 665,
+      "floor": 14,
+      "availableDate": "7/4/2026",
+      "floorPlan": {
+        "name": "studio - Floor 14",
+        "sqft": 665
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3030,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-11",
+      "createdDate": "2026-04-25",
+      "priceHistory": [
+        {
+          "date": "2026-04-25",
+          "price": 2965,
+          "timestamp": "2026-04-25T10:06:10.825Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 2965,
+          "timestamp": "2026-04-26T10:06:43.725Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 2975,
+          "timestamp": "2026-04-28T11:17:49.114Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 2970,
+          "timestamp": "2026-04-29T11:05:27.705Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 2970,
+          "timestamp": "2026-04-30T11:05:56.333Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 2965,
+          "timestamp": "2026-05-01T10:43:26.424Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 2960,
+          "timestamp": "2026-05-02T10:10:54.628Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 2965,
+          "timestamp": "2026-05-03T10:16:50.943Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 2965,
+          "timestamp": "2026-05-05T10:55:53.749Z"
+        },
+        {
+          "date": "2026-05-07",
+          "price": 2995,
+          "timestamp": "2026-05-07T11:19:07.177Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 3020,
+          "timestamp": "2026-05-09T10:16:58.303Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 3030,
+          "timestamp": "2026-05-11T12:22:54.485Z"
+        }
+      ],
+      "delistedDate": "2026-05-12",
+      "archivedDate": "2026-05-12"
+    },
+    {
+      "id": "1-1bd-1ba-765-f11",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 765,
+      "floor": 11,
+      "availableDate": "6/11/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 11",
+        "sqft": 765
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3240,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-11",
+      "createdDate": "2026-05-02",
+      "priceHistory": [
+        {
+          "date": "2026-05-02",
+          "price": 3270,
+          "timestamp": "2026-05-02T10:10:54.631Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3270,
+          "timestamp": "2026-05-03T10:16:50.944Z"
+        },
+        {
+          "date": "2026-05-05",
+          "price": 3270,
+          "timestamp": "2026-05-05T10:55:53.750Z"
+        },
+        {
+          "date": "2026-05-07",
+          "price": 3240,
+          "timestamp": "2026-05-07T11:19:07.179Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 3240,
+          "timestamp": "2026-05-09T10:16:58.308Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 3240,
+          "timestamp": "2026-05-11T12:22:54.488Z"
+        }
+      ],
+      "delistedDate": "2026-05-12",
+      "archivedDate": "2026-05-12"
     }
   ]
 }
