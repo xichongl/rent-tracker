@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-05-31T11:07:20.091Z",
+  "lastArchived": "2026-06-01T15:33:03.780Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -93466,6 +93466,276 @@
       ],
       "delistedDate": "2026-05-31",
       "archivedDate": "2026-05-31"
+    },
+    {
+      "id": "1-1bd-1ba-910-f4",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 910,
+      "floor": 4,
+      "availableDate": "7/7/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 4",
+        "sqft": 910
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3600,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-31",
+      "createdDate": "2026-05-20",
+      "priceHistory": [
+        {
+          "date": "2026-05-20",
+          "price": 3540,
+          "timestamp": "2026-05-20T12:03:41.546Z"
+        },
+        {
+          "date": "2026-05-21",
+          "price": 3540,
+          "timestamp": "2026-05-21T12:27:13.690Z"
+        },
+        {
+          "date": "2026-05-22",
+          "price": 3540,
+          "timestamp": "2026-05-22T12:00:52.247Z"
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3550,
+          "timestamp": "2026-05-24T10:50:41.636Z"
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3550,
+          "timestamp": "2026-05-25T12:44:57.984Z"
+        },
+        {
+          "date": "2026-05-27",
+          "price": 3635,
+          "timestamp": "2026-05-27T12:32:14.845Z"
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3640,
+          "timestamp": "2026-05-28T12:45:20.360Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 3635,
+          "timestamp": "2026-05-29T12:27:23.067Z"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 3600,
+          "timestamp": "2026-05-30T10:53:34.495Z"
+        },
+        {
+          "date": "2026-05-31",
+          "price": 3600,
+          "timestamp": "2026-05-31T11:06:50.408Z"
+        }
+      ],
+      "delistedDate": "2026-06-01",
+      "archivedDate": "2026-06-01"
+    },
+    {
+      "id": "2-1bd-1ba-755-f4",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 755,
+      "floor": 4,
+      "availableDate": "8/4/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 4",
+        "sqft": 755
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4365,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-05-31",
+      "createdDate": "2026-05-30",
+      "priceHistory": [
+        {
+          "date": "2026-05-30",
+          "price": 4360,
+          "timestamp": "2026-05-30T10:53:39.392Z"
+        },
+        {
+          "date": "2026-05-31",
+          "price": 4365,
+          "timestamp": "2026-05-31T11:06:55.709Z"
+        }
+      ],
+      "delistedDate": "2026-06-01",
+      "archivedDate": "2026-06-01"
+    },
+    {
+      "id": "3-1bd-1ba-757-f14",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 757,
+      "floor": 14,
+      "availableDate": "5/30/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 14",
+        "sqft": 757
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3760,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-05-30",
+      "createdDate": "2026-05-02",
+      "priceHistory": [
+        {
+          "date": "2026-05-02",
+          "price": 3845,
+          "timestamp": "2026-05-02T10:11:05.071Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3860,
+          "timestamp": "2026-05-03T10:17:00.835Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 3880,
+          "timestamp": "2026-05-04T11:18:08.549Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 3860,
+          "timestamp": "2026-05-06T11:20:50.354Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3800,
+          "timestamp": "2026-05-08T10:50:19.679Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 3880,
+          "timestamp": "2026-05-11T12:23:04.869Z"
+        },
+        {
+          "date": "2026-05-13",
+          "price": 3880,
+          "timestamp": "2026-05-13T11:37:16.126Z"
+        },
+        {
+          "date": "2026-05-14",
+          "price": 3750,
+          "timestamp": "2026-05-14T11:22:26.353Z"
+        },
+        {
+          "date": "2026-05-15",
+          "price": 3745,
+          "timestamp": "2026-05-15T11:30:20.947Z"
+        },
+        {
+          "date": "2026-05-16",
+          "price": 3745,
+          "timestamp": "2026-05-16T10:38:01.403Z"
+        },
+        {
+          "date": "2026-05-19",
+          "price": 3765,
+          "timestamp": "2026-05-19T12:20:56.276Z"
+        },
+        {
+          "date": "2026-05-21",
+          "price": 3750,
+          "timestamp": "2026-05-21T12:27:23.648Z"
+        },
+        {
+          "date": "2026-05-22",
+          "price": 3700,
+          "timestamp": "2026-05-22T12:01:02.692Z"
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3710,
+          "timestamp": "2026-05-24T10:50:51.998Z"
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3730,
+          "timestamp": "2026-05-25T12:45:07.494Z"
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3765,
+          "timestamp": "2026-05-28T12:45:38.789Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 3755,
+          "timestamp": "2026-05-29T12:27:41.326Z"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 3760,
+          "timestamp": "2026-05-30T10:53:44.290Z"
+        }
+      ],
+      "delistedDate": "2026-06-01",
+      "archivedDate": "2026-06-01"
     }
   ]
 }
