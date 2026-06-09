@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-06-08T13:16:42.108Z",
+  "lastArchived": "2026-06-09T12:15:44.688Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -98636,6 +98636,121 @@
       ],
       "delistedDate": "2026-06-08",
       "archivedDate": "2026-06-08"
+    },
+    {
+      "id": "2-0bd-1ba-500-f23",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 500,
+      "floor": 23,
+      "availableDate": "6/17/2026",
+      "floorPlan": {
+        "name": "studio - Floor 23",
+        "sqft": 500
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3650,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-08",
+      "createdDate": "2026-06-06",
+      "priceHistory": [
+        {
+          "date": "2026-06-06",
+          "price": 3590,
+          "timestamp": "2026-06-06T10:59:47.566Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3655,
+          "timestamp": "2026-06-07T11:16:43.925Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3650,
+          "timestamp": "2026-06-08T13:16:26.086Z"
+        }
+      ],
+      "delistedDate": "2026-06-09",
+      "archivedDate": "2026-06-09"
+    },
+    {
+      "id": "5-1bd-1ba-690-f22",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 690,
+      "floor": 22,
+      "availableDate": "7/27/2026",
+      "floorPlan": {
+        "name": "A3-684-690",
+        "sqft": 690
+      },
+      "amenities": [
+        "A3-684-690"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3740,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-06-08",
+      "createdDate": "2026-06-05",
+      "priceHistory": [
+        {
+          "date": "2026-06-05",
+          "price": 3745,
+          "timestamp": "2026-06-05T12:19:55.137Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 3745,
+          "timestamp": "2026-06-06T11:00:01.791Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3740,
+          "timestamp": "2026-06-07T11:16:59.170Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3740,
+          "timestamp": "2026-06-08T13:16:42.058Z"
+        }
+      ],
+      "delistedDate": "2026-06-09",
+      "archivedDate": "2026-06-09"
     }
   ]
 }
