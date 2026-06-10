@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-06-09T12:15:44.688Z",
+  "lastArchived": "2026-06-10T12:36:11.164Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -98751,6 +98751,271 @@
       ],
       "delistedDate": "2026-06-09",
       "archivedDate": "2026-06-09"
+    },
+    {
+      "id": "1-1bd-1ba-910-f6",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 910,
+      "floor": 6,
+      "availableDate": "6/13/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 6",
+        "sqft": 910
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3595,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-09",
+      "createdDate": "2026-06-04",
+      "priceHistory": [
+        {
+          "date": "2026-06-04",
+          "price": 3595,
+          "timestamp": "2026-06-04T12:18:38.456Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 3605,
+          "timestamp": "2026-06-05T12:19:32.912Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 3590,
+          "timestamp": "2026-06-06T10:59:42.380Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3590,
+          "timestamp": "2026-06-07T11:16:38.307Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3605,
+          "timestamp": "2026-06-08T13:16:20.422Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 3595,
+          "timestamp": "2026-06-09T12:15:25.350Z"
+        }
+      ],
+      "delistedDate": "2026-06-10",
+      "archivedDate": "2026-06-10"
+    },
+    {
+      "id": "1-3bd-2ba-1380-f7",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "threeBed",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1380,
+      "floor": 7,
+      "availableDate": "8/14/2026",
+      "floorPlan": {
+        "name": "3 bed - Floor 7",
+        "sqft": 1380
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5300,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-09",
+      "createdDate": "2026-06-06",
+      "priceHistory": [
+        {
+          "date": "2026-06-06",
+          "price": 5290,
+          "timestamp": "2026-06-06T10:59:42.390Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 5290,
+          "timestamp": "2026-06-07T11:16:38.316Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 5305,
+          "timestamp": "2026-06-08T13:16:20.429Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 5300,
+          "timestamp": "2026-06-09T12:15:25.358Z"
+        }
+      ],
+      "delistedDate": "2026-06-10",
+      "archivedDate": "2026-06-10"
+    },
+    {
+      "id": "4-0bd-1ba-650-f8",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 8,
+      "availableDate": "6/9/2026",
+      "floorPlan": {
+        "name": "studio - Floor 8",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2817,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-09",
+      "createdDate": "2026-06-04",
+      "priceHistory": [
+        {
+          "date": "2026-06-04",
+          "price": 2842,
+          "timestamp": "2026-06-04T12:18:54.323Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 2842,
+          "timestamp": "2026-06-05T12:19:48.685Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 2837,
+          "timestamp": "2026-06-06T10:59:57.554Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 2837,
+          "timestamp": "2026-06-07T11:16:54.563Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 2817,
+          "timestamp": "2026-06-08T13:16:37.081Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 2817,
+          "timestamp": "2026-06-09T12:15:41.285Z"
+        }
+      ],
+      "delistedDate": "2026-06-10",
+      "archivedDate": "2026-06-10"
+    },
+    {
+      "id": "5-1bd-1ba-773-f21",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 773,
+      "floor": 21,
+      "availableDate": "7/31/2026",
+      "floorPlan": {
+        "name": "A7-763-773",
+        "sqft": 773
+      },
+      "amenities": [
+        "A7-763-773"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4110,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-06-09",
+      "createdDate": "2026-06-05",
+      "priceHistory": [
+        {
+          "date": "2026-06-05",
+          "price": 4110,
+          "timestamp": "2026-06-05T12:19:55.151Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 4110,
+          "timestamp": "2026-06-06T11:00:01.804Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 4105,
+          "timestamp": "2026-06-07T11:16:59.184Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 4105,
+          "timestamp": "2026-06-08T13:16:42.073Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 4110,
+          "timestamp": "2026-06-09T12:15:44.654Z"
+        }
+      ],
+      "delistedDate": "2026-06-10",
+      "archivedDate": "2026-06-10"
     }
   ]
 }
