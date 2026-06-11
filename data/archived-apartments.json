@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-06-10T12:36:11.164Z",
+  "lastArchived": "2026-06-11T12:55:10.313Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -99016,6 +99016,151 @@
       ],
       "delistedDate": "2026-06-10",
       "archivedDate": "2026-06-10"
+    },
+    {
+      "id": "2-1bd-1ba-721-f15",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 721,
+      "floor": 15,
+      "availableDate": "7/9/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 15",
+        "sqft": 721
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4145,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-10",
+      "createdDate": "2026-05-30",
+      "priceHistory": [
+        {
+          "date": "2026-05-30",
+          "price": 4275,
+          "timestamp": "2026-05-30T10:53:39.385Z"
+        },
+        {
+          "date": "2026-05-31",
+          "price": 4275,
+          "timestamp": "2026-05-31T11:06:55.703Z"
+        },
+        {
+          "date": "2026-06-01",
+          "price": 4290,
+          "timestamp": "2026-06-01T15:32:41.454Z"
+        },
+        {
+          "date": "2026-06-02",
+          "price": 4205,
+          "timestamp": "2026-06-02T12:51:43.181Z"
+        },
+        {
+          "date": "2026-06-03",
+          "price": 4240,
+          "timestamp": "2026-06-03T14:05:46.788Z"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 4145,
+          "timestamp": "2026-06-04T12:18:44.030Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 4150,
+          "timestamp": "2026-06-05T12:19:38.405Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 4145,
+          "timestamp": "2026-06-06T10:59:47.575Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 4150,
+          "timestamp": "2026-06-07T11:16:43.933Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 4165,
+          "timestamp": "2026-06-08T13:16:26.092Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 4160,
+          "timestamp": "2026-06-09T12:15:30.644Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 4145,
+          "timestamp": "2026-06-10T12:35:56.198Z"
+        }
+      ],
+      "delistedDate": "2026-06-11",
+      "archivedDate": "2026-06-11"
+    },
+    {
+      "id": "2-1bd-1ba-728-f29",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 728,
+      "floor": 29,
+      "availableDate": "7/8/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 29",
+        "sqft": 728
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4460,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-06-10",
+      "createdDate": "2026-06-10",
+      "priceHistory": [
+        {
+          "date": "2026-06-10",
+          "price": 4460,
+          "timestamp": "2026-06-10T12:35:56.210Z"
+        }
+      ],
+      "delistedDate": "2026-06-11",
+      "archivedDate": "2026-06-11"
     }
   ]
 }
