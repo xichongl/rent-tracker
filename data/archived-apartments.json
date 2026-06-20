@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-06-19T12:54:31.555Z",
+  "lastArchived": "2026-06-20T11:26:50.210Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -105461,6 +105461,96 @@
       ],
       "delistedDate": "2026-06-19",
       "archivedDate": "2026-06-19"
+    },
+    {
+      "id": "5-2bd-2ba-1039-f14",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1039,
+      "floor": 14,
+      "availableDate": "6/29/2026",
+      "floorPlan": {
+        "name": "f-B1x1031x1039",
+        "sqft": 1039
+      },
+      "amenities": [
+        "f-B1x1031x1039"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5185,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-06-19",
+      "createdDate": "2026-06-10",
+      "priceHistory": [
+        {
+          "date": "2026-06-10",
+          "price": 5455,
+          "timestamp": "2026-06-10T12:36:11.133Z"
+        },
+        {
+          "date": "2026-06-11",
+          "price": 5185,
+          "timestamp": "2026-06-11T12:55:10.278Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 5180,
+          "timestamp": "2026-06-12T12:32:01.299Z"
+        },
+        {
+          "date": "2026-06-13",
+          "price": 5180,
+          "timestamp": "2026-06-13T11:25:25.191Z"
+        },
+        {
+          "date": "2026-06-14",
+          "price": 5190,
+          "timestamp": "2026-06-14T11:37:47.871Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 5165,
+          "timestamp": "2026-06-15T15:25:23.240Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 5170,
+          "timestamp": "2026-06-16T14:26:16.080Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 5170,
+          "timestamp": "2026-06-17T12:57:27.534Z"
+        },
+        {
+          "date": "2026-06-18",
+          "price": 5175,
+          "timestamp": "2026-06-18T12:32:43.724Z"
+        },
+        {
+          "date": "2026-06-19",
+          "price": 5185,
+          "timestamp": "2026-06-19T12:54:31.527Z"
+        }
+      ],
+      "delistedDate": "2026-06-20",
+      "archivedDate": "2026-06-20"
     }
   ]
 }
