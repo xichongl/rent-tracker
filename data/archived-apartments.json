@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-06-23T12:16:19.803Z",
+  "lastArchived": "2026-06-24T12:01:56.815Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -106836,6 +106836,176 @@
       ],
       "delistedDate": "2026-06-22",
       "archivedDate": "2026-06-22"
+    },
+    {
+      "id": "3-1bd-1ba-874-f1",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 874,
+      "floor": 1,
+      "availableDate": "8/11/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 1",
+        "sqft": 874
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3580,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-06-22",
+      "createdDate": "2026-06-22",
+      "priceHistory": [
+        {
+          "date": "2026-06-22",
+          "price": 3580,
+          "timestamp": "2026-06-22T14:49:53.418Z"
+        }
+      ],
+      "delistedDate": "2026-06-24",
+      "archivedDate": "2026-06-24"
+    },
+    {
+      "id": "5-2bd-2ba-1064-f29",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1064,
+      "floor": 29,
+      "availableDate": "6/24/2026",
+      "floorPlan": {
+        "name": "B2-1054-ADA",
+        "sqft": 1064
+      },
+      "amenities": [
+        "B2-1054-ADA"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5920,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-06-23",
+      "createdDate": "2026-06-19",
+      "priceHistory": [
+        {
+          "date": "2026-06-19",
+          "price": 5985,
+          "timestamp": "2026-06-19T12:54:31.544Z"
+        },
+        {
+          "date": "2026-06-20",
+          "price": 5980,
+          "timestamp": "2026-06-20T11:26:50.192Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 5990,
+          "timestamp": "2026-06-21T11:57:41.069Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 5925,
+          "timestamp": "2026-06-22T14:50:03.417Z"
+        },
+        {
+          "date": "2026-06-23",
+          "price": 5920,
+          "timestamp": "2026-06-23T12:16:19.787Z"
+        }
+      ],
+      "delistedDate": "2026-06-24",
+      "archivedDate": "2026-06-24"
+    },
+    {
+      "id": "5-1bd-1ba-707-f31",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 707,
+      "floor": 31,
+      "availableDate": "8/6/2026",
+      "floorPlan": {
+        "name": "A4-707",
+        "sqft": 707
+      },
+      "amenities": [
+        "A4-707"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4345,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-06-23",
+      "createdDate": "2026-06-20",
+      "priceHistory": [
+        {
+          "date": "2026-06-20",
+          "price": 4380,
+          "timestamp": "2026-06-20T11:26:50.146Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 4380,
+          "timestamp": "2026-06-21T11:57:41.051Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 4345,
+          "timestamp": "2026-06-22T14:50:03.395Z"
+        },
+        {
+          "date": "2026-06-23",
+          "price": 4345,
+          "timestamp": "2026-06-23T12:16:19.761Z"
+        }
+      ],
+      "delistedDate": "2026-06-24",
+      "archivedDate": "2026-06-24"
     }
   ]
 }
