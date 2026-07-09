@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-07-08T11:18:19.600Z",
+  "lastArchived": "2026-07-09T12:16:20.166Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -115746,6 +115746,871 @@
       ],
       "delistedDate": "2026-07-08",
       "archivedDate": "2026-07-08"
+    },
+    {
+      "id": "3-2bd-2ba-1235-f3",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1235,
+      "floor": 3,
+      "availableDate": "7/21/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 3",
+        "sqft": 1235
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4755,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-07-03",
+      "createdDate": "2026-05-28",
+      "priceHistory": [
+        {
+          "date": "2026-05-28",
+          "price": 5130,
+          "timestamp": "2026-05-28T12:45:38.797Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 5135,
+          "timestamp": "2026-05-29T12:27:41.336Z"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 5145,
+          "timestamp": "2026-05-30T10:53:44.302Z"
+        },
+        {
+          "date": "2026-06-01",
+          "price": 5160,
+          "timestamp": "2026-06-01T15:32:46.914Z"
+        },
+        {
+          "date": "2026-06-02",
+          "price": 5155,
+          "timestamp": "2026-06-02T12:51:48.629Z"
+        },
+        {
+          "date": "2026-06-03",
+          "price": 5130,
+          "timestamp": "2026-06-03T14:05:51.527Z"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 5130,
+          "timestamp": "2026-06-04T12:18:49.090Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 5105,
+          "timestamp": "2026-06-05T12:19:43.310Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 5125,
+          "timestamp": "2026-06-06T10:59:52.278Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 5125,
+          "timestamp": "2026-06-07T11:16:49.052Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 5125,
+          "timestamp": "2026-06-08T13:16:31.532Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 5125,
+          "timestamp": "2026-06-09T12:15:35.955Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 5155,
+          "timestamp": "2026-06-10T12:36:01.007Z"
+        },
+        {
+          "date": "2026-06-11",
+          "price": 5125,
+          "timestamp": "2026-06-11T12:54:53.500Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 5115,
+          "timestamp": "2026-06-12T12:31:46.614Z"
+        },
+        {
+          "date": "2026-06-14",
+          "price": 5105,
+          "timestamp": "2026-06-14T11:37:29.141Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 5110,
+          "timestamp": "2026-06-15T15:25:13.399Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 5115,
+          "timestamp": "2026-06-16T14:26:05.433Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 4995,
+          "timestamp": "2026-06-17T12:57:18.862Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 5000,
+          "timestamp": "2026-06-21T11:57:30.715Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 4985,
+          "timestamp": "2026-06-22T14:49:53.444Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 4845,
+          "timestamp": "2026-06-24T12:01:38.712Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 4845,
+          "timestamp": "2026-06-29T13:15:19.958Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 4845,
+          "timestamp": "2026-06-30T11:50:42.447Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 4760,
+          "timestamp": "2026-07-01T12:17:18.270Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 4755,
+          "timestamp": "2026-07-03T11:42:09.199Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "3-1bd-1ba-757-f6",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 757,
+      "floor": 6,
+      "availableDate": "7/3/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 6",
+        "sqft": 757
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3495,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-07-03",
+      "createdDate": "2026-06-17",
+      "priceHistory": [
+        {
+          "date": "2026-06-17",
+          "price": 3615,
+          "timestamp": "2026-06-17T12:57:18.842Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 3635,
+          "timestamp": "2026-06-21T11:57:30.694Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3650,
+          "timestamp": "2026-06-22T14:49:53.420Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 3565,
+          "timestamp": "2026-06-24T12:01:38.684Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3620,
+          "timestamp": "2026-06-29T13:15:19.926Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3605,
+          "timestamp": "2026-06-30T11:50:42.414Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 3595,
+          "timestamp": "2026-07-01T12:17:18.241Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3495,
+          "timestamp": "2026-07-03T11:42:09.156Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "3-2bd-2ba-1275-f3",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1275,
+      "floor": 3,
+      "availableDate": "8/6/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 3",
+        "sqft": 1275
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5035,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-07-03",
+      "createdDate": "2026-06-21",
+      "priceHistory": [
+        {
+          "date": "2026-06-21",
+          "price": 5330,
+          "timestamp": "2026-06-21T11:57:30.719Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 5275,
+          "timestamp": "2026-06-22T14:49:53.447Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 5110,
+          "timestamp": "2026-06-24T12:01:38.714Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 5110,
+          "timestamp": "2026-06-29T13:15:19.960Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 5110,
+          "timestamp": "2026-06-30T11:50:42.449Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 5055,
+          "timestamp": "2026-07-01T12:17:18.272Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 5035,
+          "timestamp": "2026-07-03T11:42:09.201Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "4-2bd-2ba-1280-f20",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1280,
+      "floor": 20,
+      "availableDate": "7/7/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 20",
+        "sqft": 1280
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4470,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-07",
+      "createdDate": "2026-06-04",
+      "priceHistory": [
+        {
+          "date": "2026-06-04",
+          "price": 4400,
+          "timestamp": "2026-06-04T12:18:54.675Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 4395,
+          "timestamp": "2026-06-05T12:19:48.738Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 4390,
+          "timestamp": "2026-06-06T10:59:57.605Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 4415,
+          "timestamp": "2026-06-07T11:16:54.623Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 4415,
+          "timestamp": "2026-06-08T13:16:37.136Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 4405,
+          "timestamp": "2026-06-09T12:15:41.344Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 4400,
+          "timestamp": "2026-06-10T12:36:06.467Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 4400,
+          "timestamp": "2026-06-12T12:31:56.666Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 4430,
+          "timestamp": "2026-06-15T15:25:18.670Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 4425,
+          "timestamp": "2026-06-16T14:26:11.046Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 4450,
+          "timestamp": "2026-06-17T12:57:24.036Z"
+        },
+        {
+          "date": "2026-06-19",
+          "price": 4495,
+          "timestamp": "2026-06-19T12:54:26.319Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 4495,
+          "timestamp": "2026-06-21T11:57:36.297Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 4495,
+          "timestamp": "2026-06-22T14:49:58.447Z"
+        },
+        {
+          "date": "2026-06-25",
+          "price": 4480,
+          "timestamp": "2026-06-25T11:50:51.536Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 4475,
+          "timestamp": "2026-06-29T13:15:25.685Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 4470,
+          "timestamp": "2026-06-30T11:50:48.198Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 4455,
+          "timestamp": "2026-07-02T11:43:46.780Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 4470,
+          "timestamp": "2026-07-03T11:42:15.203Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 4470,
+          "timestamp": "2026-07-07T12:10:03.630Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "4-0bd-1ba-650-f26",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 26,
+      "availableDate": "9/4/2026",
+      "floorPlan": {
+        "name": "studio - Floor 26",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2987,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-07",
+      "createdDate": "2026-06-12",
+      "priceHistory": [
+        {
+          "date": "2026-06-12",
+          "price": 2775,
+          "timestamp": "2026-06-12T12:31:56.602Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 3047,
+          "timestamp": "2026-06-15T15:25:18.645Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 3047,
+          "timestamp": "2026-06-16T14:26:11.023Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 3062,
+          "timestamp": "2026-06-17T12:57:24.016Z"
+        },
+        {
+          "date": "2026-06-19",
+          "price": 3057,
+          "timestamp": "2026-06-19T12:54:26.300Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 3057,
+          "timestamp": "2026-06-21T11:57:36.280Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3052,
+          "timestamp": "2026-06-22T14:49:58.425Z"
+        },
+        {
+          "date": "2026-06-25",
+          "price": 3057,
+          "timestamp": "2026-06-25T11:50:51.512Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3062,
+          "timestamp": "2026-06-29T13:15:25.648Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3057,
+          "timestamp": "2026-06-30T11:50:48.162Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 2982,
+          "timestamp": "2026-07-02T11:43:46.725Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 2992,
+          "timestamp": "2026-07-03T11:42:15.122Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 2987,
+          "timestamp": "2026-07-07T12:10:03.584Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "4-2bd-2ba-1280-f12",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1280,
+      "floor": 12,
+      "availableDate": "7/7/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 12",
+        "sqft": 1280
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4130,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-07",
+      "createdDate": "2026-07-02",
+      "priceHistory": [
+        {
+          "date": "2026-07-02",
+          "price": 4115,
+          "timestamp": "2026-07-02T11:43:46.773Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 4130,
+          "timestamp": "2026-07-03T11:42:15.200Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 4130,
+          "timestamp": "2026-07-07T12:10:03.628Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "5-2bd-2ba-1039-f14",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1039,
+      "floor": 14,
+      "availableDate": "7/9/2026",
+      "floorPlan": {
+        "name": "f-B1x1031x1039",
+        "sqft": 1039
+      },
+      "amenities": [
+        "f-B1x1031x1039"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5055,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-08",
+      "createdDate": "2026-06-26",
+      "priceHistory": [
+        {
+          "date": "2026-06-26",
+          "price": 5220,
+          "timestamp": "2026-06-26T11:50:43.068Z"
+        },
+        {
+          "date": "2026-06-27",
+          "price": 5220,
+          "timestamp": "2026-06-27T11:04:56.264Z"
+        },
+        {
+          "date": "2026-06-28",
+          "price": 5215,
+          "timestamp": "2026-06-28T11:16:57.541Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 5160,
+          "timestamp": "2026-06-29T13:15:29.981Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 5190,
+          "timestamp": "2026-06-30T11:50:51.985Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 5155,
+          "timestamp": "2026-07-01T12:17:35.085Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 5175,
+          "timestamp": "2026-07-02T11:43:50.143Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 5175,
+          "timestamp": "2026-07-03T11:42:21.075Z"
+        },
+        {
+          "date": "2026-07-04",
+          "price": 5120,
+          "timestamp": "2026-07-04T11:01:49.115Z"
+        },
+        {
+          "date": "2026-07-05",
+          "price": 5100,
+          "timestamp": "2026-07-05T11:13:59.993Z"
+        },
+        {
+          "date": "2026-07-06",
+          "price": 5065,
+          "timestamp": "2026-07-06T12:59:21.560Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 5070,
+          "timestamp": "2026-07-07T12:10:07.397Z"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 5055,
+          "timestamp": "2026-07-08T11:18:19.558Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "5-0bd-1ba-519-f20",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 519,
+      "floor": 20,
+      "availableDate": "7/9/2026",
+      "floorPlan": {
+        "name": "S5-519",
+        "sqft": 519
+      },
+      "amenities": [
+        "S5-519"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3240,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-08",
+      "createdDate": "2026-07-03",
+      "priceHistory": [
+        {
+          "date": "2026-07-03",
+          "price": 3340,
+          "timestamp": "2026-07-03T11:42:20.552Z"
+        },
+        {
+          "date": "2026-07-04",
+          "price": 3340,
+          "timestamp": "2026-07-04T11:01:49.088Z"
+        },
+        {
+          "date": "2026-07-05",
+          "price": 3450,
+          "timestamp": "2026-07-05T11:13:59.972Z"
+        },
+        {
+          "date": "2026-07-06",
+          "price": 3430,
+          "timestamp": "2026-07-06T12:59:21.541Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 3375,
+          "timestamp": "2026-07-07T12:10:07.371Z"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 3240,
+          "timestamp": "2026-07-08T11:18:19.526Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
+    },
+    {
+      "id": "5-0bd-1ba-460-f19",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 460,
+      "floor": 19,
+      "availableDate": "7/9/2026",
+      "floorPlan": {
+        "name": "S1-469",
+        "sqft": 460
+      },
+      "amenities": [
+        "S1-469"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3040,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-08",
+      "createdDate": "2026-07-04",
+      "priceHistory": [
+        {
+          "date": "2026-07-04",
+          "price": 3175,
+          "timestamp": "2026-07-04T11:01:49.077Z"
+        },
+        {
+          "date": "2026-07-05",
+          "price": 3250,
+          "timestamp": "2026-07-05T11:13:59.960Z"
+        },
+        {
+          "date": "2026-07-06",
+          "price": 3230,
+          "timestamp": "2026-07-06T12:59:21.534Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 3175,
+          "timestamp": "2026-07-07T12:10:07.359Z"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 3040,
+          "timestamp": "2026-07-08T11:18:19.518Z"
+        }
+      ],
+      "delistedDate": "2026-07-09",
+      "archivedDate": "2026-07-09"
     }
   ]
 }
