@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-07-22T11:20:41.004Z",
+  "lastArchived": "2026-07-23T11:20:42.646Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -123216,6 +123216,656 @@
       ],
       "delistedDate": "2026-07-22",
       "archivedDate": "2026-07-22"
+    },
+    {
+      "id": "2-2bd-2ba-1063-f39",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1063,
+      "floor": 39,
+      "availableDate": "7/20/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 39",
+        "sqft": 1063
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6340,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-20",
+      "createdDate": "2026-06-17",
+      "priceHistory": [
+        {
+          "date": "2026-06-17",
+          "price": 6465,
+          "timestamp": "2026-06-17T12:57:13.918Z"
+        },
+        {
+          "date": "2026-06-19",
+          "price": 6370,
+          "timestamp": "2026-06-19T12:54:07.633Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 6370,
+          "timestamp": "2026-06-22T14:49:48.679Z"
+        },
+        {
+          "date": "2026-06-28",
+          "price": 6370,
+          "timestamp": "2026-06-28T11:16:26.228Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 6370,
+          "timestamp": "2026-06-29T13:15:14.466Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 6370,
+          "timestamp": "2026-06-30T11:50:36.947Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 6370,
+          "timestamp": "2026-07-01T12:17:13.312Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 6370,
+          "timestamp": "2026-07-03T11:42:04.003Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 6370,
+          "timestamp": "2026-07-07T12:09:44.637Z"
+        },
+        {
+          "date": "2026-07-11",
+          "price": 6485,
+          "timestamp": "2026-07-11T10:34:44.125Z"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 6485,
+          "timestamp": "2026-07-15T11:02:00.904Z"
+        },
+        {
+          "date": "2026-07-16",
+          "price": 6340,
+          "timestamp": "2026-07-16T11:12:37.021Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 6340,
+          "timestamp": "2026-07-20T11:58:35.169Z"
+        }
+      ],
+      "delistedDate": "2026-07-23",
+      "archivedDate": "2026-07-23"
+    },
+    {
+      "id": "2-0bd-1ba-500-f20",
+      "buildingId": 2,
+      "buildingName": "Alcott",
+      "address": "35 Lomasney Way",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 500,
+      "floor": 20,
+      "availableDate": "9/24/2026",
+      "floorPlan": {
+        "name": "studio - Floor 20",
+        "sqft": 500
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3450,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/alcott-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-20",
+      "createdDate": "2026-07-16",
+      "priceHistory": [
+        {
+          "date": "2026-07-16",
+          "price": 3425,
+          "timestamp": "2026-07-16T11:12:36.991Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 3450,
+          "timestamp": "2026-07-20T11:58:35.137Z"
+        }
+      ],
+      "delistedDate": "2026-07-23",
+      "archivedDate": "2026-07-23"
+    },
+    {
+      "id": "4-1bd-1ba-1010-f26",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 1010,
+      "floor": 26,
+      "availableDate": "7/21/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 26",
+        "sqft": 1010
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3850,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-21",
+      "createdDate": "2026-03-10",
+      "priceHistory": [
+        {
+          "date": "2026-03-10",
+          "price": 3695,
+          "timestamp": "2026-03-10T10:11:01.446Z"
+        },
+        {
+          "date": "2026-03-12",
+          "price": 3685,
+          "timestamp": "2026-03-12T10:01:54.434Z"
+        },
+        {
+          "date": "2026-03-13",
+          "price": 3685,
+          "timestamp": "2026-03-13T09:57:39.870Z"
+        },
+        {
+          "date": "2026-03-15",
+          "price": 3705,
+          "timestamp": "2026-03-15T09:50:06.557Z"
+        },
+        {
+          "date": "2026-03-17",
+          "price": 3700,
+          "timestamp": "2026-03-17T10:10:12.701Z"
+        },
+        {
+          "date": "2026-03-18",
+          "price": 3745,
+          "timestamp": "2026-03-18T10:13:22.316Z"
+        },
+        {
+          "date": "2026-03-19",
+          "price": 3740,
+          "timestamp": "2026-03-19T10:02:12.314Z"
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3725,
+          "timestamp": "2026-03-21T09:47:03.392Z"
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3725,
+          "timestamp": "2026-03-23T10:15:27.723Z"
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3740,
+          "timestamp": "2026-03-25T10:10:44.891Z"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3770,
+          "timestamp": "2026-03-26T10:12:49.941Z"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3795,
+          "timestamp": "2026-03-27T10:08:00.025Z"
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3780,
+          "timestamp": "2026-03-28T09:53:30.453Z"
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3790,
+          "timestamp": "2026-03-29T09:54:42.411Z"
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3805,
+          "timestamp": "2026-04-03T10:04:22.181Z"
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3860,
+          "timestamp": "2026-04-06T10:20:42.272Z"
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3905,
+          "timestamp": "2026-04-08T10:18:36.262Z"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3885,
+          "timestamp": "2026-04-13T10:56:55.510Z"
+        },
+        {
+          "date": "2026-04-16",
+          "price": 3895,
+          "timestamp": "2026-04-16T10:41:53.397Z"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 3895,
+          "timestamp": "2026-04-17T10:35:29.901Z"
+        },
+        {
+          "date": "2026-04-21",
+          "price": 3900,
+          "timestamp": "2026-04-21T10:45:03.057Z"
+        },
+        {
+          "date": "2026-04-23",
+          "price": 3920,
+          "timestamp": "2026-04-23T10:48:23.373Z"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 3915,
+          "timestamp": "2026-04-25T10:06:34.130Z"
+        },
+        {
+          "date": "2026-04-26",
+          "price": 3935,
+          "timestamp": "2026-04-26T10:07:07.098Z"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 3980,
+          "timestamp": "2026-04-28T11:18:04.622Z"
+        },
+        {
+          "date": "2026-04-29",
+          "price": 3945,
+          "timestamp": "2026-04-29T11:05:42.623Z"
+        },
+        {
+          "date": "2026-04-30",
+          "price": 3955,
+          "timestamp": "2026-04-30T11:06:19.993Z"
+        },
+        {
+          "date": "2026-05-01",
+          "price": 3950,
+          "timestamp": "2026-05-01T10:43:42.372Z"
+        },
+        {
+          "date": "2026-05-02",
+          "price": 3940,
+          "timestamp": "2026-05-02T10:11:10.144Z"
+        },
+        {
+          "date": "2026-05-03",
+          "price": 3940,
+          "timestamp": "2026-05-03T10:17:05.754Z"
+        },
+        {
+          "date": "2026-05-04",
+          "price": 3960,
+          "timestamp": "2026-05-04T11:18:13.811Z"
+        },
+        {
+          "date": "2026-05-06",
+          "price": 3985,
+          "timestamp": "2026-05-06T11:20:55.623Z"
+        },
+        {
+          "date": "2026-05-08",
+          "price": 3900,
+          "timestamp": "2026-05-08T10:50:25.821Z"
+        },
+        {
+          "date": "2026-05-09",
+          "price": 3885,
+          "timestamp": "2026-05-09T10:17:30.790Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 3920,
+          "timestamp": "2026-05-11T12:23:10.154Z"
+        },
+        {
+          "date": "2026-05-15",
+          "price": 3935,
+          "timestamp": "2026-05-15T11:30:25.938Z"
+        },
+        {
+          "date": "2026-05-16",
+          "price": 3905,
+          "timestamp": "2026-05-16T10:38:06.800Z"
+        },
+        {
+          "date": "2026-05-19",
+          "price": 3940,
+          "timestamp": "2026-05-19T12:21:01.530Z"
+        },
+        {
+          "date": "2026-05-20",
+          "price": 3970,
+          "timestamp": "2026-05-20T12:04:05.194Z"
+        },
+        {
+          "date": "2026-05-21",
+          "price": 3985,
+          "timestamp": "2026-05-21T12:27:29.062Z"
+        },
+        {
+          "date": "2026-05-22",
+          "price": 3990,
+          "timestamp": "2026-05-22T12:01:07.983Z"
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3945,
+          "timestamp": "2026-05-24T10:50:57.738Z"
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3995,
+          "timestamp": "2026-05-25T12:45:12.602Z"
+        },
+        {
+          "date": "2026-05-27",
+          "price": 4010,
+          "timestamp": "2026-05-27T12:32:38.705Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 3895,
+          "timestamp": "2026-05-29T12:27:46.787Z"
+        },
+        {
+          "date": "2026-05-31",
+          "price": 3890,
+          "timestamp": "2026-05-31T11:07:15.502Z"
+        },
+        {
+          "date": "2026-06-02",
+          "price": 3940,
+          "timestamp": "2026-06-02T12:51:54.365Z"
+        },
+        {
+          "date": "2026-06-03",
+          "price": 3965,
+          "timestamp": "2026-06-03T14:05:56.950Z"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 3925,
+          "timestamp": "2026-06-04T12:18:54.523Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 3930,
+          "timestamp": "2026-06-05T12:19:48.728Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 3930,
+          "timestamp": "2026-06-06T10:59:57.595Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3930,
+          "timestamp": "2026-06-07T11:16:54.606Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3980,
+          "timestamp": "2026-06-08T13:16:37.122Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 3975,
+          "timestamp": "2026-06-09T12:15:41.329Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 3985,
+          "timestamp": "2026-06-10T12:36:06.448Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 3955,
+          "timestamp": "2026-06-12T12:31:56.650Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 3995,
+          "timestamp": "2026-06-15T15:25:18.660Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 3995,
+          "timestamp": "2026-06-16T14:26:11.037Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 4010,
+          "timestamp": "2026-06-17T12:57:24.029Z"
+        },
+        {
+          "date": "2026-06-19",
+          "price": 3975,
+          "timestamp": "2026-06-19T12:54:26.314Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 3970,
+          "timestamp": "2026-06-21T11:57:36.293Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3995,
+          "timestamp": "2026-06-22T14:49:58.442Z"
+        },
+        {
+          "date": "2026-06-25",
+          "price": 4020,
+          "timestamp": "2026-06-25T11:50:51.531Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 4000,
+          "timestamp": "2026-06-29T13:15:25.672Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 4000,
+          "timestamp": "2026-06-30T11:50:48.188Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 3910,
+          "timestamp": "2026-07-02T11:43:46.764Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3910,
+          "timestamp": "2026-07-03T11:42:15.173Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 3920,
+          "timestamp": "2026-07-07T12:10:03.624Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3850,
+          "timestamp": "2026-07-09T12:16:15.330Z"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 3905,
+          "timestamp": "2026-07-15T11:02:19.962Z"
+        },
+        {
+          "date": "2026-07-16",
+          "price": 3835,
+          "timestamp": "2026-07-16T11:12:55.842Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 3845,
+          "timestamp": "2026-07-20T11:58:54.024Z"
+        },
+        {
+          "date": "2026-07-21",
+          "price": 3850,
+          "timestamp": "2026-07-21T11:19:13.297Z"
+        }
+      ],
+      "delistedDate": "2026-07-23",
+      "archivedDate": "2026-07-23"
+    },
+    {
+      "id": "4-0bd-1ba-650-f29",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 29,
+      "availableDate": "7/21/2026",
+      "floorPlan": {
+        "name": "studio - Floor 29",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2880,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-07-21",
+      "createdDate": "2026-06-29",
+      "priceHistory": [
+        {
+          "date": "2026-06-29",
+          "price": 2940,
+          "timestamp": "2026-06-29T13:15:25.625Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 2930,
+          "timestamp": "2026-06-30T11:50:48.139Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 2865,
+          "timestamp": "2026-07-02T11:43:46.687Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 2870,
+          "timestamp": "2026-07-03T11:42:15.012Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 2855,
+          "timestamp": "2026-07-07T12:10:03.557Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 2865,
+          "timestamp": "2026-07-09T12:16:15.273Z"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 2890,
+          "timestamp": "2026-07-15T11:02:19.910Z"
+        },
+        {
+          "date": "2026-07-16",
+          "price": 2885,
+          "timestamp": "2026-07-16T11:12:55.799Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 2880,
+          "timestamp": "2026-07-20T11:58:53.979Z"
+        },
+        {
+          "date": "2026-07-21",
+          "price": 2880,
+          "timestamp": "2026-07-21T11:19:13.233Z"
+        }
+      ],
+      "delistedDate": "2026-07-23",
+      "archivedDate": "2026-07-23"
     }
   ]
 }
