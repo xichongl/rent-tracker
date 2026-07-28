@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-07-27T12:37:04.079Z",
+  "lastArchived": "2026-07-28T11:28:28.695Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -125011,6 +125011,616 @@
       ],
       "delistedDate": "2026-07-27",
       "archivedDate": "2026-07-27"
+    },
+    {
+      "id": "3-1bd-1ba-821-f7",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 821,
+      "floor": 7,
+      "availableDate": "7/27/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 7",
+        "sqft": 821
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3690,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-07-27",
+      "createdDate": "2026-06-12",
+      "priceHistory": [
+        {
+          "date": "2026-06-12",
+          "price": 4020,
+          "timestamp": "2026-06-12T12:31:46.610Z"
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4040,
+          "timestamp": "2026-06-14T11:37:29.118Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 4035,
+          "timestamp": "2026-06-15T15:25:13.396Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 4030,
+          "timestamp": "2026-06-16T14:26:05.430Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 4025,
+          "timestamp": "2026-06-17T12:57:18.859Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 4005,
+          "timestamp": "2026-06-21T11:57:30.712Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 4005,
+          "timestamp": "2026-06-22T14:49:53.438Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 3955,
+          "timestamp": "2026-06-24T12:01:38.705Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3930,
+          "timestamp": "2026-06-29T13:15:19.949Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3920,
+          "timestamp": "2026-06-30T11:50:42.435Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 3905,
+          "timestamp": "2026-07-01T12:17:18.263Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3805,
+          "timestamp": "2026-07-03T11:42:09.189Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3800,
+          "timestamp": "2026-07-09T12:16:09.804Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 3715,
+          "timestamp": "2026-07-12T10:43:03.893Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 3720,
+          "timestamp": "2026-07-13T12:17:05.331Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 3660,
+          "timestamp": "2026-07-22T11:20:23.071Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 3650,
+          "timestamp": "2026-07-25T10:44:24.830Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 3650,
+          "timestamp": "2026-07-26T10:53:59.663Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 3690,
+          "timestamp": "2026-07-27T12:36:53.918Z"
+        }
+      ],
+      "delistedDate": "2026-07-28",
+      "archivedDate": "2026-07-28"
+    },
+    {
+      "id": "5-3bd-2ba-1217-f22",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "threeBed",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1217,
+      "floor": 22,
+      "availableDate": "9/15/2026",
+      "floorPlan": {
+        "name": "C1-1206-1217",
+        "sqft": 1217
+      },
+      "amenities": [
+        "C1-1206-1217"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6730,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-27",
+      "createdDate": "2026-06-21",
+      "priceHistory": [
+        {
+          "date": "2026-06-21",
+          "price": 7030,
+          "timestamp": "2026-06-21T11:57:41.075Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 6980,
+          "timestamp": "2026-06-22T14:50:03.424Z"
+        },
+        {
+          "date": "2026-06-23",
+          "price": 6980,
+          "timestamp": "2026-06-23T12:16:19.795Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 6980,
+          "timestamp": "2026-06-24T12:01:56.808Z"
+        },
+        {
+          "date": "2026-06-25",
+          "price": 6970,
+          "timestamp": "2026-06-25T11:50:55.048Z"
+        },
+        {
+          "date": "2026-06-26",
+          "price": 6970,
+          "timestamp": "2026-06-26T11:50:43.103Z"
+        },
+        {
+          "date": "2026-06-27",
+          "price": 6965,
+          "timestamp": "2026-06-27T11:04:56.298Z"
+        },
+        {
+          "date": "2026-06-28",
+          "price": 6960,
+          "timestamp": "2026-06-28T11:16:57.574Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 6960,
+          "timestamp": "2026-06-29T13:15:30.013Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 7070,
+          "timestamp": "2026-06-30T11:50:52.016Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 7055,
+          "timestamp": "2026-07-01T12:17:35.117Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 7055,
+          "timestamp": "2026-07-02T11:43:50.175Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 7055,
+          "timestamp": "2026-07-03T11:42:22.640Z"
+        },
+        {
+          "date": "2026-07-04",
+          "price": 7050,
+          "timestamp": "2026-07-04T11:01:49.149Z"
+        },
+        {
+          "date": "2026-07-05",
+          "price": 7045,
+          "timestamp": "2026-07-05T11:14:00.027Z"
+        },
+        {
+          "date": "2026-07-06",
+          "price": 6985,
+          "timestamp": "2026-07-06T12:59:21.585Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 6975,
+          "timestamp": "2026-07-07T12:10:07.429Z"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 6975,
+          "timestamp": "2026-07-08T11:18:19.592Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 6925,
+          "timestamp": "2026-07-09T12:16:20.158Z"
+        },
+        {
+          "date": "2026-07-10",
+          "price": 6920,
+          "timestamp": "2026-07-10T12:09:18.363Z"
+        },
+        {
+          "date": "2026-07-11",
+          "price": 6920,
+          "timestamp": "2026-07-11T10:35:16.946Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 6915,
+          "timestamp": "2026-07-12T10:43:22.101Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 6755,
+          "timestamp": "2026-07-13T12:17:22.271Z"
+        },
+        {
+          "date": "2026-07-14",
+          "price": 6755,
+          "timestamp": "2026-07-14T10:56:48.744Z"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 6755,
+          "timestamp": "2026-07-15T11:02:24.234Z"
+        },
+        {
+          "date": "2026-07-16",
+          "price": 6755,
+          "timestamp": "2026-07-16T11:13:00.057Z"
+        },
+        {
+          "date": "2026-07-17",
+          "price": 6755,
+          "timestamp": "2026-07-17T10:58:51.114Z"
+        },
+        {
+          "date": "2026-07-18",
+          "price": 6755,
+          "timestamp": "2026-07-18T10:43:00.221Z"
+        },
+        {
+          "date": "2026-07-19",
+          "price": 6755,
+          "timestamp": "2026-07-19T10:44:00.769Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 6755,
+          "timestamp": "2026-07-20T11:58:57.303Z"
+        },
+        {
+          "date": "2026-07-21",
+          "price": 6755,
+          "timestamp": "2026-07-21T11:19:17.949Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 6755,
+          "timestamp": "2026-07-22T11:20:40.996Z"
+        },
+        {
+          "date": "2026-07-23",
+          "price": 6730,
+          "timestamp": "2026-07-23T11:20:42.637Z"
+        },
+        {
+          "date": "2026-07-24",
+          "price": 6730,
+          "timestamp": "2026-07-24T11:13:32.821Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 6730,
+          "timestamp": "2026-07-25T10:44:34.715Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 6730,
+          "timestamp": "2026-07-26T10:54:18.701Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 6730,
+          "timestamp": "2026-07-27T12:37:04.066Z"
+        }
+      ],
+      "delistedDate": "2026-07-28",
+      "archivedDate": "2026-07-28"
+    },
+    {
+      "id": "5-2bd-2ba-1039-f25",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1039,
+      "floor": 25,
+      "availableDate": "7/28/2026",
+      "floorPlan": {
+        "name": "B1-1031-1039",
+        "sqft": 1039
+      },
+      "amenities": [
+        "B1-1031-1039"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 5445,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-27",
+      "createdDate": "2026-06-26",
+      "priceHistory": [
+        {
+          "date": "2026-06-26",
+          "price": 5700,
+          "timestamp": "2026-06-26T11:50:43.076Z"
+        },
+        {
+          "date": "2026-06-27",
+          "price": 5700,
+          "timestamp": "2026-06-27T11:04:56.272Z"
+        },
+        {
+          "date": "2026-06-28",
+          "price": 5690,
+          "timestamp": "2026-06-28T11:16:57.547Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 5630,
+          "timestamp": "2026-06-29T13:15:29.987Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 5660,
+          "timestamp": "2026-06-30T11:50:51.991Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 5625,
+          "timestamp": "2026-07-01T12:17:35.091Z"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 5615,
+          "timestamp": "2026-07-02T11:43:50.149Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 5560,
+          "timestamp": "2026-07-03T11:42:21.449Z"
+        },
+        {
+          "date": "2026-07-04",
+          "price": 5540,
+          "timestamp": "2026-07-04T11:01:49.121Z"
+        },
+        {
+          "date": "2026-07-05",
+          "price": 5530,
+          "timestamp": "2026-07-05T11:13:59.999Z"
+        },
+        {
+          "date": "2026-07-06",
+          "price": 5535,
+          "timestamp": "2026-07-06T12:59:21.564Z"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 5540,
+          "timestamp": "2026-07-07T12:10:07.402Z"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 5525,
+          "timestamp": "2026-07-08T11:18:19.563Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 5545,
+          "timestamp": "2026-07-09T12:16:20.129Z"
+        },
+        {
+          "date": "2026-07-10",
+          "price": 5535,
+          "timestamp": "2026-07-10T12:09:18.334Z"
+        },
+        {
+          "date": "2026-07-11",
+          "price": 5570,
+          "timestamp": "2026-07-11T10:35:16.885Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 5560,
+          "timestamp": "2026-07-12T10:43:22.054Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 5600,
+          "timestamp": "2026-07-13T12:17:22.242Z"
+        },
+        {
+          "date": "2026-07-14",
+          "price": 5590,
+          "timestamp": "2026-07-14T10:56:48.714Z"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 5615,
+          "timestamp": "2026-07-15T11:02:24.204Z"
+        },
+        {
+          "date": "2026-07-16",
+          "price": 5415,
+          "timestamp": "2026-07-16T11:13:00.026Z"
+        },
+        {
+          "date": "2026-07-17",
+          "price": 5410,
+          "timestamp": "2026-07-17T10:58:51.085Z"
+        },
+        {
+          "date": "2026-07-18",
+          "price": 5400,
+          "timestamp": "2026-07-18T10:43:00.188Z"
+        },
+        {
+          "date": "2026-07-19",
+          "price": 5395,
+          "timestamp": "2026-07-19T10:44:00.735Z"
+        },
+        {
+          "date": "2026-07-20",
+          "price": 5335,
+          "timestamp": "2026-07-20T11:58:57.267Z"
+        },
+        {
+          "date": "2026-07-21",
+          "price": 5355,
+          "timestamp": "2026-07-21T11:19:17.907Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 5500,
+          "timestamp": "2026-07-22T11:20:40.969Z"
+        },
+        {
+          "date": "2026-07-23",
+          "price": 5500,
+          "timestamp": "2026-07-23T11:20:42.574Z"
+        },
+        {
+          "date": "2026-07-24",
+          "price": 5500,
+          "timestamp": "2026-07-24T11:13:32.785Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 5495,
+          "timestamp": "2026-07-25T10:44:34.683Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 5525,
+          "timestamp": "2026-07-26T10:54:18.667Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 5445,
+          "timestamp": "2026-07-27T12:37:03.969Z"
+        }
+      ],
+      "delistedDate": "2026-07-28",
+      "archivedDate": "2026-07-28"
+    },
+    {
+      "id": "5-3bd-2ba-1217-f8",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "threeBed",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1217,
+      "floor": 8,
+      "availableDate": "7/28/2026",
+      "floorPlan": {
+        "name": "C1-1206-1217",
+        "sqft": 1217
+      },
+      "amenities": [
+        "C1-1206-1217"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 6570,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-07-27",
+      "createdDate": "2026-07-26",
+      "priceHistory": [
+        {
+          "date": "2026-07-26",
+          "price": 6570,
+          "timestamp": "2026-07-26T10:54:18.696Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 6570,
+          "timestamp": "2026-07-27T12:37:04.031Z"
+        }
+      ],
+      "delistedDate": "2026-07-28",
+      "archivedDate": "2026-07-28"
     }
   ]
 }
