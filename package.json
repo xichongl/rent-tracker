@@ -11,8 +11,9 @@
     "build": "vite build",
     "build:all": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start:prod": "cd server && NODE_ENV=production npm run start"
+    "preview": "npm run build && wrangler dev",
+    "start:prod": "cd server && NODE_ENV=production npm run start",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -23,6 +24,7 @@
     "recharts": "^3.6.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.26.1",
     "@eslint/js": "^9.39.1",
     "@tailwindcss/forms": "^0.5.7",
     "@types/react": "^19.2.5",
@@ -36,6 +38,7 @@
     "globals": "^16.5.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "wrangler": "^4.71.0"
   }
 }
