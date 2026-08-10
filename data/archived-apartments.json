@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-08-09T09:57:28.770Z",
+  "lastArchived": "2026-08-10T10:36:45.722Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -133501,6 +133501,751 @@
       ],
       "delistedDate": "2026-08-09",
       "archivedDate": "2026-08-09"
+    },
+    {
+      "id": "1-0bd-1ba-610-f16",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 610,
+      "floor": 16,
+      "availableDate": "8/20/2026",
+      "floorPlan": {
+        "name": "studio - Floor 16",
+        "sqft": 610
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2725,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-08-08",
+      "createdDate": "2026-08-06",
+      "priceHistory": [
+        {
+          "date": "2026-08-06",
+          "price": 2765,
+          "timestamp": "2026-08-06T11:33:24.855Z"
+        },
+        {
+          "date": "2026-08-08",
+          "price": 2725,
+          "timestamp": "2026-08-08T09:54:16.649Z"
+        }
+      ],
+      "delistedDate": "2026-08-10",
+      "archivedDate": "2026-08-10"
+    },
+    {
+      "id": "1-0bd-1ba-665-f23",
+      "buildingId": 1,
+      "buildingName": "Emerson Place",
+      "address": "1 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 665,
+      "floor": 23,
+      "availableDate": "8/8/2026",
+      "floorPlan": {
+        "name": "studio - Floor 23",
+        "sqft": 665
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2955,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/emerson-place-apartments",
+      "status": "archived",
+      "lastSeen": "2026-08-08",
+      "createdDate": "2026-08-08",
+      "priceHistory": [
+        {
+          "date": "2026-08-08",
+          "price": 2955,
+          "timestamp": "2026-08-08T09:54:16.666Z"
+        }
+      ],
+      "delistedDate": "2026-08-10",
+      "archivedDate": "2026-08-10"
+    },
+    {
+      "id": "3-1bd-1ba-757-f8",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 757,
+      "floor": 8,
+      "availableDate": "8/8/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 8",
+        "sqft": 757
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3340,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-08",
+      "createdDate": "2026-05-08",
+      "priceHistory": [
+        {
+          "date": "2026-05-08",
+          "price": 3635,
+          "timestamp": "2026-05-08T10:50:19.669Z"
+        },
+        {
+          "date": "2026-05-11",
+          "price": 3645,
+          "timestamp": "2026-05-11T12:23:04.859Z"
+        },
+        {
+          "date": "2026-05-13",
+          "price": 3685,
+          "timestamp": "2026-05-13T11:37:16.119Z"
+        },
+        {
+          "date": "2026-05-14",
+          "price": 3670,
+          "timestamp": "2026-05-14T11:22:26.350Z"
+        },
+        {
+          "date": "2026-05-15",
+          "price": 3660,
+          "timestamp": "2026-05-15T11:30:20.942Z"
+        },
+        {
+          "date": "2026-05-16",
+          "price": 3660,
+          "timestamp": "2026-05-16T10:38:01.398Z"
+        },
+        {
+          "date": "2026-05-19",
+          "price": 3660,
+          "timestamp": "2026-05-19T12:20:56.271Z"
+        },
+        {
+          "date": "2026-05-21",
+          "price": 3695,
+          "timestamp": "2026-05-21T12:27:23.646Z"
+        },
+        {
+          "date": "2026-05-22",
+          "price": 3695,
+          "timestamp": "2026-05-22T12:01:02.691Z"
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3715,
+          "timestamp": "2026-05-24T10:50:52.000Z"
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3715,
+          "timestamp": "2026-05-25T12:45:07.493Z"
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3750,
+          "timestamp": "2026-05-28T12:45:38.788Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 3765,
+          "timestamp": "2026-05-29T12:27:41.328Z"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 3815,
+          "timestamp": "2026-05-30T10:53:44.291Z"
+        },
+        {
+          "date": "2026-06-01",
+          "price": 3820,
+          "timestamp": "2026-06-01T15:32:46.904Z"
+        },
+        {
+          "date": "2026-06-02",
+          "price": 3815,
+          "timestamp": "2026-06-02T12:51:48.480Z"
+        },
+        {
+          "date": "2026-06-03",
+          "price": 3865,
+          "timestamp": "2026-06-03T14:05:51.522Z"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 3775,
+          "timestamp": "2026-06-04T12:18:49.081Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 3770,
+          "timestamp": "2026-06-05T12:19:43.301Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 3775,
+          "timestamp": "2026-06-06T10:59:52.267Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3770,
+          "timestamp": "2026-06-07T11:16:49.042Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3770,
+          "timestamp": "2026-06-08T13:16:31.522Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 3730,
+          "timestamp": "2026-06-09T12:15:35.942Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 3755,
+          "timestamp": "2026-06-10T12:36:00.993Z"
+        },
+        {
+          "date": "2026-06-11",
+          "price": 3750,
+          "timestamp": "2026-06-11T12:54:53.484Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 3735,
+          "timestamp": "2026-06-12T12:31:46.594Z"
+        },
+        {
+          "date": "2026-06-14",
+          "price": 3750,
+          "timestamp": "2026-06-14T11:37:29.078Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 3750,
+          "timestamp": "2026-06-15T15:25:13.385Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 3755,
+          "timestamp": "2026-06-16T14:26:05.419Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 3780,
+          "timestamp": "2026-06-17T12:57:18.848Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 3760,
+          "timestamp": "2026-06-21T11:57:30.701Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3760,
+          "timestamp": "2026-06-22T14:49:53.425Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 3710,
+          "timestamp": "2026-06-24T12:01:38.691Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3685,
+          "timestamp": "2026-06-29T13:15:19.934Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3680,
+          "timestamp": "2026-06-30T11:50:42.421Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 3670,
+          "timestamp": "2026-07-01T12:17:18.247Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3565,
+          "timestamp": "2026-07-03T11:42:09.167Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3565,
+          "timestamp": "2026-07-09T12:16:09.788Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 3480,
+          "timestamp": "2026-07-12T10:43:03.865Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 3495,
+          "timestamp": "2026-07-13T12:17:05.311Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 3435,
+          "timestamp": "2026-07-22T11:20:23.051Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 3420,
+          "timestamp": "2026-07-25T10:44:24.809Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 3420,
+          "timestamp": "2026-07-26T10:53:59.640Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 3445,
+          "timestamp": "2026-07-27T12:36:53.887Z"
+        },
+        {
+          "date": "2026-07-28",
+          "price": 3445,
+          "timestamp": "2026-07-28T11:28:11.738Z"
+        },
+        {
+          "date": "2026-07-29",
+          "price": 3450,
+          "timestamp": "2026-07-29T11:34:09.048Z"
+        },
+        {
+          "date": "2026-08-02",
+          "price": 3410,
+          "timestamp": "2026-08-02T10:50:41.924Z"
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3410,
+          "timestamp": "2026-08-03T12:35:50.374Z"
+        },
+        {
+          "date": "2026-08-08",
+          "price": 3340,
+          "timestamp": "2026-08-08T09:54:35.497Z"
+        }
+      ],
+      "delistedDate": "2026-08-10",
+      "archivedDate": "2026-08-10"
+    },
+    {
+      "id": "3-0bd-1ba-542-f4",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 542,
+      "floor": 4,
+      "availableDate": "8/20/2026",
+      "floorPlan": {
+        "name": "studio - Floor 4",
+        "sqft": 542
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3000,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-08",
+      "createdDate": "2026-05-21",
+      "priceHistory": [
+        {
+          "date": "2026-05-21",
+          "price": 2995,
+          "timestamp": "2026-05-21T12:27:23.638Z"
+        },
+        {
+          "date": "2026-05-22",
+          "price": 3010,
+          "timestamp": "2026-05-22T12:01:02.685Z"
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3030,
+          "timestamp": "2026-05-24T10:50:51.994Z"
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3035,
+          "timestamp": "2026-05-25T12:45:07.490Z"
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3155,
+          "timestamp": "2026-05-28T12:45:38.785Z"
+        },
+        {
+          "date": "2026-05-29",
+          "price": 3155,
+          "timestamp": "2026-05-29T12:27:41.323Z"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 3155,
+          "timestamp": "2026-05-30T10:53:44.286Z"
+        },
+        {
+          "date": "2026-06-01",
+          "price": 3160,
+          "timestamp": "2026-06-01T15:32:46.901Z"
+        },
+        {
+          "date": "2026-06-02",
+          "price": 3160,
+          "timestamp": "2026-06-02T12:51:48.275Z"
+        },
+        {
+          "date": "2026-06-03",
+          "price": 3250,
+          "timestamp": "2026-06-03T14:05:51.516Z"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 3250,
+          "timestamp": "2026-06-04T12:18:49.000Z"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 3245,
+          "timestamp": "2026-06-05T12:19:43.298Z"
+        },
+        {
+          "date": "2026-06-06",
+          "price": 3245,
+          "timestamp": "2026-06-06T10:59:52.263Z"
+        },
+        {
+          "date": "2026-06-07",
+          "price": 3245,
+          "timestamp": "2026-06-07T11:16:49.037Z"
+        },
+        {
+          "date": "2026-06-08",
+          "price": 3250,
+          "timestamp": "2026-06-08T13:16:31.518Z"
+        },
+        {
+          "date": "2026-06-09",
+          "price": 3280,
+          "timestamp": "2026-06-09T12:15:35.938Z"
+        },
+        {
+          "date": "2026-06-10",
+          "price": 3295,
+          "timestamp": "2026-06-10T12:36:00.989Z"
+        },
+        {
+          "date": "2026-06-11",
+          "price": 3295,
+          "timestamp": "2026-06-11T12:54:53.480Z"
+        },
+        {
+          "date": "2026-06-12",
+          "price": 3290,
+          "timestamp": "2026-06-12T12:31:46.589Z"
+        },
+        {
+          "date": "2026-06-14",
+          "price": 3290,
+          "timestamp": "2026-06-14T11:37:29.070Z"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 3290,
+          "timestamp": "2026-06-15T15:25:13.381Z"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 3285,
+          "timestamp": "2026-06-16T14:26:05.414Z"
+        },
+        {
+          "date": "2026-06-17",
+          "price": 3280,
+          "timestamp": "2026-06-17T12:57:18.840Z"
+        },
+        {
+          "date": "2026-06-21",
+          "price": 3250,
+          "timestamp": "2026-06-21T11:57:30.691Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3250,
+          "timestamp": "2026-06-22T14:49:53.416Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 3245,
+          "timestamp": "2026-06-24T12:01:38.682Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3240,
+          "timestamp": "2026-06-29T13:15:19.921Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3235,
+          "timestamp": "2026-06-30T11:50:42.409Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 3245,
+          "timestamp": "2026-07-01T12:17:18.237Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3250,
+          "timestamp": "2026-07-03T11:42:09.138Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3235,
+          "timestamp": "2026-07-09T12:16:09.780Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 3230,
+          "timestamp": "2026-07-12T10:43:03.856Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 3235,
+          "timestamp": "2026-07-13T12:17:05.303Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 3125,
+          "timestamp": "2026-07-22T11:20:23.045Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 3115,
+          "timestamp": "2026-07-25T10:44:24.803Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 3075,
+          "timestamp": "2026-07-26T10:53:59.634Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 3085,
+          "timestamp": "2026-07-27T12:36:53.875Z"
+        },
+        {
+          "date": "2026-07-28",
+          "price": 2985,
+          "timestamp": "2026-07-28T11:28:11.726Z"
+        },
+        {
+          "date": "2026-07-29",
+          "price": 2935,
+          "timestamp": "2026-07-29T11:34:09.036Z"
+        },
+        {
+          "date": "2026-08-02",
+          "price": 3020,
+          "timestamp": "2026-08-02T10:50:41.918Z"
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3015,
+          "timestamp": "2026-08-03T12:35:50.368Z"
+        },
+        {
+          "date": "2026-08-08",
+          "price": 3000,
+          "timestamp": "2026-08-08T09:54:35.448Z"
+        }
+      ],
+      "delistedDate": "2026-08-10",
+      "archivedDate": "2026-08-10"
+    },
+    {
+      "id": "3-1bd-1ba-747-f7",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 747,
+      "floor": 7,
+      "availableDate": "8/8/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 7",
+        "sqft": 747
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3730,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-08",
+      "createdDate": "2026-06-30",
+      "priceHistory": [
+        {
+          "date": "2026-06-30",
+          "price": 4090,
+          "timestamp": "2026-06-30T11:50:42.437Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 4080,
+          "timestamp": "2026-07-01T12:17:18.264Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3980,
+          "timestamp": "2026-07-03T11:42:09.192Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3970,
+          "timestamp": "2026-07-09T12:16:09.806Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 3885,
+          "timestamp": "2026-07-12T10:43:03.895Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 3865,
+          "timestamp": "2026-07-13T12:17:05.333Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 3805,
+          "timestamp": "2026-07-22T11:20:23.073Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 3795,
+          "timestamp": "2026-07-25T10:44:24.832Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 3795,
+          "timestamp": "2026-07-26T10:53:59.665Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 3835,
+          "timestamp": "2026-07-27T12:36:53.921Z"
+        },
+        {
+          "date": "2026-07-28",
+          "price": 3835,
+          "timestamp": "2026-07-28T11:28:11.767Z"
+        },
+        {
+          "date": "2026-07-29",
+          "price": 3840,
+          "timestamp": "2026-07-29T11:34:09.080Z"
+        },
+        {
+          "date": "2026-08-02",
+          "price": 3800,
+          "timestamp": "2026-08-02T10:50:41.945Z"
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3800,
+          "timestamp": "2026-08-03T12:35:50.394Z"
+        },
+        {
+          "date": "2026-08-08",
+          "price": 3730,
+          "timestamp": "2026-08-08T09:54:36.310Z"
+        }
+      ],
+      "delistedDate": "2026-08-10",
+      "archivedDate": "2026-08-10"
     }
   ]
 }
