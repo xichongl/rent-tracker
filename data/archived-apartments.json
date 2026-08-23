@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-08-22T09:43:13.448Z",
+  "lastArchived": "2026-08-23T09:43:48.775Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -145636,6 +145636,226 @@
       ],
       "delistedDate": "2026-08-21",
       "archivedDate": "2026-08-21"
+    },
+    {
+      "id": "3-1bd-1ba-821-f2",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 821,
+      "floor": 2,
+      "availableDate": "9/18/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 2",
+        "sqft": 821
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3390,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-17",
+      "createdDate": "2026-06-21",
+      "priceHistory": [
+        {
+          "date": "2026-06-21",
+          "price": 3820,
+          "timestamp": "2026-06-21T11:57:30.704Z"
+        },
+        {
+          "date": "2026-06-22",
+          "price": 3820,
+          "timestamp": "2026-06-22T14:49:53.429Z"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 3790,
+          "timestamp": "2026-06-24T12:01:38.695Z"
+        },
+        {
+          "date": "2026-06-29",
+          "price": 3780,
+          "timestamp": "2026-06-29T13:15:19.938Z"
+        },
+        {
+          "date": "2026-06-30",
+          "price": 3770,
+          "timestamp": "2026-06-30T11:50:42.425Z"
+        },
+        {
+          "date": "2026-07-01",
+          "price": 3765,
+          "timestamp": "2026-07-01T12:17:18.253Z"
+        },
+        {
+          "date": "2026-07-03",
+          "price": 3670,
+          "timestamp": "2026-07-03T11:42:09.175Z"
+        },
+        {
+          "date": "2026-07-09",
+          "price": 3675,
+          "timestamp": "2026-07-09T12:16:09.795Z"
+        },
+        {
+          "date": "2026-07-12",
+          "price": 3590,
+          "timestamp": "2026-07-12T10:43:03.875Z"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 3605,
+          "timestamp": "2026-07-13T12:17:05.321Z"
+        },
+        {
+          "date": "2026-07-22",
+          "price": 3550,
+          "timestamp": "2026-07-22T11:20:23.060Z"
+        },
+        {
+          "date": "2026-07-25",
+          "price": 3530,
+          "timestamp": "2026-07-25T10:44:24.820Z"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 3530,
+          "timestamp": "2026-07-26T10:53:59.652Z"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 3535,
+          "timestamp": "2026-07-27T12:36:53.902Z"
+        },
+        {
+          "date": "2026-07-28",
+          "price": 3535,
+          "timestamp": "2026-07-28T11:28:11.748Z"
+        },
+        {
+          "date": "2026-07-29",
+          "price": 3535,
+          "timestamp": "2026-07-29T11:34:09.058Z"
+        },
+        {
+          "date": "2026-08-02",
+          "price": 3485,
+          "timestamp": "2026-08-02T10:50:41.931Z"
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3490,
+          "timestamp": "2026-08-03T12:35:50.385Z"
+        },
+        {
+          "date": "2026-08-08",
+          "price": 3410,
+          "timestamp": "2026-08-08T09:54:35.608Z"
+        },
+        {
+          "date": "2026-08-10",
+          "price": 3425,
+          "timestamp": "2026-08-10T10:36:27.823Z"
+        },
+        {
+          "date": "2026-08-11",
+          "price": 3420,
+          "timestamp": "2026-08-11T10:10:37.944Z"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 3420,
+          "timestamp": "2026-08-12T10:20:01.918Z"
+        },
+        {
+          "date": "2026-08-13",
+          "price": 3420,
+          "timestamp": "2026-08-13T10:28:12.061Z"
+        },
+        {
+          "date": "2026-08-14",
+          "price": 3415,
+          "timestamp": "2026-08-14T10:16:42.639Z"
+        },
+        {
+          "date": "2026-08-16",
+          "price": 3385,
+          "timestamp": "2026-08-16T09:42:25.443Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3390,
+          "timestamp": "2026-08-17T09:57:55.031Z"
+        }
+      ],
+      "delistedDate": "2026-08-23",
+      "archivedDate": "2026-08-23"
+    },
+    {
+      "id": "3-1bd-1ba-821-f8",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 821,
+      "floor": 8,
+      "availableDate": "8/19/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 8",
+        "sqft": 821
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3380,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-17",
+      "createdDate": "2026-08-16",
+      "priceHistory": [
+        {
+          "date": "2026-08-16",
+          "price": 3405,
+          "timestamp": "2026-08-16T09:42:25.444Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3380,
+          "timestamp": "2026-08-17T09:57:55.030Z"
+        }
+      ],
+      "delistedDate": "2026-08-23",
+      "archivedDate": "2026-08-23"
     }
   ]
 }
