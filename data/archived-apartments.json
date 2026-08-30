@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-08-29T14:30:02.505Z",
+  "lastArchived": "2026-08-30T14:26:09.976Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -146991,6 +146991,231 @@
       ],
       "delistedDate": "2026-08-28",
       "archivedDate": "2026-08-28"
+    },
+    {
+      "id": "3-1bd-1ba-757-f12",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 757,
+      "floor": 12,
+      "availableDate": "8/27/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 12",
+        "sqft": 757
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3435,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-27",
+      "createdDate": "2026-08-13",
+      "priceHistory": [
+        {
+          "date": "2026-08-13",
+          "price": 3495,
+          "timestamp": "2026-08-13T10:28:12.075Z"
+        },
+        {
+          "date": "2026-08-14",
+          "price": 3490,
+          "timestamp": "2026-08-14T10:16:42.643Z"
+        },
+        {
+          "date": "2026-08-16",
+          "price": 3460,
+          "timestamp": "2026-08-16T09:42:25.447Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3420,
+          "timestamp": "2026-08-17T09:57:55.035Z"
+        },
+        {
+          "date": "2026-08-23",
+          "price": 3460,
+          "timestamp": "2026-08-23T09:43:32.263Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3460,
+          "timestamp": "2026-08-24T10:04:37.207Z"
+        },
+        {
+          "date": "2026-08-27",
+          "price": 3435,
+          "timestamp": "2026-08-27T19:51:41.127Z"
+        }
+      ],
+      "delistedDate": "2026-08-30",
+      "archivedDate": "2026-08-30"
+    },
+    {
+      "id": "3-1bd-1ba-826-f8",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 826,
+      "floor": 8,
+      "availableDate": "8/27/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 8",
+        "sqft": 826
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3450,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-27",
+      "createdDate": "2026-08-13",
+      "priceHistory": [
+        {
+          "date": "2026-08-13",
+          "price": 3510,
+          "timestamp": "2026-08-13T10:28:12.076Z"
+        },
+        {
+          "date": "2026-08-14",
+          "price": 3505,
+          "timestamp": "2026-08-14T10:16:42.644Z"
+        },
+        {
+          "date": "2026-08-16",
+          "price": 3475,
+          "timestamp": "2026-08-16T09:42:25.448Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3435,
+          "timestamp": "2026-08-17T09:57:55.036Z"
+        },
+        {
+          "date": "2026-08-23",
+          "price": 3475,
+          "timestamp": "2026-08-23T09:43:32.266Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3475,
+          "timestamp": "2026-08-24T10:04:37.210Z"
+        },
+        {
+          "date": "2026-08-27",
+          "price": 3450,
+          "timestamp": "2026-08-27T19:51:41.130Z"
+        }
+      ],
+      "delistedDate": "2026-08-30",
+      "archivedDate": "2026-08-30"
+    },
+    {
+      "id": "3-1bd-1ba-838-f11",
+      "buildingId": 3,
+      "buildingName": "West End Apartments",
+      "address": "4 Emerson Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 838,
+      "floor": 11,
+      "availableDate": "8/27/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 11",
+        "sqft": 838
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3700,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-west-end-apartments-asteria-villas-and-vesta",
+      "status": "archived",
+      "lastSeen": "2026-08-27",
+      "createdDate": "2026-08-13",
+      "priceHistory": [
+        {
+          "date": "2026-08-13",
+          "price": 3785,
+          "timestamp": "2026-08-13T10:28:12.076Z"
+        },
+        {
+          "date": "2026-08-14",
+          "price": 3780,
+          "timestamp": "2026-08-14T10:16:42.646Z"
+        },
+        {
+          "date": "2026-08-16",
+          "price": 3750,
+          "timestamp": "2026-08-16T09:42:25.449Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3710,
+          "timestamp": "2026-08-17T09:57:55.037Z"
+        },
+        {
+          "date": "2026-08-23",
+          "price": 3725,
+          "timestamp": "2026-08-23T09:43:32.267Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3725,
+          "timestamp": "2026-08-24T10:04:37.211Z"
+        },
+        {
+          "date": "2026-08-27",
+          "price": 3700,
+          "timestamp": "2026-08-27T19:51:41.134Z"
+        }
+      ],
+      "delistedDate": "2026-08-30",
+      "archivedDate": "2026-08-30"
     }
   ]
 }
