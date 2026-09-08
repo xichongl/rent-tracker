@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-09-07T15:04:34.998Z",
+  "lastArchived": "2026-09-08T13:39:00.029Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -149331,6 +149331,341 @@
       ],
       "delistedDate": "2026-09-07",
       "archivedDate": "2026-09-07"
+    },
+    {
+      "id": "4-1bd-1ba-924-f31",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 924,
+      "floor": 31,
+      "availableDate": "9/3/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 31",
+        "sqft": 924
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3475,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-03",
+      "createdDate": "2026-08-13",
+      "priceHistory": [
+        {
+          "date": "2026-08-13",
+          "price": 3725,
+          "timestamp": "2026-08-13T10:28:17.324Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3705,
+          "timestamp": "2026-08-17T09:58:00.472Z"
+        },
+        {
+          "date": "2026-08-19",
+          "price": 3660,
+          "timestamp": "2026-08-19T09:49:53.952Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3610,
+          "timestamp": "2026-08-24T10:04:43.053Z"
+        },
+        {
+          "date": "2026-08-26",
+          "price": 3550,
+          "timestamp": "2026-08-26T09:57:26.689Z"
+        },
+        {
+          "date": "2026-08-28",
+          "price": 3530,
+          "timestamp": "2026-08-28T20:51:14.112Z"
+        },
+        {
+          "date": "2026-08-31",
+          "price": 3545,
+          "timestamp": "2026-08-31T17:04:47.762Z"
+        },
+        {
+          "date": "2026-09-01",
+          "price": 3540,
+          "timestamp": "2026-09-01T14:09:21.702Z"
+        },
+        {
+          "date": "2026-09-03",
+          "price": 3475,
+          "timestamp": "2026-09-03T13:36:07.977Z"
+        }
+      ],
+      "delistedDate": "2026-09-08",
+      "archivedDate": "2026-09-08"
+    },
+    {
+      "id": "4-1bd-1ba-1010-f25",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 1010,
+      "floor": 25,
+      "availableDate": "9/3/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 25",
+        "sqft": 1010
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3620,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-03",
+      "createdDate": "2026-08-13",
+      "priceHistory": [
+        {
+          "date": "2026-08-13",
+          "price": 3870,
+          "timestamp": "2026-08-13T10:28:17.326Z"
+        },
+        {
+          "date": "2026-08-17",
+          "price": 3850,
+          "timestamp": "2026-08-17T09:58:00.474Z"
+        },
+        {
+          "date": "2026-08-19",
+          "price": 3805,
+          "timestamp": "2026-08-19T09:49:53.954Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3755,
+          "timestamp": "2026-08-24T10:04:43.056Z"
+        },
+        {
+          "date": "2026-08-26",
+          "price": 3695,
+          "timestamp": "2026-08-26T09:57:26.694Z"
+        },
+        {
+          "date": "2026-08-28",
+          "price": 3675,
+          "timestamp": "2026-08-28T20:51:14.118Z"
+        },
+        {
+          "date": "2026-08-31",
+          "price": 3690,
+          "timestamp": "2026-08-31T17:04:47.768Z"
+        },
+        {
+          "date": "2026-09-01",
+          "price": 3685,
+          "timestamp": "2026-09-01T14:09:21.708Z"
+        },
+        {
+          "date": "2026-09-03",
+          "price": 3620,
+          "timestamp": "2026-09-03T13:36:07.988Z"
+        }
+      ],
+      "delistedDate": "2026-09-08",
+      "archivedDate": "2026-09-08"
+    },
+    {
+      "id": "4-1bd-1ba-1010-f9",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 1010,
+      "floor": 9,
+      "availableDate": "9/22/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 9",
+        "sqft": 1010
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3105,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-03",
+      "createdDate": "2026-08-19",
+      "priceHistory": [
+        {
+          "date": "2026-08-19",
+          "price": 3310,
+          "timestamp": "2026-08-19T09:49:53.937Z"
+        },
+        {
+          "date": "2026-08-24",
+          "price": 3255,
+          "timestamp": "2026-08-24T10:04:43.034Z"
+        },
+        {
+          "date": "2026-08-26",
+          "price": 3215,
+          "timestamp": "2026-08-26T09:57:26.669Z"
+        },
+        {
+          "date": "2026-08-28",
+          "price": 3190,
+          "timestamp": "2026-08-28T20:51:14.001Z"
+        },
+        {
+          "date": "2026-08-31",
+          "price": 3175,
+          "timestamp": "2026-08-31T17:04:47.741Z"
+        },
+        {
+          "date": "2026-09-01",
+          "price": 3170,
+          "timestamp": "2026-09-01T14:09:21.681Z"
+        },
+        {
+          "date": "2026-09-03",
+          "price": 3105,
+          "timestamp": "2026-09-03T13:36:07.954Z"
+        }
+      ],
+      "delistedDate": "2026-09-08",
+      "archivedDate": "2026-09-08"
+    },
+    {
+      "id": "4-1bd-1ba-924-f20",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 924,
+      "floor": 20,
+      "availableDate": "9/3/2026",
+      "floorPlan": {
+        "name": "1 bed - Floor 20",
+        "sqft": 924
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3235,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-03",
+      "createdDate": "2026-09-03",
+      "priceHistory": [
+        {
+          "date": "2026-09-03",
+          "price": 3235,
+          "timestamp": "2026-09-03T13:36:07.957Z"
+        }
+      ],
+      "delistedDate": "2026-09-08",
+      "archivedDate": "2026-09-08"
+    },
+    {
+      "id": "4-2bd-2ba-1280-f8",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1280,
+      "floor": 8,
+      "availableDate": "11/4/2026",
+      "floorPlan": {
+        "name": "2 bed - Floor 8",
+        "sqft": 1280
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3910,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-03",
+      "createdDate": "2026-09-03",
+      "priceHistory": [
+        {
+          "date": "2026-09-03",
+          "price": 3910,
+          "timestamp": "2026-09-03T13:36:07.996Z"
+        }
+      ],
+      "delistedDate": "2026-09-08",
+      "archivedDate": "2026-09-08"
     }
   ]
 }
