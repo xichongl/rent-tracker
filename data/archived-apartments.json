@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-09-18T13:36:55.592Z",
+  "lastArchived": "2026-09-19T13:10:49.842Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -152301,6 +152301,81 @@
       ],
       "delistedDate": "2026-09-18",
       "archivedDate": "2026-09-18"
+    },
+    {
+      "id": "4-0bd-1ba-650-f22",
+      "buildingId": 4,
+      "buildingName": "The Towers at Longfellow Apartments",
+      "address": "10 Longfellow Pl",
+      "unitType": "studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "squareFeet": 650,
+      "floor": 22,
+      "availableDate": "9/18/2026",
+      "floorPlan": {
+        "name": "studio - Floor 22",
+        "sqft": 650
+      },
+      "amenities": [
+        "furnished"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 2897,
+      "source": "EquityApartments.com",
+      "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+      "status": "archived",
+      "lastSeen": "2026-09-18",
+      "createdDate": "2026-09-08",
+      "priceHistory": [
+        {
+          "date": "2026-09-08",
+          "price": 2942,
+          "timestamp": "2026-09-08T13:38:54.587Z"
+        },
+        {
+          "date": "2026-09-09",
+          "price": 2957,
+          "timestamp": "2026-09-09T13:44:15.536Z"
+        },
+        {
+          "date": "2026-09-12",
+          "price": 2897,
+          "timestamp": "2026-09-12T12:52:31.642Z"
+        },
+        {
+          "date": "2026-09-14",
+          "price": 2907,
+          "timestamp": "2026-09-14T15:54:12.881Z"
+        },
+        {
+          "date": "2026-09-15",
+          "price": 2907,
+          "timestamp": "2026-09-15T14:20:21.087Z"
+        },
+        {
+          "date": "2026-09-17",
+          "price": 2892,
+          "timestamp": "2026-09-17T14:18:31.045Z"
+        },
+        {
+          "date": "2026-09-18",
+          "price": 2897,
+          "timestamp": "2026-09-18T13:36:50.195Z"
+        }
+      ],
+      "delistedDate": "2026-09-19",
+      "archivedDate": "2026-09-19"
     }
   ]
 }
