@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-09-29T15:53:11.737Z",
+  "lastArchived": "2026-09-30T15:56:30.620Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -154446,6 +154446,221 @@
       ],
       "delistedDate": "2026-09-29",
       "archivedDate": "2026-09-29"
+    },
+    {
+      "id": "5-1bd-1ba-732-f17",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 732,
+      "floor": 17,
+      "availableDate": "9/30/2026",
+      "floorPlan": {
+        "name": "A5-718-Glass",
+        "sqft": 732
+      },
+      "amenities": [
+        "A5-718-Glass"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4050,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-09-29",
+      "createdDate": "2026-08-26",
+      "priceHistory": [
+        {
+          "date": "2026-08-26",
+          "price": 4145,
+          "timestamp": "2026-08-26T09:57:30.327Z"
+        },
+        {
+          "date": "2026-08-27",
+          "price": 4145,
+          "timestamp": "2026-08-27T19:51:58.506Z"
+        },
+        {
+          "date": "2026-08-28",
+          "price": 4145,
+          "timestamp": "2026-08-28T20:51:19.314Z"
+        },
+        {
+          "date": "2026-08-29",
+          "price": 4145,
+          "timestamp": "2026-08-29T14:30:02.428Z"
+        },
+        {
+          "date": "2026-08-30",
+          "price": 4145,
+          "timestamp": "2026-08-30T14:26:09.920Z"
+        },
+        {
+          "date": "2026-08-31",
+          "price": 4145,
+          "timestamp": "2026-08-31T17:04:52.447Z"
+        },
+        {
+          "date": "2026-09-01",
+          "price": 4145,
+          "timestamp": "2026-09-01T14:09:25.211Z"
+        },
+        {
+          "date": "2026-09-02",
+          "price": 4145,
+          "timestamp": "2026-09-02T13:41:42.188Z"
+        },
+        {
+          "date": "2026-09-03",
+          "price": 4145,
+          "timestamp": "2026-09-03T13:36:13.120Z"
+        },
+        {
+          "date": "2026-09-04",
+          "price": 4145,
+          "timestamp": "2026-09-04T13:33:33.480Z"
+        },
+        {
+          "date": "2026-09-05",
+          "price": 4145,
+          "timestamp": "2026-09-05T12:44:21.518Z"
+        },
+        {
+          "date": "2026-09-06",
+          "price": 4145,
+          "timestamp": "2026-09-06T12:54:16.589Z"
+        },
+        {
+          "date": "2026-09-07",
+          "price": 4145,
+          "timestamp": "2026-09-07T15:04:34.964Z"
+        },
+        {
+          "date": "2026-09-08",
+          "price": 4145,
+          "timestamp": "2026-09-08T13:38:59.992Z"
+        },
+        {
+          "date": "2026-09-09",
+          "price": 4145,
+          "timestamp": "2026-09-09T13:44:20.196Z"
+        },
+        {
+          "date": "2026-09-10",
+          "price": 4145,
+          "timestamp": "2026-09-10T13:36:57.673Z"
+        },
+        {
+          "date": "2026-09-11",
+          "price": 4145,
+          "timestamp": "2026-09-11T13:35:26.280Z"
+        },
+        {
+          "date": "2026-09-12",
+          "price": 4145,
+          "timestamp": "2026-09-12T12:52:36.602Z"
+        },
+        {
+          "date": "2026-09-13",
+          "price": 4145,
+          "timestamp": "2026-09-13T13:49:35.881Z"
+        },
+        {
+          "date": "2026-09-14",
+          "price": 4145,
+          "timestamp": "2026-09-14T15:54:18.411Z"
+        },
+        {
+          "date": "2026-09-15",
+          "price": 4065,
+          "timestamp": "2026-09-15T14:20:25.253Z"
+        },
+        {
+          "date": "2026-09-16",
+          "price": 4065,
+          "timestamp": "2026-09-16T14:12:56.041Z"
+        },
+        {
+          "date": "2026-09-17",
+          "price": 4050,
+          "timestamp": "2026-09-17T14:18:36.273Z"
+        },
+        {
+          "date": "2026-09-18",
+          "price": 4050,
+          "timestamp": "2026-09-18T13:36:55.523Z"
+        },
+        {
+          "date": "2026-09-19",
+          "price": 4050,
+          "timestamp": "2026-09-19T13:10:49.793Z"
+        },
+        {
+          "date": "2026-09-20",
+          "price": 4050,
+          "timestamp": "2026-09-20T13:35:35.267Z"
+        },
+        {
+          "date": "2026-09-21",
+          "price": 4050,
+          "timestamp": "2026-09-21T15:54:56.902Z"
+        },
+        {
+          "date": "2026-09-22",
+          "price": 4050,
+          "timestamp": "2026-09-22T14:03:30.257Z"
+        },
+        {
+          "date": "2026-09-23",
+          "price": 4050,
+          "timestamp": "2026-09-23T14:15:24.277Z"
+        },
+        {
+          "date": "2026-09-24",
+          "price": 4050,
+          "timestamp": "2026-09-24T14:13:38.157Z"
+        },
+        {
+          "date": "2026-09-25",
+          "price": 4050,
+          "timestamp": "2026-09-25T14:37:27.489Z"
+        },
+        {
+          "date": "2026-09-26",
+          "price": 4050,
+          "timestamp": "2026-09-26T13:46:01.004Z"
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4050,
+          "timestamp": "2026-09-27T14:43:00.616Z"
+        },
+        {
+          "date": "2026-09-28",
+          "price": 4050,
+          "timestamp": "2026-09-28T17:40:22.058Z"
+        },
+        {
+          "date": "2026-09-29",
+          "price": 4050,
+          "timestamp": "2026-09-29T15:53:11.687Z"
+        }
+      ],
+      "delistedDate": "2026-09-30",
+      "archivedDate": "2026-09-30"
     }
   ]
 }
