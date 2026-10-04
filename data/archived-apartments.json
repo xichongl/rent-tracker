@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-10-03T14:20:02.504Z",
+  "lastArchived": "2026-10-04T14:48:50.795Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -156581,6 +156581,96 @@
       ],
       "delistedDate": "2026-10-03",
       "archivedDate": "2026-10-03"
+    },
+    {
+      "id": "5-1bd-1ba-690-f18",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 690,
+      "floor": 18,
+      "availableDate": "10/4/2026",
+      "floorPlan": {
+        "name": "A3-684-690",
+        "sqft": 690
+      },
+      "amenities": [
+        "A3-684-690"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3770,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-10-03",
+      "createdDate": "2026-09-24",
+      "priceHistory": [
+        {
+          "date": "2026-09-24",
+          "price": 3770,
+          "timestamp": "2026-09-24T14:13:38.146Z"
+        },
+        {
+          "date": "2026-09-25",
+          "price": 3770,
+          "timestamp": "2026-09-25T14:37:27.478Z"
+        },
+        {
+          "date": "2026-09-26",
+          "price": 3770,
+          "timestamp": "2026-09-26T13:46:00.994Z"
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3770,
+          "timestamp": "2026-09-27T14:43:00.605Z"
+        },
+        {
+          "date": "2026-09-28",
+          "price": 3770,
+          "timestamp": "2026-09-28T17:40:22.047Z"
+        },
+        {
+          "date": "2026-09-29",
+          "price": 3770,
+          "timestamp": "2026-09-29T15:53:11.675Z"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3770,
+          "timestamp": "2026-09-30T15:56:30.559Z"
+        },
+        {
+          "date": "2026-10-01",
+          "price": 3770,
+          "timestamp": "2026-10-01T16:28:17.825Z"
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3770,
+          "timestamp": "2026-10-02T15:50:42.844Z"
+        },
+        {
+          "date": "2026-10-03",
+          "price": 3770,
+          "timestamp": "2026-10-03T14:20:02.449Z"
+        }
+      ],
+      "delistedDate": "2026-10-04",
+      "archivedDate": "2026-10-04"
     }
   ]
 }
