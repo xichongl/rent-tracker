@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-10-22T14:31:50.599Z",
+  "lastArchived": "2026-10-23T14:15:27.188Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -161371,6 +161371,51 @@
       ],
       "delistedDate": "2026-10-22",
       "archivedDate": "2026-10-22"
+    },
+    {
+      "id": "5-1bd-1ba-732-f15",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "oneBed",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 732,
+      "floor": 15,
+      "availableDate": "1/13/2027",
+      "floorPlan": {
+        "name": "A5-718-Glass",
+        "sqft": 732
+      },
+      "amenities": [
+        "A5-718-Glass"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 3770,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-10-22",
+      "createdDate": "2026-10-22",
+      "priceHistory": [
+        {
+          "date": "2026-10-22",
+          "price": 3770,
+          "timestamp": "2026-10-22T14:31:50.540Z"
+        }
+      ],
+      "delistedDate": "2026-10-23",
+      "archivedDate": "2026-10-23"
     }
   ]
 }
