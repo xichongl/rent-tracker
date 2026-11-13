@@ -1,5 +1,5 @@
 {
-  "lastArchived": "2026-11-12T17:36:42.642Z",
+  "lastArchived": "2026-11-13T17:13:43.537Z",
   "apartments": [
     {
       "id": "4-studio-1",
@@ -167436,6 +167436,76 @@
       ],
       "delistedDate": "2026-11-12",
       "archivedDate": "2026-11-12"
+    },
+    {
+      "id": "5-2bd-2ba-1073-f19",
+      "buildingId": 5,
+      "buildingName": "Avalon North Station",
+      "address": "40 Portland St",
+      "unitType": "twoBed",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1073,
+      "floor": 19,
+      "availableDate": "1/15/2027",
+      "floorPlan": {
+        "name": "B3-1065-1073",
+        "sqft": 1073
+      },
+      "amenities": [
+        "B3-1065-1073"
+      ],
+      "features": {
+        "hasWasherDryer": false,
+        "hasBalcony": false,
+        "hasDishwasher": false,
+        "hasAC": false,
+        "hasParkingIncluded": false,
+        "hasGym": false,
+        "hasPool": false,
+        "hasHardwood": false,
+        "isPetFriendly": false
+      },
+      "price": 4710,
+      "source": "AvalonCommunities.com",
+      "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
+      "status": "archived",
+      "lastSeen": "2026-11-12",
+      "createdDate": "2026-11-07",
+      "priceHistory": [
+        {
+          "date": "2026-11-07",
+          "price": 4725,
+          "timestamp": "2026-11-07T15:40:52.241Z"
+        },
+        {
+          "date": "2026-11-08",
+          "price": 4725,
+          "timestamp": "2026-11-08T15:59:35.080Z"
+        },
+        {
+          "date": "2026-11-09",
+          "price": 4710,
+          "timestamp": "2026-11-09T19:50:38.510Z"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 4705,
+          "timestamp": "2026-11-10T17:03:38.447Z"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 4695,
+          "timestamp": "2026-11-11T17:08:43.731Z"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 4710,
+          "timestamp": "2026-11-12T17:36:42.605Z"
+        }
+      ],
+      "delistedDate": "2026-11-13",
+      "archivedDate": "2026-11-13"
     }
   ]
 }
