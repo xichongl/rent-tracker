@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T18:35:21.914Z",
+  "lastUpdated": "2026-11-18T18:04:37.483Z",
   "apartments": {
     "1": [
       {
@@ -7261,7 +7261,7 @@
         "bathrooms": 2,
         "squareFeet": 1280,
         "floor": 26,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "2 bed - Floor 26",
           "sqft": 1280
@@ -7280,11 +7280,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4213,
+        "price": 4238,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-07-31",
         "priceHistory": [
           {
@@ -7431,6 +7431,11 @@
             "date": "2026-11-09",
             "price": 4213,
             "timestamp": "2026-11-09T19:50:34.669Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4238,
+            "timestamp": "2026-11-18T18:04:33.467Z"
           }
         ]
       },
@@ -7463,11 +7468,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2752,
+        "price": 2787,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -7579,6 +7584,11 @@
             "date": "2026-11-09",
             "price": 2752,
             "timestamp": "2026-11-09T19:50:34.616Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2787,
+            "timestamp": "2026-11-18T18:04:33.411Z"
           }
         ]
       },
@@ -7592,7 +7602,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 11,
-        "availableDate": "11/16/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 11",
           "sqft": 650
@@ -7611,11 +7621,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2647,
+        "price": 2677,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -7727,6 +7737,11 @@
             "date": "2026-11-09",
             "price": 2647,
             "timestamp": "2026-11-09T19:50:34.606Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2677,
+            "timestamp": "2026-11-18T18:04:33.405Z"
           }
         ]
       },
@@ -7740,7 +7755,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 17,
-        "availableDate": "11/12/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 17",
           "sqft": 650
@@ -7759,11 +7774,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2762,
+        "price": 2792,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -7875,154 +7890,11 @@
             "date": "2026-11-09",
             "price": 2762,
             "timestamp": "2026-11-09T19:50:34.618Z"
-          }
-        ]
-      },
-      {
-        "id": "4-0bd-1ba-650-f18",
-        "buildingId": 4,
-        "buildingName": "The Towers at Longfellow Apartments",
-        "address": "10 Longfellow Pl",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 650,
-        "floor": 18,
-        "availableDate": "11/9/2026",
-        "floorPlan": {
-          "name": "studio - Floor 18",
-          "sqft": 650
-        },
-        "amenities": [
-          "furnished"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2697,
-        "source": "EquityApartments.com",
-        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
-        "status": "active",
-        "lastSeen": "2026-11-09",
-        "createdDate": "2026-08-13",
-        "priceHistory": [
-          {
-            "date": "2026-08-13",
-            "price": 2907,
-            "timestamp": "2026-08-13T10:28:17.293Z"
           },
           {
-            "date": "2026-08-17",
-            "price": 2897,
-            "timestamp": "2026-08-17T09:58:00.448Z"
-          },
-          {
-            "date": "2026-08-19",
-            "price": 2882,
-            "timestamp": "2026-08-19T09:49:53.924Z"
-          },
-          {
-            "date": "2026-08-24",
-            "price": 2847,
-            "timestamp": "2026-08-24T10:04:43.024Z"
-          },
-          {
-            "date": "2026-08-26",
-            "price": 2947,
-            "timestamp": "2026-08-26T09:57:26.658Z"
-          },
-          {
-            "date": "2026-08-28",
-            "price": 2947,
-            "timestamp": "2026-08-28T20:51:13.989Z"
-          },
-          {
-            "date": "2026-08-31",
-            "price": 2952,
-            "timestamp": "2026-08-31T17:04:47.730Z"
-          },
-          {
-            "date": "2026-09-01",
-            "price": 2942,
-            "timestamp": "2026-09-01T14:09:21.669Z"
-          },
-          {
-            "date": "2026-09-03",
-            "price": 2912,
-            "timestamp": "2026-09-03T13:36:07.937Z"
-          },
-          {
-            "date": "2026-09-08",
-            "price": 2907,
-            "timestamp": "2026-09-08T13:38:54.580Z"
-          },
-          {
-            "date": "2026-09-09",
-            "price": 2922,
-            "timestamp": "2026-09-09T13:44:15.531Z"
-          },
-          {
-            "date": "2026-09-12",
-            "price": 2862,
-            "timestamp": "2026-09-12T12:52:31.630Z"
-          },
-          {
-            "date": "2026-09-14",
-            "price": 2872,
-            "timestamp": "2026-09-14T15:54:12.874Z"
-          },
-          {
-            "date": "2026-09-15",
-            "price": 2872,
-            "timestamp": "2026-09-15T14:20:21.073Z"
-          },
-          {
-            "date": "2026-09-17",
-            "price": 2857,
-            "timestamp": "2026-09-17T14:18:31.035Z"
-          },
-          {
-            "date": "2026-09-18",
-            "price": 2862,
-            "timestamp": "2026-09-18T13:36:50.185Z"
-          },
-          {
-            "date": "2026-09-19",
-            "price": 2862,
-            "timestamp": "2026-09-19T13:10:46.158Z"
-          },
-          {
-            "date": "2026-09-20",
-            "price": 2862,
-            "timestamp": "2026-09-20T13:35:31.519Z"
-          },
-          {
-            "date": "2026-09-21",
-            "price": 2872,
-            "timestamp": "2026-09-21T15:54:53.100Z"
-          },
-          {
-            "date": "2026-10-15",
-            "price": 2697,
-            "timestamp": "2026-10-15T14:10:52.225Z"
-          },
-          {
-            "date": "2026-11-01",
-            "price": 2772,
-            "timestamp": "2026-11-01T16:02:25.641Z"
-          },
-          {
-            "date": "2026-11-09",
-            "price": 2697,
-            "timestamp": "2026-11-09T19:50:34.613Z"
+            "date": "2026-11-18",
+            "price": 2792,
+            "timestamp": "2026-11-18T18:04:33.413Z"
           }
         ]
       },
@@ -8036,7 +7908,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 23,
-        "availableDate": "11/11/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 23",
           "sqft": 650
@@ -8055,11 +7927,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2802,
+        "price": 2832,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8171,6 +8043,11 @@
             "date": "2026-11-09",
             "price": 2802,
             "timestamp": "2026-11-09T19:50:34.622Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2832,
+            "timestamp": "2026-11-18T18:04:33.419Z"
           }
         ]
       },
@@ -8184,7 +8061,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 32,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 32",
           "sqft": 650
@@ -8203,11 +8080,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2772,
+        "price": 2802,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8319,6 +8196,11 @@
             "date": "2026-11-09",
             "price": 2772,
             "timestamp": "2026-11-09T19:50:34.620Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2802,
+            "timestamp": "2026-11-18T18:04:33.417Z"
           }
         ]
       },
@@ -8351,11 +8233,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3455,
+        "price": 3430,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8467,6 +8349,11 @@
             "date": "2026-11-09",
             "price": 3455,
             "timestamp": "2026-11-09T19:50:34.648Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3430,
+            "timestamp": "2026-11-18T18:04:33.449Z"
           }
         ]
       },
@@ -8480,7 +8367,7 @@
         "bathrooms": 1,
         "squareFeet": 924,
         "floor": 10,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 10",
           "sqft": 924
@@ -8499,11 +8386,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3175,
+        "price": 3150,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8615,6 +8502,11 @@
             "date": "2026-11-09",
             "price": 3175,
             "timestamp": "2026-11-09T19:50:34.634Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3150,
+            "timestamp": "2026-11-18T18:04:33.433Z"
           }
         ]
       },
@@ -8647,11 +8539,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3315,
+        "price": 3320,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8763,6 +8655,11 @@
             "date": "2026-11-09",
             "price": 3315,
             "timestamp": "2026-11-09T19:50:34.640Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3320,
+            "timestamp": "2026-11-18T18:04:33.441Z"
           }
         ]
       },
@@ -8776,7 +8673,7 @@
         "bathrooms": 2,
         "squareFeet": 1280,
         "floor": 17,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "2 bed - Floor 17",
           "sqft": 1280
@@ -8795,11 +8692,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3923,
+        "price": 3948,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -8911,6 +8808,11 @@
             "date": "2026-11-09",
             "price": 3923,
             "timestamp": "2026-11-09T19:50:34.654Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3948,
+            "timestamp": "2026-11-18T18:04:33.455Z"
           }
         ]
       },
@@ -8924,7 +8826,7 @@
         "bathrooms": 2,
         "squareFeet": 1280,
         "floor": 29,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "2 bed - Floor 29",
           "sqft": 1280
@@ -8943,11 +8845,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4243,
+        "price": 4268,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -9059,6 +8961,11 @@
             "date": "2026-11-09",
             "price": 4243,
             "timestamp": "2026-11-09T19:50:34.671Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4268,
+            "timestamp": "2026-11-18T18:04:33.469Z"
           }
         ]
       },
@@ -9091,11 +8998,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4635,
+        "price": 4690,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-13",
         "priceHistory": [
           {
@@ -9207,6 +9114,11 @@
             "date": "2026-11-09",
             "price": 4635,
             "timestamp": "2026-11-09T19:50:34.677Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4690,
+            "timestamp": "2026-11-18T18:04:33.473Z"
           }
         ]
       },
@@ -9220,7 +9132,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 19,
-        "availableDate": "11/10/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 19",
           "sqft": 650
@@ -9239,11 +9151,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2807,
+        "price": 2837,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-26",
         "priceHistory": [
           {
@@ -9335,6 +9247,11 @@
             "date": "2026-11-09",
             "price": 2807,
             "timestamp": "2026-11-09T19:50:34.624Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2837,
+            "timestamp": "2026-11-18T18:04:33.421Z"
           }
         ]
       },
@@ -9348,7 +9265,7 @@
         "bathrooms": 1,
         "squareFeet": 924,
         "floor": 30,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 30",
           "sqft": 924
@@ -9367,11 +9284,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3475,
+        "price": 3450,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-28",
         "priceHistory": [
           {
@@ -9458,114 +9375,11 @@
             "date": "2026-11-09",
             "price": 3475,
             "timestamp": "2026-11-09T19:50:34.650Z"
-          }
-        ]
-      },
-      {
-        "id": "4-0bd-1ba-650-f24",
-        "buildingId": 4,
-        "buildingName": "The Towers at Longfellow Apartments",
-        "address": "10 Longfellow Pl",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 650,
-        "floor": 24,
-        "availableDate": "11/9/2026",
-        "floorPlan": {
-          "name": "studio - Floor 24",
-          "sqft": 650
-        },
-        "amenities": [
-          "furnished"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2550,
-        "source": "EquityApartments.com",
-        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
-        "status": "active",
-        "lastSeen": "2026-11-09",
-        "createdDate": "2026-09-03",
-        "priceHistory": [
-          {
-            "date": "2026-09-03",
-            "price": 2937,
-            "timestamp": "2026-09-03T13:36:07.943Z"
           },
           {
-            "date": "2026-09-08",
-            "price": 2942,
-            "timestamp": "2026-09-08T13:38:54.588Z"
-          },
-          {
-            "date": "2026-09-09",
-            "price": 2957,
-            "timestamp": "2026-09-09T13:44:15.538Z"
-          },
-          {
-            "date": "2026-09-12",
-            "price": 2897,
-            "timestamp": "2026-09-12T12:52:31.645Z"
-          },
-          {
-            "date": "2026-09-14",
-            "price": 2907,
-            "timestamp": "2026-09-14T15:54:12.883Z"
-          },
-          {
-            "date": "2026-09-15",
-            "price": 2907,
-            "timestamp": "2026-09-15T14:20:21.091Z"
-          },
-          {
-            "date": "2026-09-17",
-            "price": 2892,
-            "timestamp": "2026-09-17T14:18:31.047Z"
-          },
-          {
-            "date": "2026-09-18",
-            "price": 2897,
-            "timestamp": "2026-09-18T13:36:50.201Z"
-          },
-          {
-            "date": "2026-09-19",
-            "price": 2897,
-            "timestamp": "2026-09-19T13:10:46.164Z"
-          },
-          {
-            "date": "2026-09-20",
-            "price": 2897,
-            "timestamp": "2026-09-20T13:35:31.545Z"
-          },
-          {
-            "date": "2026-09-21",
-            "price": 2907,
-            "timestamp": "2026-09-21T15:54:53.108Z"
-          },
-          {
-            "date": "2026-10-15",
-            "price": 2582,
-            "timestamp": "2026-10-15T14:10:52.216Z"
-          },
-          {
-            "date": "2026-11-01",
-            "price": 2625,
-            "timestamp": "2026-11-01T16:02:25.625Z"
-          },
-          {
-            "date": "2026-11-09",
-            "price": 2550,
-            "timestamp": "2026-11-09T19:50:34.600Z"
+            "date": "2026-11-18",
+            "price": 3450,
+            "timestamp": "2026-11-18T18:04:33.451Z"
           }
         ]
       },
@@ -9579,7 +9393,7 @@
         "bathrooms": 1,
         "squareFeet": 1010,
         "floor": 11,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 11",
           "sqft": 1010
@@ -9598,11 +9412,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3405,
+        "price": 3380,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-03",
         "priceHistory": [
           {
@@ -9674,6 +9488,11 @@
             "date": "2026-11-09",
             "price": 3405,
             "timestamp": "2026-11-09T19:50:34.646Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3380,
+            "timestamp": "2026-11-18T18:04:33.447Z"
           }
         ]
       },
@@ -9687,7 +9506,7 @@
         "bathrooms": 2,
         "squareFeet": 1563,
         "floor": 34,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "2 bed - Floor 34",
           "sqft": 1563
@@ -9706,11 +9525,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4310,
+        "price": 4390,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-12",
         "priceHistory": [
           {
@@ -9767,6 +9586,11 @@
             "date": "2026-11-09",
             "price": 4310,
             "timestamp": "2026-11-09T19:50:34.673Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4390,
+            "timestamp": "2026-11-18T18:04:33.471Z"
           }
         ]
       },
@@ -9799,11 +9623,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2652,
+        "price": 2687,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-17",
         "priceHistory": [
           {
@@ -9845,6 +9669,11 @@
             "date": "2026-11-09",
             "price": 2652,
             "timestamp": "2026-11-09T19:50:34.610Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2687,
+            "timestamp": "2026-11-18T18:04:33.409Z"
           }
         ]
       },
@@ -9858,7 +9687,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 3,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 3",
           "sqft": 650
@@ -9877,11 +9706,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2582,
+        "price": 2612,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -9898,6 +9727,11 @@
             "date": "2026-11-09",
             "price": 2582,
             "timestamp": "2026-11-09T19:50:34.604Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2612,
+            "timestamp": "2026-11-18T18:04:33.402Z"
           }
         ]
       },
@@ -9930,11 +9764,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2647,
+        "price": 2682,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -9951,6 +9785,11 @@
             "date": "2026-11-09",
             "price": 2647,
             "timestamp": "2026-11-09T19:50:34.608Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2682,
+            "timestamp": "2026-11-18T18:04:33.407Z"
           }
         ]
       },
@@ -9964,7 +9803,7 @@
         "bathrooms": 1,
         "squareFeet": 650,
         "floor": 30,
-        "availableDate": "11/13/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "studio - Floor 30",
           "sqft": 650
@@ -9983,11 +9822,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2862,
+        "price": 2892,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -10004,6 +9843,11 @@
             "date": "2026-11-09",
             "price": 2862,
             "timestamp": "2026-11-09T19:50:34.626Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2892,
+            "timestamp": "2026-11-18T18:04:33.423Z"
           }
         ]
       },
@@ -10017,7 +9861,7 @@
         "bathrooms": 1,
         "squareFeet": 924,
         "floor": 6,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 6",
           "sqft": 924
@@ -10036,11 +9880,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3130,
+        "price": 3105,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -10057,6 +9901,11 @@
             "date": "2026-11-09",
             "price": 3130,
             "timestamp": "2026-11-09T19:50:34.632Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3105,
+            "timestamp": "2026-11-18T18:04:33.431Z"
           }
         ]
       },
@@ -10070,7 +9919,7 @@
         "bathrooms": 2,
         "squareFeet": 1280,
         "floor": 12,
-        "availableDate": "11/9/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "2 bed - Floor 12",
           "sqft": 1280
@@ -10089,11 +9938,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3988,
+        "price": 4013,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -10110,6 +9959,11 @@
             "date": "2026-11-09",
             "price": 3988,
             "timestamp": "2026-11-09T19:50:34.658Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4013,
+            "timestamp": "2026-11-18T18:04:33.461Z"
           }
         ]
       },
@@ -10142,11 +9996,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3195,
+        "price": 3200,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-01",
         "priceHistory": [
           {
@@ -10158,6 +10012,11 @@
             "date": "2026-11-09",
             "price": 3195,
             "timestamp": "2026-11-09T19:50:34.636Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3200,
+            "timestamp": "2026-11-18T18:04:33.439Z"
           }
         ]
       },
@@ -10190,11 +10049,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3320,
+        "price": 3325,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-01",
         "priceHistory": [
           {
@@ -10206,6 +10065,11 @@
             "date": "2026-11-09",
             "price": 3320,
             "timestamp": "2026-11-09T19:50:34.642Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3325,
+            "timestamp": "2026-11-18T18:04:33.443Z"
           }
         ]
       },
@@ -10219,7 +10083,7 @@
         "bathrooms": 2,
         "squareFeet": 1280,
         "floor": 4,
-        "availableDate": "12/12/2026",
+        "availableDate": "12/14/2026",
         "floorPlan": {
           "name": "2 bed - Floor 4",
           "sqft": 1280
@@ -10238,11 +10102,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3933,
+        "price": 3948,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-01",
         "priceHistory": [
           {
@@ -10254,6 +10118,11 @@
             "date": "2026-11-09",
             "price": 3933,
             "timestamp": "2026-11-09T19:50:34.656Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3948,
+            "timestamp": "2026-11-18T18:04:33.459Z"
           }
         ]
       },
@@ -10286,11 +10155,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4173,
+        "price": 4198,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-01",
         "priceHistory": [
           {
@@ -10302,6 +10171,11 @@
             "date": "2026-11-09",
             "price": 4173,
             "timestamp": "2026-11-09T19:50:34.667Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4198,
+            "timestamp": "2026-11-18T18:04:33.464Z"
           }
         ]
       },
@@ -10334,17 +10208,22 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2867,
+        "price": 2902,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-09",
         "priceHistory": [
           {
             "date": "2026-11-09",
             "price": 2867,
             "timestamp": "2026-11-09T19:50:34.628Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2902,
+            "timestamp": "2026-11-18T18:04:33.425Z"
           }
         ]
       },
@@ -10358,7 +10237,7 @@
         "bathrooms": 1,
         "squareFeet": 924,
         "floor": 5,
-        "availableDate": "11/13/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 5",
           "sqft": 924
@@ -10377,17 +10256,22 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3125,
+        "price": 3100,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-09",
         "priceHistory": [
           {
             "date": "2026-11-09",
             "price": 3125,
             "timestamp": "2026-11-09T19:50:34.630Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3100,
+            "timestamp": "2026-11-18T18:04:33.429Z"
           }
         ]
       },
@@ -10401,7 +10285,7 @@
         "bathrooms": 1,
         "squareFeet": 924,
         "floor": 29,
-        "availableDate": "11/13/2026",
+        "availableDate": "11/18/2026",
         "floorPlan": {
           "name": "1 bed - Floor 29",
           "sqft": 924
@@ -10420,22 +10304,27 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3395,
+        "price": 3370,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-09",
         "priceHistory": [
           {
             "date": "2026-11-09",
             "price": 3395,
             "timestamp": "2026-11-09T19:50:34.644Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3370,
+            "timestamp": "2026-11-18T18:04:33.445Z"
           }
         ]
       },
       {
-        "id": "4-1bd-1ba-1010-f22",
+        "id": "4-1bd-1ba-1010-f6",
         "buildingId": 4,
         "buildingName": "The Towers at Longfellow Apartments",
         "address": "10 Longfellow Pl",
@@ -10443,10 +10332,10 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "squareFeet": 1010,
-        "floor": 22,
-        "availableDate": "12/12/2026",
+        "floor": 6,
+        "availableDate": "11/26/2026",
         "floorPlan": {
-          "name": "1 bed - Floor 22",
+          "name": "1 bed - Floor 6",
           "sqft": 1010
         },
         "amenities": [
@@ -10463,17 +10352,60 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3525,
+        "price": 3015,
         "source": "EquityApartments.com",
         "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
         "status": "active",
-        "lastSeen": "2026-11-09",
-        "createdDate": "2026-11-09",
+        "lastSeen": "2026-11-18",
+        "createdDate": "2026-11-18",
         "priceHistory": [
           {
-            "date": "2026-11-09",
-            "price": 3525,
-            "timestamp": "2026-11-09T19:50:34.652Z"
+            "date": "2026-11-18",
+            "price": 3015,
+            "timestamp": "2026-11-18T18:04:33.427Z"
+          }
+        ]
+      },
+      {
+        "id": "4-2bd-2ba-1280-f9",
+        "buildingId": 4,
+        "buildingName": "The Towers at Longfellow Apartments",
+        "address": "10 Longfellow Pl",
+        "unitType": "twoBed",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFeet": 1280,
+        "floor": 9,
+        "availableDate": "11/18/2026",
+        "floorPlan": {
+          "name": "2 bed - Floor 9",
+          "sqft": 1280
+        },
+        "amenities": [
+          "furnished"
+        ],
+        "features": {
+          "hasWasherDryer": false,
+          "hasBalcony": false,
+          "hasDishwasher": false,
+          "hasAC": false,
+          "hasParkingIncluded": false,
+          "hasGym": false,
+          "hasPool": false,
+          "hasHardwood": false,
+          "isPetFriendly": false
+        },
+        "price": 3798,
+        "source": "EquityApartments.com",
+        "url": "https://www.equityapartments.com/boston/west-end/the-towers-at-longfellow-apartments",
+        "status": "active",
+        "lastSeen": "2026-11-18",
+        "createdDate": "2026-11-18",
+        "priceHistory": [
+          {
+            "date": "2026-11-18",
+            "price": 3798,
+            "timestamp": "2026-11-18T18:04:33.453Z"
           }
         ]
       }
@@ -10489,7 +10421,7 @@
         "bathrooms": 1,
         "squareFeet": 527,
         "floor": 34,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "S6-526",
           "sqft": 527
@@ -10508,11 +10440,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3445,
+        "price": 3450,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-05-31",
         "priceHistory": [
           {
@@ -11369,6 +11301,11 @@
             "date": "2026-11-17",
             "price": 3445,
             "timestamp": "2026-11-17T18:35:21.842Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3450,
+            "timestamp": "2026-11-18T18:04:37.411Z"
           }
         ]
       },
@@ -11382,7 +11319,7 @@
         "bathrooms": 2,
         "squareFeet": 1073,
         "floor": 33,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "B3-1065-1073",
           "sqft": 1073
@@ -11405,7 +11342,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-06-01",
         "priceHistory": [
           {
@@ -12257,6 +12194,11 @@
             "date": "2026-11-17",
             "price": 4660,
             "timestamp": "2026-11-17T18:35:21.884Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4660,
+            "timestamp": "2026-11-18T18:04:37.451Z"
           }
         ]
       },
@@ -12270,7 +12212,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 28,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -12289,11 +12231,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5852,
+        "price": 5847,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-06-22",
         "priceHistory": [
           {
@@ -13040,6 +12982,11 @@
             "date": "2026-11-17",
             "price": 5852,
             "timestamp": "2026-11-17T18:35:21.903Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5847,
+            "timestamp": "2026-11-18T18:04:37.473Z"
           }
         ]
       },
@@ -13053,7 +13000,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 34,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "A3-684-690",
           "sqft": 690
@@ -13072,11 +13019,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4140,
+        "price": 4130,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-07-21",
         "priceHistory": [
           {
@@ -13678,514 +13625,11 @@
             "date": "2026-11-17",
             "price": 4140,
             "timestamp": "2026-11-17T18:35:21.864Z"
-          }
-        ]
-      },
-      {
-        "id": "5-0bd-1ba-527-f8",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "studio",
-        "bedrooms": 0,
-        "bathrooms": 1,
-        "squareFeet": 527,
-        "floor": 8,
-        "availableDate": "11/18/2026",
-        "floorPlan": {
-          "name": "S6-526",
-          "sqft": 527
-        },
-        "amenities": [
-          "S6-526"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 2955,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-11-17",
-        "createdDate": "2026-08-16",
-        "priceHistory": [
-          {
-            "date": "2026-08-16",
-            "price": 3565,
-            "timestamp": "2026-08-16T09:42:43.485Z"
-          },
-          {
-            "date": "2026-08-17",
-            "price": 3565,
-            "timestamp": "2026-08-17T09:58:04.939Z"
-          },
-          {
-            "date": "2026-08-18",
-            "price": 3560,
-            "timestamp": "2026-08-18T09:49:04.955Z"
-          },
-          {
-            "date": "2026-08-19",
-            "price": 3525,
-            "timestamp": "2026-08-19T09:49:58.399Z"
-          },
-          {
-            "date": "2026-08-20",
-            "price": 3525,
-            "timestamp": "2026-08-20T09:50:48.254Z"
-          },
-          {
-            "date": "2026-08-21",
-            "price": 3520,
-            "timestamp": "2026-08-21T09:53:16.501Z"
-          },
-          {
-            "date": "2026-08-22",
-            "price": 3520,
-            "timestamp": "2026-08-22T09:43:13.403Z"
-          },
-          {
-            "date": "2026-08-23",
-            "price": 3515,
-            "timestamp": "2026-08-23T09:43:48.728Z"
-          },
-          {
-            "date": "2026-08-24",
-            "price": 3480,
-            "timestamp": "2026-08-24T10:04:47.601Z"
-          },
-          {
-            "date": "2026-08-25",
-            "price": 3495,
-            "timestamp": "2026-08-25T09:52:28.573Z"
-          },
-          {
-            "date": "2026-08-26",
-            "price": 3480,
-            "timestamp": "2026-08-26T09:57:30.314Z"
-          },
-          {
-            "date": "2026-08-27",
-            "price": 3480,
-            "timestamp": "2026-08-27T19:51:58.491Z"
-          },
-          {
-            "date": "2026-08-28",
-            "price": 3470,
-            "timestamp": "2026-08-28T20:51:19.295Z"
-          },
-          {
-            "date": "2026-08-29",
-            "price": 3470,
-            "timestamp": "2026-08-29T14:30:02.396Z"
-          },
-          {
-            "date": "2026-08-30",
-            "price": 3470,
-            "timestamp": "2026-08-30T14:26:09.892Z"
-          },
-          {
-            "date": "2026-08-31",
-            "price": 3455,
-            "timestamp": "2026-08-31T17:04:52.432Z"
-          },
-          {
-            "date": "2026-09-01",
-            "price": 3455,
-            "timestamp": "2026-09-01T14:09:25.192Z"
-          },
-          {
-            "date": "2026-09-02",
-            "price": 3450,
-            "timestamp": "2026-09-02T13:41:42.167Z"
-          },
-          {
-            "date": "2026-09-03",
-            "price": 3435,
-            "timestamp": "2026-09-03T13:36:13.094Z"
-          },
-          {
-            "date": "2026-09-04",
-            "price": 3430,
-            "timestamp": "2026-09-04T13:33:33.458Z"
-          },
-          {
-            "date": "2026-09-05",
-            "price": 3420,
-            "timestamp": "2026-09-05T12:44:21.496Z"
-          },
-          {
-            "date": "2026-09-06",
-            "price": 3420,
-            "timestamp": "2026-09-06T12:54:16.460Z"
-          },
-          {
-            "date": "2026-09-07",
-            "price": 3415,
-            "timestamp": "2026-09-07T15:04:34.946Z"
-          },
-          {
-            "date": "2026-09-08",
-            "price": 3415,
-            "timestamp": "2026-09-08T13:38:59.968Z"
-          },
-          {
-            "date": "2026-09-09",
-            "price": 3335,
-            "timestamp": "2026-09-09T13:44:20.172Z"
-          },
-          {
-            "date": "2026-09-10",
-            "price": 3335,
-            "timestamp": "2026-09-10T13:36:57.647Z"
-          },
-          {
-            "date": "2026-09-11",
-            "price": 3335,
-            "timestamp": "2026-09-11T13:35:26.249Z"
-          },
-          {
-            "date": "2026-09-12",
-            "price": 3335,
-            "timestamp": "2026-09-12T12:52:36.565Z"
-          },
-          {
-            "date": "2026-09-13",
-            "price": 3335,
-            "timestamp": "2026-09-13T13:49:35.857Z"
-          },
-          {
-            "date": "2026-09-14",
-            "price": 3350,
-            "timestamp": "2026-09-14T15:54:18.386Z"
-          },
-          {
-            "date": "2026-09-15",
-            "price": 3280,
-            "timestamp": "2026-09-15T14:20:25.221Z"
-          },
-          {
-            "date": "2026-09-16",
-            "price": 3280,
-            "timestamp": "2026-09-16T14:12:56.018Z"
-          },
-          {
-            "date": "2026-09-17",
-            "price": 3290,
-            "timestamp": "2026-09-17T14:18:36.243Z"
-          },
-          {
-            "date": "2026-09-18",
-            "price": 3270,
-            "timestamp": "2026-09-18T13:36:55.491Z"
-          },
-          {
-            "date": "2026-09-19",
-            "price": 3250,
-            "timestamp": "2026-09-19T13:10:49.768Z"
-          },
-          {
-            "date": "2026-09-20",
-            "price": 3250,
-            "timestamp": "2026-09-20T13:35:35.229Z"
-          },
-          {
-            "date": "2026-09-21",
-            "price": 3250,
-            "timestamp": "2026-09-21T15:54:56.877Z"
-          },
-          {
-            "date": "2026-09-22",
-            "price": 3295,
-            "timestamp": "2026-09-22T14:03:30.229Z"
-          },
-          {
-            "date": "2026-09-23",
-            "price": 3280,
-            "timestamp": "2026-09-23T14:15:24.249Z"
-          },
-          {
-            "date": "2026-09-24",
-            "price": 3270,
-            "timestamp": "2026-09-24T14:13:38.128Z"
-          },
-          {
-            "date": "2026-09-25",
-            "price": 3275,
-            "timestamp": "2026-09-25T14:37:27.461Z"
-          },
-          {
-            "date": "2026-09-26",
-            "price": 3255,
-            "timestamp": "2026-09-26T13:46:00.978Z"
-          },
-          {
-            "date": "2026-09-27",
-            "price": 3255,
-            "timestamp": "2026-09-27T14:43:00.587Z"
-          },
-          {
-            "date": "2026-09-28",
-            "price": 3250,
-            "timestamp": "2026-09-28T17:40:21.980Z"
-          },
-          {
-            "date": "2026-09-29",
-            "price": 3250,
-            "timestamp": "2026-09-29T15:53:11.657Z"
-          },
-          {
-            "date": "2026-09-30",
-            "price": 3250,
-            "timestamp": "2026-09-30T15:56:30.540Z"
-          },
-          {
-            "date": "2026-10-01",
-            "price": 3250,
-            "timestamp": "2026-10-01T16:28:17.788Z"
-          },
-          {
-            "date": "2026-10-02",
-            "price": 3250,
-            "timestamp": "2026-10-02T15:50:42.824Z"
-          },
-          {
-            "date": "2026-10-03",
-            "price": 3250,
-            "timestamp": "2026-10-03T14:20:02.426Z"
-          },
-          {
-            "date": "2026-10-04",
-            "price": 3250,
-            "timestamp": "2026-10-04T14:48:50.723Z"
-          },
-          {
-            "date": "2026-10-05",
-            "price": 3250,
-            "timestamp": "2026-10-05T18:29:29.783Z"
-          },
-          {
-            "date": "2026-10-06",
-            "price": 3250,
-            "timestamp": "2026-10-06T15:58:34.653Z"
-          },
-          {
-            "date": "2026-10-07",
-            "price": 3250,
-            "timestamp": "2026-10-07T16:29:47.906Z"
-          },
-          {
-            "date": "2026-10-08",
-            "price": 3250,
-            "timestamp": "2026-10-08T16:29:53.413Z"
-          },
-          {
-            "date": "2026-10-09",
-            "price": 3250,
-            "timestamp": "2026-10-09T16:14:15.688Z"
-          },
-          {
-            "date": "2026-10-10",
-            "price": 3250,
-            "timestamp": "2026-10-10T15:24:10.517Z"
-          },
-          {
-            "date": "2026-10-11",
-            "price": 3250,
-            "timestamp": "2026-10-11T15:42:32.573Z"
-          },
-          {
-            "date": "2026-10-12",
-            "price": 3250,
-            "timestamp": "2026-10-12T19:04:23.869Z"
-          },
-          {
-            "date": "2026-10-13",
-            "price": 3250,
-            "timestamp": "2026-10-13T16:58:15.355Z"
-          },
-          {
-            "date": "2026-10-14",
-            "price": 3250,
-            "timestamp": "2026-10-14T14:32:00.659Z"
-          },
-          {
-            "date": "2026-10-15",
-            "price": 3250,
-            "timestamp": "2026-10-15T14:10:57.617Z"
-          },
-          {
-            "date": "2026-10-16",
-            "price": 3250,
-            "timestamp": "2026-10-16T13:58:39.044Z"
-          },
-          {
-            "date": "2026-10-17",
-            "price": 3250,
-            "timestamp": "2026-10-17T12:59:38.273Z"
-          },
-          {
-            "date": "2026-10-18",
-            "price": 3250,
-            "timestamp": "2026-10-18T13:18:59.838Z"
-          },
-          {
-            "date": "2026-10-19",
-            "price": 3290,
-            "timestamp": "2026-10-19T16:28:53.658Z"
-          },
-          {
-            "date": "2026-10-20",
-            "price": 3285,
-            "timestamp": "2026-10-20T14:19:30.615Z"
-          },
-          {
-            "date": "2026-10-21",
-            "price": 3270,
-            "timestamp": "2026-10-21T14:30:46.596Z"
-          },
-          {
-            "date": "2026-10-22",
-            "price": 3085,
-            "timestamp": "2026-10-22T14:31:50.508Z"
-          },
-          {
-            "date": "2026-10-23",
-            "price": 3080,
-            "timestamp": "2026-10-23T14:15:27.106Z"
-          },
-          {
-            "date": "2026-10-24",
-            "price": 3095,
-            "timestamp": "2026-10-24T13:21:12.528Z"
-          },
-          {
-            "date": "2026-10-25",
-            "price": 3080,
-            "timestamp": "2026-10-25T13:44:04.035Z"
-          },
-          {
-            "date": "2026-10-26",
-            "price": 3150,
-            "timestamp": "2026-10-26T16:08:37.108Z"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 3145,
-            "timestamp": "2026-10-27T15:22:27.020Z"
-          },
-          {
-            "date": "2026-10-28",
-            "price": 3145,
-            "timestamp": "2026-10-28T16:04:04.159Z"
-          },
-          {
-            "date": "2026-10-29",
-            "price": 3140,
-            "timestamp": "2026-10-29T16:07:59.396Z"
-          },
-          {
-            "date": "2026-10-30",
-            "price": 3140,
-            "timestamp": "2026-10-30T15:57:22.699Z"
-          },
-          {
-            "date": "2026-10-31",
-            "price": 3150,
-            "timestamp": "2026-10-31T15:20:34.416Z"
-          },
-          {
-            "date": "2026-11-01",
-            "price": 3145,
-            "timestamp": "2026-11-01T16:02:30.829Z"
-          },
-          {
-            "date": "2026-11-02",
-            "price": 3170,
-            "timestamp": "2026-11-02T19:30:32.263Z"
-          },
-          {
-            "date": "2026-11-03",
-            "price": 3190,
-            "timestamp": "2026-11-03T17:04:20.884Z"
-          },
-          {
-            "date": "2026-11-04",
-            "price": 3200,
-            "timestamp": "2026-11-04T17:16:09.942Z"
-          },
-          {
-            "date": "2026-11-05",
-            "price": 3145,
-            "timestamp": "2026-11-05T17:25:30.558Z"
-          },
-          {
-            "date": "2026-11-06",
-            "price": 3135,
-            "timestamp": "2026-11-06T16:46:59.990Z"
-          },
-          {
-            "date": "2026-11-07",
-            "price": 3155,
-            "timestamp": "2026-11-07T15:40:52.165Z"
-          },
-          {
-            "date": "2026-11-08",
-            "price": 3155,
-            "timestamp": "2026-11-08T15:59:35.023Z"
-          },
-          {
-            "date": "2026-11-09",
-            "price": 3100,
-            "timestamp": "2026-11-09T19:50:38.459Z"
-          },
-          {
-            "date": "2026-11-10",
-            "price": 3100,
-            "timestamp": "2026-11-10T17:03:38.396Z"
-          },
-          {
-            "date": "2026-11-11",
-            "price": 3095,
-            "timestamp": "2026-11-11T17:08:43.675Z"
-          },
-          {
-            "date": "2026-11-12",
-            "price": 3095,
-            "timestamp": "2026-11-12T17:36:42.555Z"
-          },
-          {
-            "date": "2026-11-13",
-            "price": 2945,
-            "timestamp": "2026-11-13T17:13:43.437Z"
-          },
-          {
-            "date": "2026-11-14",
-            "price": 2945,
-            "timestamp": "2026-11-14T15:49:35.832Z"
-          },
-          {
-            "date": "2026-11-15",
-            "price": 2940,
-            "timestamp": "2026-11-15T16:22:33.176Z"
-          },
-          {
-            "date": "2026-11-16",
-            "price": 2950,
-            "timestamp": "2026-11-16T19:37:35.638Z"
           },
           {
-            "date": "2026-11-17",
-            "price": 2955,
-            "timestamp": "2026-11-17T18:35:21.827Z"
+            "date": "2026-11-18",
+            "price": 4130,
+            "timestamp": "2026-11-18T18:04:37.433Z"
           }
         ]
       },
@@ -14199,7 +13643,7 @@
         "bathrooms": 1,
         "squareFeet": 519,
         "floor": 19,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "S5-519-HC",
           "sqft": 519
@@ -14218,11 +13662,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2985,
+        "price": 2990,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-18",
         "priceHistory": [
           {
@@ -14684,6 +14128,11 @@
             "date": "2026-11-17",
             "price": 2985,
             "timestamp": "2026-11-17T18:35:21.831Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2990,
+            "timestamp": "2026-11-18T18:04:37.397Z"
           }
         ]
       },
@@ -14697,7 +14146,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 32,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "f-A3-684-690",
           "sqft": 690
@@ -14716,11 +14165,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4030,
+        "price": 4020,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-18",
         "priceHistory": [
           {
@@ -15182,6 +14631,11 @@
             "date": "2026-11-17",
             "price": 4030,
             "timestamp": "2026-11-17T18:35:21.861Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4020,
+            "timestamp": "2026-11-18T18:04:37.429Z"
           }
         ]
       },
@@ -15214,11 +14668,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3115,
+        "price": 3120,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-23",
         "priceHistory": [
           {
@@ -15655,6 +15109,11 @@
             "date": "2026-11-17",
             "price": 3115,
             "timestamp": "2026-11-17T18:35:21.835Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3120,
+            "timestamp": "2026-11-18T18:04:37.403Z"
           }
         ]
       },
@@ -15668,7 +15127,7 @@
         "bathrooms": 1,
         "squareFeet": 638,
         "floor": 28,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "A2-635-638",
           "sqft": 638
@@ -15687,11 +15146,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3890,
+        "price": 3880,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-08-27",
         "priceHistory": [
           {
@@ -16108,6 +15567,11 @@
             "date": "2026-11-17",
             "price": 3890,
             "timestamp": "2026-11-17T18:35:21.854Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3880,
+            "timestamp": "2026-11-18T18:04:37.423Z"
           }
         ]
       },
@@ -16121,7 +15585,7 @@
         "bathrooms": 1,
         "squareFeet": 527,
         "floor": 30,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "S6-526",
           "sqft": 527
@@ -16140,11 +15604,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3185,
+        "price": 3190,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-03",
         "priceHistory": [
           {
@@ -16526,6 +15990,11 @@
             "date": "2026-11-17",
             "price": 3185,
             "timestamp": "2026-11-17T18:35:21.841Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3190,
+            "timestamp": "2026-11-18T18:04:37.407Z"
           }
         ]
       },
@@ -16562,7 +16031,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-09",
         "priceHistory": [
           {
@@ -16914,6 +16383,11 @@
             "date": "2026-11-17",
             "price": 4420,
             "timestamp": "2026-11-17T18:35:21.874Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4420,
+            "timestamp": "2026-11-18T18:04:37.441Z"
           }
         ]
       },
@@ -16927,7 +16401,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 17,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -16946,11 +16420,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5717,
+        "price": 5712,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-09",
         "priceHistory": [
           {
@@ -17302,6 +16776,11 @@
             "date": "2026-11-17",
             "price": 5717,
             "timestamp": "2026-11-17T18:35:21.902Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5712,
+            "timestamp": "2026-11-18T18:04:37.467Z"
           }
         ]
       },
@@ -17338,7 +16817,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-16",
         "priceHistory": [
           {
@@ -17655,6 +17134,11 @@
             "date": "2026-11-17",
             "price": 4720,
             "timestamp": "2026-11-17T18:35:21.891Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4720,
+            "timestamp": "2026-11-18T18:04:37.457Z"
           }
         ]
       },
@@ -17691,7 +17175,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-09-17",
         "priceHistory": [
           {
@@ -18003,324 +17487,11 @@
             "date": "2026-11-17",
             "price": 9880,
             "timestamp": "2026-11-17T18:35:21.912Z"
-          }
-        ]
-      },
-      {
-        "id": "5-2bd-2ba-1259-f36",
-        "buildingId": 5,
-        "buildingName": "Avalon North Station",
-        "address": "40 Portland St",
-        "unitType": "twoBed",
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "squareFeet": 1259,
-        "floor": 36,
-        "availableDate": "12/8/2026",
-        "floorPlan": {
-          "name": "B7-1259",
-          "sqft": 1259
-        },
-        "amenities": [
-          "B7-1259"
-        ],
-        "features": {
-          "hasWasherDryer": false,
-          "hasBalcony": false,
-          "hasDishwasher": false,
-          "hasAC": false,
-          "hasParkingIncluded": false,
-          "hasGym": false,
-          "hasPool": false,
-          "hasHardwood": false,
-          "isPetFriendly": false
-        },
-        "price": 6415,
-        "source": "AvalonCommunities.com",
-        "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
-        "status": "active",
-        "lastSeen": "2026-11-17",
-        "createdDate": "2026-09-23",
-        "priceHistory": [
-          {
-            "date": "2026-09-23",
-            "price": 6735,
-            "timestamp": "2026-09-23T14:15:24.335Z"
           },
           {
-            "date": "2026-09-24",
-            "price": 6735,
-            "timestamp": "2026-09-24T14:13:38.198Z"
-          },
-          {
-            "date": "2026-09-25",
-            "price": 6725,
-            "timestamp": "2026-09-25T14:37:27.529Z"
-          },
-          {
-            "date": "2026-09-26",
-            "price": 6700,
-            "timestamp": "2026-09-26T13:46:01.046Z"
-          },
-          {
-            "date": "2026-09-27",
-            "price": 6700,
-            "timestamp": "2026-09-27T14:43:00.660Z"
-          },
-          {
-            "date": "2026-09-28",
-            "price": 6715,
-            "timestamp": "2026-09-28T17:40:22.115Z"
-          },
-          {
-            "date": "2026-09-29",
-            "price": 6715,
-            "timestamp": "2026-09-29T15:53:11.731Z"
-          },
-          {
-            "date": "2026-09-30",
-            "price": 6730,
-            "timestamp": "2026-09-30T15:56:30.613Z"
-          },
-          {
-            "date": "2026-10-01",
-            "price": 6725,
-            "timestamp": "2026-10-01T16:28:17.879Z"
-          },
-          {
-            "date": "2026-10-02",
-            "price": 6715,
-            "timestamp": "2026-10-02T15:50:42.896Z"
-          },
-          {
-            "date": "2026-10-03",
-            "price": 6730,
-            "timestamp": "2026-10-03T14:20:02.497Z"
-          },
-          {
-            "date": "2026-10-04",
-            "price": 6725,
-            "timestamp": "2026-10-04T14:48:50.788Z"
-          },
-          {
-            "date": "2026-10-05",
-            "price": 6710,
-            "timestamp": "2026-10-05T18:29:29.842Z"
-          },
-          {
-            "date": "2026-10-06",
-            "price": 6690,
-            "timestamp": "2026-10-06T15:58:34.712Z"
-          },
-          {
-            "date": "2026-10-07",
-            "price": 6705,
-            "timestamp": "2026-10-07T16:29:47.966Z"
-          },
-          {
-            "date": "2026-10-08",
-            "price": 6670,
-            "timestamp": "2026-10-08T16:29:53.479Z"
-          },
-          {
-            "date": "2026-10-09",
-            "price": 6655,
-            "timestamp": "2026-10-09T16:14:15.756Z"
-          },
-          {
-            "date": "2026-10-10",
-            "price": 6660,
-            "timestamp": "2026-10-10T15:24:10.587Z"
-          },
-          {
-            "date": "2026-10-11",
-            "price": 6660,
-            "timestamp": "2026-10-11T15:42:32.640Z"
-          },
-          {
-            "date": "2026-10-12",
-            "price": 6665,
-            "timestamp": "2026-10-12T19:04:23.932Z"
-          },
-          {
-            "date": "2026-10-13",
-            "price": 6655,
-            "timestamp": "2026-10-13T16:58:15.422Z"
-          },
-          {
-            "date": "2026-10-14",
-            "price": 6640,
-            "timestamp": "2026-10-14T14:32:00.732Z"
-          },
-          {
-            "date": "2026-10-15",
-            "price": 6650,
-            "timestamp": "2026-10-15T14:10:57.684Z"
-          },
-          {
-            "date": "2026-10-16",
-            "price": 6680,
-            "timestamp": "2026-10-16T13:58:39.129Z"
-          },
-          {
-            "date": "2026-10-17",
-            "price": 6665,
-            "timestamp": "2026-10-17T12:59:38.373Z"
-          },
-          {
-            "date": "2026-10-18",
-            "price": 6640,
-            "timestamp": "2026-10-18T13:18:59.909Z"
-          },
-          {
-            "date": "2026-10-19",
-            "price": 6605,
-            "timestamp": "2026-10-19T16:28:53.747Z"
-          },
-          {
-            "date": "2026-10-20",
-            "price": 6615,
-            "timestamp": "2026-10-20T14:19:30.704Z"
-          },
-          {
-            "date": "2026-10-21",
-            "price": 6620,
-            "timestamp": "2026-10-21T14:30:46.672Z"
-          },
-          {
-            "date": "2026-10-22",
-            "price": 6650,
-            "timestamp": "2026-10-22T14:31:50.590Z"
-          },
-          {
-            "date": "2026-10-23",
-            "price": 6620,
-            "timestamp": "2026-10-23T14:15:27.181Z"
-          },
-          {
-            "date": "2026-10-24",
-            "price": 6615,
-            "timestamp": "2026-10-24T13:21:12.604Z"
-          },
-          {
-            "date": "2026-10-25",
-            "price": 6615,
-            "timestamp": "2026-10-25T13:44:04.112Z"
-          },
-          {
-            "date": "2026-10-26",
-            "price": 6670,
-            "timestamp": "2026-10-26T16:08:37.165Z"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 6665,
-            "timestamp": "2026-10-27T15:22:27.102Z"
-          },
-          {
-            "date": "2026-10-28",
-            "price": 6685,
-            "timestamp": "2026-10-28T16:04:04.238Z"
-          },
-          {
-            "date": "2026-10-29",
-            "price": 6680,
-            "timestamp": "2026-10-29T16:07:59.469Z"
-          },
-          {
-            "date": "2026-10-30",
-            "price": 6680,
-            "timestamp": "2026-10-30T15:57:22.783Z"
-          },
-          {
-            "date": "2026-10-31",
-            "price": 6680,
-            "timestamp": "2026-10-31T15:20:34.497Z"
-          },
-          {
-            "date": "2026-11-01",
-            "price": 6685,
-            "timestamp": "2026-11-01T16:02:30.915Z"
-          },
-          {
-            "date": "2026-11-02",
-            "price": 6695,
-            "timestamp": "2026-11-02T19:30:32.345Z"
-          },
-          {
-            "date": "2026-11-03",
-            "price": 6680,
-            "timestamp": "2026-11-03T17:04:20.969Z"
-          },
-          {
-            "date": "2026-11-04",
-            "price": 6685,
-            "timestamp": "2026-11-04T17:16:10.023Z"
-          },
-          {
-            "date": "2026-11-05",
-            "price": 6575,
-            "timestamp": "2026-11-05T17:25:30.624Z"
-          },
-          {
-            "date": "2026-11-06",
-            "price": 6535,
-            "timestamp": "2026-11-06T16:47:00.055Z"
-          },
-          {
-            "date": "2026-11-07",
-            "price": 6515,
-            "timestamp": "2026-11-07T15:40:52.277Z"
-          },
-          {
-            "date": "2026-11-08",
-            "price": 6515,
-            "timestamp": "2026-11-08T15:59:35.111Z"
-          },
-          {
-            "date": "2026-11-09",
-            "price": 6560,
-            "timestamp": "2026-11-09T19:50:38.541Z"
-          },
-          {
-            "date": "2026-11-10",
-            "price": 6550,
-            "timestamp": "2026-11-10T17:03:38.476Z"
-          },
-          {
-            "date": "2026-11-11",
-            "price": 6535,
-            "timestamp": "2026-11-11T17:08:43.760Z"
-          },
-          {
-            "date": "2026-11-12",
-            "price": 6555,
-            "timestamp": "2026-11-12T17:36:42.635Z"
-          },
-          {
-            "date": "2026-11-13",
-            "price": 6420,
-            "timestamp": "2026-11-13T17:13:43.531Z"
-          },
-          {
-            "date": "2026-11-14",
-            "price": 6405,
-            "timestamp": "2026-11-14T15:49:35.903Z"
-          },
-          {
-            "date": "2026-11-15",
-            "price": 6405,
-            "timestamp": "2026-11-15T16:22:33.251Z"
-          },
-          {
-            "date": "2026-11-16",
-            "price": 6425,
-            "timestamp": "2026-11-16T19:37:35.688Z"
-          },
-          {
-            "date": "2026-11-17",
-            "price": 6415,
-            "timestamp": "2026-11-17T18:35:21.911Z"
+            "date": "2026-11-18",
+            "price": 9880,
+            "timestamp": "2026-11-18T18:04:37.481Z"
           }
         ]
       },
@@ -18353,11 +17524,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4050,
+        "price": 4035,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-07",
         "priceHistory": [
           {
@@ -18569,6 +17740,11 @@
             "date": "2026-11-17",
             "price": 4050,
             "timestamp": "2026-11-17T18:35:21.862Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4035,
+            "timestamp": "2026-11-18T18:04:37.431Z"
           }
         ]
       },
@@ -18582,7 +17758,7 @@
         "bathrooms": 2,
         "squareFeet": 1073,
         "floor": 34,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "B3-1065-1073",
           "sqft": 1073
@@ -18605,7 +17781,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-07",
         "priceHistory": [
           {
@@ -18817,6 +17993,11 @@
             "date": "2026-11-17",
             "price": 4660,
             "timestamp": "2026-11-17T18:35:21.882Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4660,
+            "timestamp": "2026-11-18T18:04:37.453Z"
           }
         ]
       },
@@ -18849,11 +18030,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3770,
+        "price": 3755,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-09",
         "priceHistory": [
           {
@@ -19055,6 +18236,11 @@
             "date": "2026-11-17",
             "price": 3770,
             "timestamp": "2026-11-17T18:35:21.851Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3755,
+            "timestamp": "2026-11-18T18:04:37.419Z"
           }
         ]
       },
@@ -19087,11 +18273,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2890,
+        "price": 2895,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-10",
         "priceHistory": [
           {
@@ -19288,6 +18474,11 @@
             "date": "2026-11-17",
             "price": 2890,
             "timestamp": "2026-11-17T18:35:21.823Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2895,
+            "timestamp": "2026-11-18T18:04:37.391Z"
           }
         ]
       },
@@ -19301,7 +18492,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 22,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -19320,11 +18511,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5890,
+        "price": 5885,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-10",
         "priceHistory": [
           {
@@ -19521,6 +18712,11 @@
             "date": "2026-11-17",
             "price": 5890,
             "timestamp": "2026-11-17T18:35:21.904Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5885,
+            "timestamp": "2026-11-18T18:04:37.477Z"
           }
         ]
       },
@@ -19553,11 +18749,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5365,
+        "price": 5360,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-15",
         "priceHistory": [
           {
@@ -19729,6 +18925,11 @@
             "date": "2026-11-17",
             "price": 5365,
             "timestamp": "2026-11-17T18:35:21.895Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5360,
+            "timestamp": "2026-11-18T18:04:37.463Z"
           }
         ]
       },
@@ -19761,11 +18962,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4260,
+        "price": 4245,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-16",
         "priceHistory": [
           {
@@ -19932,6 +19133,11 @@
             "date": "2026-11-17",
             "price": 4260,
             "timestamp": "2026-11-17T18:35:21.871Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4245,
+            "timestamp": "2026-11-18T18:04:37.437Z"
           }
         ]
       },
@@ -19964,11 +19170,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4850,
+        "price": 4845,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-16",
         "priceHistory": [
           {
@@ -20135,6 +19341,11 @@
             "date": "2026-11-17",
             "price": 4850,
             "timestamp": "2026-11-17T18:35:21.894Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4845,
+            "timestamp": "2026-11-18T18:04:37.461Z"
           }
         ]
       },
@@ -20167,11 +19378,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2820,
+        "price": 2825,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-21",
         "priceHistory": [
           {
@@ -20313,6 +19524,11 @@
             "date": "2026-11-17",
             "price": 2820,
             "timestamp": "2026-11-17T18:35:21.820Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2825,
+            "timestamp": "2026-11-18T18:04:37.386Z"
           }
         ]
       },
@@ -20326,7 +19542,7 @@
         "bathrooms": 1,
         "squareFeet": 498,
         "floor": 30,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "S3-490-498",
           "sqft": 498
@@ -20345,11 +19561,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3020,
+        "price": 3025,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-21",
         "priceHistory": [
           {
@@ -20491,6 +19707,11 @@
             "date": "2026-11-17",
             "price": 3020,
             "timestamp": "2026-11-17T18:35:21.833Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3025,
+            "timestamp": "2026-11-18T18:04:37.399Z"
           }
         ]
       },
@@ -20504,7 +19725,7 @@
         "bathrooms": 1,
         "squareFeet": 690,
         "floor": 33,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "A3-690",
           "sqft": 690
@@ -20523,11 +19744,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4210,
+        "price": 4200,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-22",
         "priceHistory": [
           {
@@ -20664,6 +19885,11 @@
             "date": "2026-11-17",
             "price": 4210,
             "timestamp": "2026-11-17T18:35:21.865Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4200,
+            "timestamp": "2026-11-18T18:04:37.435Z"
           }
         ]
       },
@@ -20700,7 +19926,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-26",
         "priceHistory": [
           {
@@ -20817,6 +20043,11 @@
             "date": "2026-11-17",
             "price": 5920,
             "timestamp": "2026-11-17T18:35:21.905Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5920,
+            "timestamp": "2026-11-18T18:04:37.479Z"
           }
         ]
       },
@@ -20849,11 +20080,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3845,
+        "price": 3830,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-29",
         "priceHistory": [
           {
@@ -20955,6 +20186,11 @@
             "date": "2026-11-17",
             "price": 3845,
             "timestamp": "2026-11-17T18:35:21.852Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3830,
+            "timestamp": "2026-11-18T18:04:37.421Z"
           }
         ]
       },
@@ -20987,11 +20223,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4005,
+        "price": 3990,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-29",
         "priceHistory": [
           {
@@ -21093,6 +20329,11 @@
             "date": "2026-11-17",
             "price": 4005,
             "timestamp": "2026-11-17T18:35:21.856Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3990,
+            "timestamp": "2026-11-18T18:04:37.427Z"
           }
         ]
       },
@@ -21125,11 +20366,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3765,
+        "price": 3750,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-30",
         "priceHistory": [
           {
@@ -21226,6 +20467,11 @@
             "date": "2026-11-17",
             "price": 3765,
             "timestamp": "2026-11-17T18:35:21.845Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3750,
+            "timestamp": "2026-11-18T18:04:37.417Z"
           }
         ]
       },
@@ -21262,7 +20508,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-10-31",
         "priceHistory": [
           {
@@ -21354,6 +20600,11 @@
             "date": "2026-11-17",
             "price": 3120,
             "timestamp": "2026-11-17T18:35:21.837Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3120,
+            "timestamp": "2026-11-18T18:04:37.405Z"
           }
         ]
       },
@@ -21390,7 +20641,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-01",
         "priceHistory": [
           {
@@ -21477,6 +20728,11 @@
             "date": "2026-11-17",
             "price": 2885,
             "timestamp": "2026-11-17T18:35:21.822Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2885,
+            "timestamp": "2026-11-18T18:04:37.388Z"
           }
         ]
       },
@@ -21509,11 +20765,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4510,
+        "price": 4505,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-02",
         "priceHistory": [
           {
@@ -21595,6 +20851,11 @@
             "date": "2026-11-17",
             "price": 4510,
             "timestamp": "2026-11-17T18:35:21.875Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4505,
+            "timestamp": "2026-11-18T18:04:37.443Z"
           }
         ]
       },
@@ -21627,11 +20888,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 2935,
+        "price": 2940,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-03",
         "priceHistory": [
           {
@@ -21708,6 +20969,11 @@
             "date": "2026-11-17",
             "price": 2935,
             "timestamp": "2026-11-17T18:35:21.826Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2940,
+            "timestamp": "2026-11-18T18:04:37.395Z"
           }
         ]
       },
@@ -21740,11 +21006,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4730,
+        "price": 4725,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-04",
         "priceHistory": [
           {
@@ -21816,6 +21082,11 @@
             "date": "2026-11-17",
             "price": 4730,
             "timestamp": "2026-11-17T18:35:21.892Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4725,
+            "timestamp": "2026-11-18T18:04:37.459Z"
           }
         ]
       },
@@ -21829,7 +21100,7 @@
         "bathrooms": 1,
         "squareFeet": 498,
         "floor": 35,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "S3-490-498",
           "sqft": 498
@@ -21848,11 +21119,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3095,
+        "price": 3100,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-05",
         "priceHistory": [
           {
@@ -21919,6 +21190,11 @@
             "date": "2026-11-17",
             "price": 3095,
             "timestamp": "2026-11-17T18:35:21.834Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3100,
+            "timestamp": "2026-11-18T18:04:37.401Z"
           }
         ]
       },
@@ -21932,7 +21208,7 @@
         "bathrooms": 2,
         "squareFeet": 1039,
         "floor": 24,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "B1-1031-1039-HC",
           "sqft": 1039
@@ -21955,7 +21231,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-05",
         "priceHistory": [
           {
@@ -22022,6 +21298,11 @@
             "date": "2026-11-17",
             "price": 4360,
             "timestamp": "2026-11-17T18:35:21.872Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4360,
+            "timestamp": "2026-11-18T18:04:37.439Z"
           }
         ]
       },
@@ -22054,11 +21335,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4655,
+        "price": 4650,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-07",
         "priceHistory": [
           {
@@ -22115,6 +21396,11 @@
             "date": "2026-11-17",
             "price": 4655,
             "timestamp": "2026-11-17T18:35:21.881Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4650,
+            "timestamp": "2026-11-18T18:04:37.449Z"
           }
         ]
       },
@@ -22128,7 +21414,7 @@
         "bathrooms": 2,
         "squareFeet": 1217,
         "floor": 11,
-        "availableDate": "11/18/2026",
+        "availableDate": "11/19/2026",
         "floorPlan": {
           "name": "C1-1206-1217",
           "sqft": 1217
@@ -22147,11 +21433,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 5652,
+        "price": 5647,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-09",
         "priceHistory": [
           {
@@ -22198,6 +21484,11 @@
             "date": "2026-11-17",
             "price": 5652,
             "timestamp": "2026-11-17T18:35:21.901Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 5647,
+            "timestamp": "2026-11-18T18:04:37.465Z"
           }
         ]
       },
@@ -22234,7 +21525,7 @@
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-11",
         "priceHistory": [
           {
@@ -22271,6 +21562,11 @@
             "date": "2026-11-17",
             "price": 2915,
             "timestamp": "2026-11-17T18:35:21.824Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 2915,
+            "timestamp": "2026-11-18T18:04:37.393Z"
           }
         ]
       },
@@ -22303,11 +21599,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3685,
+        "price": 3670,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-15",
         "priceHistory": [
           {
@@ -22324,6 +21620,11 @@
             "date": "2026-11-17",
             "price": 3685,
             "timestamp": "2026-11-17T18:35:21.844Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3670,
+            "timestamp": "2026-11-18T18:04:37.413Z"
           }
         ]
       },
@@ -22356,11 +21657,11 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4680,
+        "price": 4675,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-16",
         "priceHistory": [
           {
@@ -22372,6 +21673,11 @@
             "date": "2026-11-17",
             "price": 4680,
             "timestamp": "2026-11-17T18:35:21.885Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4675,
+            "timestamp": "2026-11-18T18:04:37.455Z"
           }
         ]
       },
@@ -22404,17 +21710,22 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 3900,
+        "price": 3885,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-17",
         "priceHistory": [
           {
             "date": "2026-11-17",
             "price": 3900,
             "timestamp": "2026-11-17T18:35:21.855Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 3885,
+            "timestamp": "2026-11-18T18:04:37.425Z"
           }
         ]
       },
@@ -22447,17 +21758,22 @@
           "hasHardwood": false,
           "isPetFriendly": false
         },
-        "price": 4615,
+        "price": 4600,
         "source": "AvalonCommunities.com",
         "url": "https://www.avaloncommunities.com/massachusetts/boston-apartments/avalon-north-station/",
         "status": "active",
-        "lastSeen": "2026-11-17",
+        "lastSeen": "2026-11-18",
         "createdDate": "2026-11-17",
         "priceHistory": [
           {
             "date": "2026-11-17",
             "price": 4615,
             "timestamp": "2026-11-17T18:35:21.876Z"
+          },
+          {
+            "date": "2026-11-18",
+            "price": 4600,
+            "timestamp": "2026-11-18T18:04:37.447Z"
           }
         ]
       }
